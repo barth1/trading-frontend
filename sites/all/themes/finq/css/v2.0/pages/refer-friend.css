@@ -1,0 +1,782 @@
+
+
+.refer-friend h1 {
+    font-size: 65px;
+    font-weight: 300;
+    padding-bottom: 23px;
+    color: #fff;
+}
+
+.refer-friend h2 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.refer-friend h2 b {
+    font-weight: 700;
+}
+
+.refer-friend p {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.refer-friend a {
+    font-size: 18px;
+}
+
+.refer-friend a.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.refer-friend .tablet-version,
+.refer-friend .phone-version {
+    display: none;
+}
+
+.refer-friend .page-content {
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.refer-friend .main-banner h2,
+.refer-friend .banner3 h2,
+.refer-friend .main-banner h3,
+.refer-friend .banner3 h3,
+.refer-friend .main-banner p,
+.refer-friend .banner3 p {
+    color: #fff;
+}
+
+.refer-friend .main-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/refer_friend/bannerheader.jpg") no-repeat scroll top center / cover;
+    padding-top: 183px;
+    padding-bottom: 210px;
+}
+
+.refer-friend .main-banner p,
+.refer-friend .main-banner a.btn {
+    font-weight: 300;
+    color: #ffffff80;
+}
+
+.refer-friend .main-banner h1 {
+    padding-bottom: 7px;
+}
+
+.refer-friend .main-banner p {
+    border-bottom: 2px solid #2d2d2d;
+    padding-bottom: 30px;
+}
+
+.refer-friend .main-banner a {
+    margin-top: 30px;
+    color: #cccccc;
+    border: 2px solid #fff0;
+    float: left;
+}
+
+.refer-friend .main-banner a.btn-border:hover {
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #818181;
+}
+
+.refer-friend .main-banner .col-mg-15_15 {
+    margin-left: 0;
+}
+
+.refer-friend .banner1 {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/refer_friend/banner2.jpg?v=2") no-repeat scroll bottom center / cover;
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.refer-friend .banner1 h2 {
+    text-align: center;
+}
+
+.refer-friend .banner1 h2.sub {
+    padding-bottom: 70px;
+    padding-right: 450px;
+    padding-left: 450px;
+}
+
+.refer-friend .banner1 h2 b span {
+    text-decoration-color: #dcad54;
+    background-image: linear-gradient(to top, #dcad54 100%, transparent 0%);
+    background-size: 6px 10px;
+    background-repeat: repeat-x;
+    background-position: 0 1.04em;
+}
+
+.refer-friend .banner1 .gray-row,
+.refer-friend .banner1 .gold-row {
+    text-align: center;
+}
+
+.refer-friend .banner1 .gray-row .col-mg-3_15,
+.refer-friend .banner1 .gold-row .col-mg-3_15 {
+    margin-left: 0;
+    width: 20%;
+    font-size: 24px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+.refer-friend .banner1 .gray-row .title,
+.refer-friend .banner1 .gold-row .title {
+    padding-top: 70px;
+    color: #0009;
+}
+
+.refer-friend .banner1 .gray-row {
+    background: #fff;
+    margin-left: 0;
+}
+
+.refer-friend .banner1 .gray-row .part1 {
+    background: #f1f1f1;
+}
+
+.refer-friend .banner1 .gray-row .part2 {
+    background: #eaeaea;
+}
+
+.refer-friend .banner1 .gray-row .part3 {
+    background: #e3e3e3;
+}
+
+.refer-friend .banner1 .gray-row .part4 {
+    background: #dcdcdc;
+}
+
+.refer-friend .banner1 .gray-row.title {
+    color: #808080;
+}
+
+.refer-friend .banner1 .gold-row {
+    background: #dfb059;
+    margin-left: 0;
+}
+
+.refer-friend .banner1 .gold-row .col-mg-3_15 {
+    padding-top: 30px;
+}
+
+.refer-friend .banner1 .gold-row .col-mg-3_15 i {
+    color: #fff;
+}
+
+.refer-friend .banner1 .gold-row .col-mg-3_15 div {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: -10px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px;
+    width: 230px;
+    font-weight: 700;
+}
+
+.refer-friend .banner1 .gold-row .col-mg-3_15.title {
+    padding-top: 75px;
+    color: #705729;
+}
+
+.refer-friend .banner1 .gold-row .part1 {
+    background: #d2a24b;
+}
+
+.refer-friend .banner1 .gold-row .part2 {
+    background: #cb9c43;
+}
+
+.refer-friend .banner1 .gold-row .part3 {
+    background: #c5953c;
+}
+
+.refer-friend .banner1 .gold-row .part4 {
+    background: #be8e35;
+}
+
+.refer-friend .banner2 {
+    background: #e6e6e6;
+    padding-top: 138px;
+    padding-bottom: 157px;
+}
+
+.refer-friend .banner2 h2 {
+    padding-top: 170px;
+}
+
+.refer-friend .banner2 .conditions .col-6_12 {
+    border: 1px solid #cfcfcf;
+    padding: 35px 25px 35px 25px;
+}
+
+.refer-friend .banner2 .conditions .col-6_12 img {
+    float: left;
+    height: 108px;
+    margin-right: -10px;
+}
+
+.refer-friend .banner2 .conditions .col-6_12 p {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.refer-friend .banner2 .conditions .col-6_12 p b {
+    font-weight: 700;
+}
+
+.refer-friend .banner2 .conditions .col-6_12.terms {
+    border: none;
+}
+
+.refer-friend .banner2 .conditions .col-6_12.cont-1,
+.refer-friend .banner2 .conditions .col-6_12.cont-3 {
+    border-bottom: none;
+    border-right: none;
+}
+
+.refer-friend .banner2 .conditions .col-6_12.cont-2 {
+    border-bottom: none;
+}
+
+.refer-friend .banner3 {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/refer_friend/banner4.jpg") no-repeat scroll top center / cover;
+    padding-top: 170px;
+    padding-bottom: 185px;
+}
+
+.refer-friend .banner3 h2 {
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-bottom: 27px;
+}
+
+.refer-friend .banner3 p {
+    font-size: 24px;
+    color: #7a797a;
+}
+
+.refer-friend .banner3 p.p1 {
+    padding-bottom: 20px;
+}
+
+.refer-friend .banner3 p.p2 {
+    border-bottom: 1px solid #222021;
+    padding-bottom: 40px;
+}
+
+.refer-friend .banner3 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 42px;
+    padding-bottom: 30px;
+}
+
+.refer-friend .banner4 {
+    background-color: #fff;
+}
+
+.refer-friend .banner4 .col-6_12 {
+    text-align: center;
+    height: 670px;
+}
+
+.refer-friend .banner4 .col-6_12 p {
+    font-size: 24px;
+}
+
+.refer-friend .banner4 .bg-gray {
+    background-color: #e6e6e6;
+}
+
+.refer-friend .banner4 .bg-gray.part1-2 {
+    padding-top: 110px;
+}
+
+.refer-friend .banner4 .bg-gray.part2-1 {
+    padding-top: 150px;
+}
+
+.refer-friend .banner4 .bg-gray.part-3-2 {
+    padding-top: 108px;
+}
+
+.refer-friend .banner4 .bg-gray.part-4-1 {
+    padding-top: 101px;
+}
+
+.refer-friend .banner4 .bg-gray.part-5-2 {
+    padding-top: 142px;
+}
+
+.refer-friend .banner4 .bg-white {
+    padding-top: 260px;
+}
+
+
+@media only screen and (max-width: 1499px) {
+    .refer-friend .banner1 h2.sub {
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+    .refer-friend .banner1 .gray-row .col-mg-3_15,
+    .refer-friend .banner1 .gold-row .col-mg-3_15 {
+        padding-top: 35px;
+    }
+    .refer-friend .banner1 .gray-row .title {
+        padding-top: 55px;
+    }
+    .refer-friend .banner1 .gold-row .title {
+        padding-top: 75px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12 p {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .refer-friend .banner4 .bg-white {
+        padding-top: 220px;
+    }
+    .refer-friend .banner4 .bg-gray {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .refer-friend .banner4 .bg-gray img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .refer-friend .banner1 h2.sub {
+        padding-right: 160px;
+        padding-left: 160px;
+    }
+    .refer-friend .banner1 .gray-row .title {
+        padding-top: 35px;
+    }
+    .refer-friend .banner1 .gold-row .col-mg-3_15 div {
+        width: 90%;
+    }
+    .refer-friend .banner2 h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .refer-friend .main-banner .col-mg-15_15,
+    .refer-friend .main-banner .col-mg-10_15 {
+        width: 100%;
+    }
+    .refer-friend .banner1 h2.sub {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .refer-friend .banner1 .gray-row .col-mg-3_15,
+    .refer-friend .banner1 .gold-row .col-mg-3_15 {
+        font-size: 20px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-1 img,
+    .refer-friend .banner2 .conditions .col-6_12.cont-2 img {
+        padding-bottom: 60px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-3 img,
+    .refer-friend .banner2 .conditions .col-6_12.cont-4 img {
+        padding-bottom: 80px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-5 img {
+        padding-bottom: 90px;
+    }
+    .refer-friend .banner4 .bg-gray.part1-2 {
+        padding-top: 40px;
+    }
+    .refer-friend .banner4 .bg-gray.part2-1 {
+        padding-top: 45px;
+    }
+    .refer-friend .banner4 .bg-gray.part-3-2 {
+        padding-top: 18px;
+    }
+    .refer-friend .banner4 .bg-gray.part-4-1 {
+        padding-top: 38px;
+    }
+    .refer-friend .banner4 .bg-gray.part-5-2 {
+        padding-top: 60px;
+    }
+    .refer-friend .banner4 .col-6_12 {
+        height: 370px;
+    }
+    .refer-friend .banner4 .bg-white {
+        padding-top: 80px;
+    }
+    .refer-friend .banner4 .bg-white.part1-1 {
+        padding-top: 130px;
+    }
+    .refer-friend .banner4 .bg-white.part3-1 {
+        padding-top: 110px;
+    }
+    .refer-friend .banner4 .bg-white.part-2-2 {
+        padding-top: 100px;
+    }
+    .refer-friend .banner4 .bg-white.part-4-2 {
+        padding-top: 130px;
+    }
+    .refer-friend .banner4 .bg-white.part-5-1 {
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .refer-friend h1 {
+        font-size: 40px;
+    }
+    .refer-friend p {
+        font-size: 16px;
+    }
+    .refer-friend .tablet-version {
+        display: block;
+    }
+    .refer-friend .pc-version {
+        display: none;
+    }
+    .refer-friend .main-banner {
+        background: #000 url("/sites/all/themes/finq/images/v2.0/refer_friend/tablet/bannerheader.jpg") no-repeat scroll top center / cover;
+        padding-top: 30px;
+        padding-bottom: 55px;
+    }
+    .refer-friend .main-banner p {
+        margin-bottom: 20px;
+    }
+    .refer-friend .main-banner a {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .refer-friend .main-banner .col-mg-10_15 {
+        width: 75%;
+    }
+    .refer-friend .banner1 {
+        background: #000 url("/sites/all/themes/finq/images/v2.0/refer_friend/tablet/banner1.jpg") no-repeat scroll top center / cover;
+    }
+    .refer-friend .banner1 h2 {
+        font-size: 16px;
+    }
+    .refer-friend .banner1 h2.sub {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .refer-friend .banner1 .page-content {
+        width: 362px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row,
+    .refer-friend .banner1 .col-mg-15_15.gray-row {
+        width: 50%;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15,
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15 {
+        width: 100%;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15.title,
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15.title {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15 {
+        padding-top: 3px;
+        padding-bottom: 13px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15 i {
+        font-size: 24px;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15.title {
+        padding-top: 32px;
+        padding-bottom: 30px;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15 {
+        font-size: 17px;
+        padding-top: 23px;
+        padding-bottom: 25px;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15.title {
+        padding-top: 20px;
+        padding-bottom: 19px;
+    }
+    .refer-friend .banner2 {
+        background: url("/sites/all/themes/finq/images/v2.0/refer_friend/tablet/banner2.jpg") no-repeat scroll bottom center / cover;
+        padding-top: 45px;
+        padding-bottom: 42px;
+    }
+    .refer-friend .banner2 .page-content {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .refer-friend .banner2 h2 {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 28px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-1 img,
+    .refer-friend .banner2 .conditions .col-6_12.cont-2 img {
+        padding-bottom: 0px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-3 img,
+    .refer-friend .banner2 .conditions .col-6_12.cont-4 img {
+        padding-bottom: 0px;
+    }
+    .refer-friend .banner2 .conditions .col-6_12.cont-5 img {
+        padding-bottom: 0px;
+    }
+    .refer-friend .banner2 .col-mg-5_15 {
+        width: 100%;
+    }
+    .refer-friend .banner2 .col-mg-10_15 {
+        width: 100%;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12 {
+        width: 100%;
+        padding: 0 5px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12 img {
+        height: auto;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12 p {
+        font-size: 13px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12 p a {
+        font-size: 13px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-1,
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-3 {
+        border-right: 1px solid #cfcfcf;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-2 img {
+        margin-left: -2px;
+        margin-right: -13px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-2 p {
+        padding-top: 16px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-3 img {
+        margin-left: -6px;
+        margin-right: -5px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-3 p {
+        padding-top: 15px;
+        padding-right: 30px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-4 img {
+        margin-left: -8px;
+        margin-right: -6px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-4 p {
+        padding-top: 11px;
+        padding-right: 10px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-5 img {
+        margin-left: -9px;
+        margin-right: -6px;
+    }
+    .refer-friend .banner2 .col-mg-10_15 .col-6_12.cont-5 p {
+        padding-top: 16px;
+    }
+    .refer-friend .banner3 {
+        background: #0c090b url("/sites/all/themes/finq/images/v2.0/refer_friend/tablet/banner3.jpg") no-repeat scroll top center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .refer-friend .banner3 h2 {
+        font-size: 20px;
+    }
+    .refer-friend .banner3 p {
+        font-size: 15px;
+    }
+    .refer-friend .banner3 p.p2 {
+        border-bottom: none;
+    }
+    .refer-friend .banner3 h3,
+    .refer-friend .banner3 a {
+        display: none;
+    }
+    .refer-friend .banner3-bart2 {
+        background: #0c090b;
+        padding-bottom: 60px;
+    }
+    .refer-friend .banner3-bart2 h3 {
+        font-size: 17px;
+        color: #fff;
+        border-top: 1px solid #222021;
+        padding-top: 58px;
+        font-weight: 700;
+        padding-bottom: 23px;
+    }
+    .refer-friend .banner3-bart2 a img {
+        width: 22%;
+    }
+    .refer-friend .banner4 .pc-version {
+        display: block;
+    }
+    .refer-friend .banner4 h2 {
+        font-size: 32px;
+    }
+    .refer-friend .banner4 p {
+        font-size: 15px;
+    }
+    .refer-friend .banner4 .bg-gray {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .refer-friend .banner4 .bg-gray.part1-2 {
+        padding-top: 40px;
+    }
+    .refer-friend .banner4 .bg-gray.part2-1 {
+        padding-top: 45px;
+    }
+    .refer-friend .banner4 .bg-gray.part-3-2 {
+        padding-top: 18px;
+    }
+    .refer-friend .banner4 .bg-gray.part-4-1 {
+        padding-top: 18px;
+    }
+    .refer-friend .banner4 .bg-gray.part-5-2 {
+        padding-top: 40px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    .refer-friend .banner4 .col-6_12 {
+        height: 270px;
+    }
+    .refer-friend .banner4 .bg-white {
+        padding-top: 80px;
+    }
+    .refer-friend .banner4 .bg-white.part1-1 {
+        padding-top: 80px;
+    }
+    .refer-friend .banner4 .bg-white.part3-1 {
+        padding-top: 60px;
+    }
+    .refer-friend .banner4 .bg-white.part-2-2 {
+        padding-top: 60px;
+    }
+    .refer-friend .banner4 .bg-white.part-4-2 {
+        padding-top: 90px;
+    }
+    .refer-friend .banner4 .bg-white.part-5-1 {
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    .phone-version {
+        display: block;
+    }
+    .refer-friend .page-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .refer-friend .main-banner {
+        background: #000 url("/sites/all/themes/finq/images/v2.0/refer_friend/phone/bannerheader.jpg") no-repeat scroll top center / cover;
+    }
+    .refer-friend .main-banner .col-mg-10_15 {
+        width: 100%;
+    }
+    .refer-friend .main-banner .col-mg-10_15 p {
+        line-height: 2;
+    }
+    .refer-friend .banner1 {
+        background: #000 url("/sites/all/themes/finq/images/v2.0/refer_friend/phone/banner1.jpg") no-repeat scroll top center / cover;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .refer-friend .banner1 .page-content {
+        width: 100%;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15.title,
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15.title {
+        font-size: 21px;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gold-row .col-mg-3_15,
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15 {
+        height: 90px;
+    }
+    .refer-friend .banner1 .col-mg-15_15.gray-row .col-mg-3_15.title {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .refer-friend .banner2 {
+        background: #e6e6e6;
+    }
+    .refer-friend .banner3 {
+        background: #0c090b;
+    }
+    .refer-friend .banner3 .col-mg-9_15 {
+        width: 100%;
+    }
+    .refer-friend .banner3 .col-mg-9_15 h2 {
+        width: 60%;
+    }
+    .refer-friend .banner3-bart2 .col-mg-9_15 {
+        width: 100%;
+    }
+    .refer-friend .banner4 .col-6_12 {
+        width: 100%;
+    }
+    .refer-friend .banner4 .col-6_12 img {
+        width: 100%;
+    }
+    .refer-friend .banner4 .phone-version {
+        display: block;
+    }
+    .refer-friend .banner4 .pc-version {
+        display: none;
+    }
+    .refer-friend .banner4 .bg-gray.part1-2 {
+        padding-top: 40px;
+    }
+    .refer-friend .banner4 .bg-gray.part2-1 {
+        padding-top: 45px;
+    }
+    .refer-friend .banner4 .bg-gray.part-3-2 {
+        padding-top: 18px;
+    }
+    .refer-friend .banner4 .bg-gray.part-4-1 {
+        padding-top: 38px;
+    }
+    .refer-friend .banner4 .bg-gray.part-5-2 {
+        padding-top: 60px;
+    }
+    .refer-friend .banner4 .col-6_12 {
+        height: 300px;
+    }
+    .refer-friend .banner4 .bg-white {
+        padding-top: 80px;
+    }
+    .refer-friend .banner4 .bg-white.part1-1 {
+        padding-top: 110px;
+    }
+    .refer-friend .banner4 .bg-white.part3-1 {
+        padding-top: 110px;
+    }
+    .refer-friend .banner4 .bg-white.part-2-2 {
+        padding-top: 70px;
+    }
+    .refer-friend .banner4 .bg-white.part-4-2 {
+        padding-top: 100px;
+    }
+    .refer-friend .banner4 .bg-white.part-5-1 {
+        padding-top: 100px;
+    }
+}
+
+/*# sourceMappingURL=refer-friend.css.map */

@@ -1,0 +1,79 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #139ec1 0%, #12457a 100%);
+    background: -moz-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    background: -webkit-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#139ec1', endColorstr='#12457a', GradientType=1);
+}
+
+.btn {
+    -moz-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 0 !important;
+    /*box-shadow: 10px 10px 5px rgba(34, 33, 34, 0.7);*/
+}
+
+.btn.btn-promo {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 25px;
+    background: #34de7c;
+    background: linear-gradient(to right, #34de7c 0%, #139ec1 100%);
+    background: -moz-linear-gradient(left, #34de7c 0%, #139ec1 100%);
+    background: -webkit-linear-gradient(left, #34de7c 0%, #139ec1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34de7c', endColorstr='#139ec1', GradientType=1);
+}
+
+.btn.btn-promo:hover,
+.btn.btn-promo:focus {
+    background: linear-gradient(to right, #139ec1 0%, #12457a 100%);
+    background: -moz-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    background: -webkit-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#139ec1', endColorstr='#12457a', GradientType=1);
+    background: #139ec1;
+    transition: none;
+    -webkit-transition: none;
+    color: #fff;
+}
+
+.btn.btn-orange {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.btn.btn-orange:hover,
+.btn.btn-orange:focus {
+    background-color: #d62c1a;
+}
+
+.btn.label-light-blue {
+    color: #fff;
+    background-color: #dcad54;
+    cursor: default;
+}
+
+.btn.label-light-blue:hover {
+    cursor: default;
+}
+
+.btn.btn-gold {
+    background-color: #dcad54;
+    color: #1e1e1e;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 18px;
+    font-weight: 700;
+}

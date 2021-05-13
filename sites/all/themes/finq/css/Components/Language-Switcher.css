@@ -1,0 +1,76 @@
+#livechat-compact-container {
+    z-index: 2 !important
+}
+
+.language-switcher {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    z-index: 10
+}
+
+.language-switcher .dropdown-toggle {
+    float: right
+}
+
+.language-switcher .dropdown-toggle a {
+    float: right
+}
+
+.language-switcher .dropdown-menu {
+    display: none;
+    left: -165px;
+    top: 30px;
+    overflow: hidden;
+    width: 200px
+}
+
+.language-switcher .dropdown-menu li {
+    box-sizing: border-box
+}
+
+.language-switcher .dropdown-menu li a {
+    text-decoration: none
+}
+
+.language-switcher .dropdown-menu li a:hover {
+    text-decoration: underline
+}
+
+.language-switcher.open .dropdown-menu {
+    display: block
+}
+
+.language-switcher img {
+    width: 30px;
+    height: auto;
+    float: left
+}
+
+.language-switcher span {
+    margin: 2px 0 0 15px;
+    font-size: 14px
+}
+
+.node-type-my-news .language-switcher {
+    display: none
+}
+
+body.page-node-655770 .language-switcher img {
+    padding: 0;
+    border: 0;
+    margin-right: 5px
+}
+
+body.page-node-655770 .language-switcher span.caret {
+    display: none
+}
+
+@media all and (max-width:500px) {
+    .language-switcher.open .dropdown-menu {
+        max-height: 500px;
+        overflow-y: auto;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+    }
+}

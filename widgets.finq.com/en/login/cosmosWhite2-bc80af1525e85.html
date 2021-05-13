@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.finq.com/sites/all/themes/finq/css/Widgets/Widgets-gold-rect.css" />
+    <script type="text/javascript">
+        var use_communicator = 1;
+        var widget_host_url = "https://www.finq.com/";
+        var use_mobile = false;
+        var communicator_driver = 'post_messages_driver';
+        var require_msg = '%field_name% field is required';
+        var module = 'login';
+        var widgets_locale = 'en';
+        var event_hub_url = '//events.extsrv.com/eventshub3.js';
+        var event_hub_server_host_client = 'stats.extsrv.com';
+        var event_hub_server_host = 'stats-internal';
+        var brand = 'finq';
+        var tp_id = '0';
+        var customer_id = '0';
+        var tracking_server_path = '//tracking.extsrv.com'
+    </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <script type="text/javascript" src="/js/jquery.json-2.2.min.js"></script>
+    <script type="text/javascript" src="/js/polyfills.js"></script>
+    <script type="text/javascript" src="/js/promise.min.js"></script>
+    <script type="text/javascript" src="/js/events.js"></script>
+    <script type="text/javascript" src="/js/guid.js"></script>
+    <script type="text/javascript" src="/js/phones.js"></script>
+    <script type="text/javascript" src="/js/communicator.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var body = document.body,
+                html = document.documentElement;
+            var body_height = Math.max(body.scrollHeight, body.offsetHeight,
+                html.clientHeight, html.scrollHeight, html.offsetHeight);
+            communicator.write('widget_height', {
+                "widget": "login",
+                "height": body_height,
+                "width": $("body")[0].scrollWidth
+            });;
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-M3VCBR2'
+                        height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M3VCBR2');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="en">
+    <div id="content" class="login">
+
+
+
+
+
+        <style>
+            #login_username {
+                font: medium Verdana, sans-serif;
+                letter-spacing: 1px;
+            }
+        </style>
+        <div class="content-block">
+            <div class="clear"></div>
+            <div class="title">Login to Your Account</div>
+
+
+            <div id="cosmos_login">
+                <form action="/en/23/login/cosmosWhite2?skin_id=finq_cosmos_site&skin_file=https%3A%2F%2Fwww.finq.com%2Fsites%2Fall%2Fthemes%2Ffinq%2Fcss%2FWidgets%2FWidgets-gold-rect.css&input-label=true&external_redirect=false&login_cosmos=true&role=anonymous&tp_type=cosmos&fixed_url=1&uid=unknown&platform=webtrader"
+                    method="POST" name="login" id="login">
+                    <div class="form_row" id="account_type_row">
+                        <ul class="radio_list">
+                            <li><input name="login[account_type]" type="radio" value="real" id="login_account_type_real" checked="checked" />&nbsp;<label for="login_account_type_real">Real</label></li>
+                            <li><input name="login[account_type]" type="radio" value="demo" id="login_account_type_demo" />&nbsp;<label for="login_account_type_demo">Practice</label></li>
+                        </ul>
+                    </div>
+                    <div class="form_row" id="username_row"><label id="username_label"><span title="This field is required." class="form-required">*</span>Username:</label> <input type="text" name="login[username]" id="login_username" />
+                        <div class="question" tooltip="Username must contain only alpha-numeric characters (a-z, A-Z, 0-9), and must be at least 3 characters long."></div>
+                    </div>
+                    <div class="form_row" id="password_row"><label id="password_label"><span title="This field is required." class="form-required">*</span>Password:</label> <input type="password" name="login[password]" id="login_password" /> <input type="hidden" name="login[input-label]" value="false"
+                            id="login_input-label" />
+                        <input class="unique_guid" type="hidden" name="login[unique_guid]" value="" id="login_unique_guid" />
+                        <input type="hidden" name="login[get_parameter]" value="a:13:{s:7:&quot;skin_id&quot;;s:16:&quot;finq_cosmos_site&quot;;s:9:&quot;skin_file&quot;;s:76:&quot;https://www.finq.com/sites/all/themes/finq/css/Widgets/Widgets-gold-rect.css&quot;;s:11:&quot;input-label&quot;;s:4:&quot;true&quot;;s:17:&quot;external_redirect&quot;;s:5:&quot;false&quot;;s:12:&quot;login_cosmos&quot;;s:4:&quot;true&quot;;s:4:&quot;role&quot;;s:9:&quot;anonymous&quot;;s:7:&quot;tp_type&quot;;s:6:&quot;cosmos&quot;;s:9:&quot;fixed_url&quot;;s:1:&quot;1&quot;;s:3:&quot;uid&quot;;s:7:&quot;unknown&quot;;s:8:&quot;platform&quot;;s:9:&quot;webtrader&quot;;s:6:&quot;module&quot;;s:5:&quot;login&quot;;s:6:&quot;action&quot;;s:12:&quot;cosmosWhite2&quot;;s:10:&quot;sf_culture&quot;;s:2:&quot;en&quot;;}"
+                            id="login_get_parameter" /> </div>
+                    <div class="forgot_link">
+                        <a href="/en/23/forgotlogin/cosmosWhite2?tp_type=cosmos&skin_id=finq_cosmos_site&skin_file=https%3A%2F%2Fwww.finq.com%2Fsites%2Fall%2Fthemes%2Ffinq%2Fcss%2FWidgets%2FWidgets-gold-rect.css&input-label=true&external_redirect=false&login_cosmos=true&role=anonymous&fixed_url=1&uid=unknown&platform=webtrader"
+                            class="forgot_password">Forgot Your Password?</a>
+                    </div>
+                    <div class="clear"></div>
+                    <button type="submit" class="button use_loader" id="submit_login">
+                <span>Login</span>
+            </button>
+                </form>
+                <div class="new_user_link">New User? <a id="new_user" href="/en/23/registration/preregWhite2?form_id=29&skin_id=finq_cosmos_site&tp_type=cosmos&fixed_url=1&skin_file=https%3A%2F%2Fwww.finq.com%2Fsites%2Fall%2Fthemes%2Ffinq%2Fcss%2FWidgets%2FWidgets-gold-rect.css&input-label=true&external_redirect=false&login_cosmos=true&role=anonymous&uid=unknown&platform=webtrader">Create your account</a></div>
+                <div class="clear"></div>
+            </div>
+            <div class="loader--splasher">
+                <i></i>
+                <span class="loader--text">
+                Loading...            </span>
+            </div>
+
+            <script>
+                var input_label = true;
+                $(document).ready(function() {
+                    var left = ($('body').width() - ($('.loader--splasher').width())) / 2;
+                    $('.loader--splasher').css('left', left);
+                    $('#submit_login').on("click", function() {
+                        $("#cosmos_login").attr("style", "visibility: hidden")
+                        $('.loader--splasher').show();
+                    });
+                    $('.try-new-platform').on("click", function() {
+                        var tracking_params = '';
+                        var trackingCookie = get_cookie('tracking');
+                        if (trackingCookie != null && $.param(JSON.parse(trackingCookie)) != '') {
+                            tracking_params = $.param(JSON.parse(trackingCookie));
+                        } else {
+                            tracking_params = window.location.search.substring(1);
+                        }
+
+                        var trackingStr = tracking_params.length > 0 ? '?' + tracking_params : '';
+
+                        setTimeout(function() {
+                            window.top.location = 'https://live-trader.markets.com/trading-platform/' + trackingStr + '#login';
+                        }, 100);
+                    });
+                });
+            </script>
+            <!-- SessionCam Client Integration v6.0 -->
+            <script type="text/javascript">
+                //<![CDATA[
+                var scRec = document.createElement('SCRIPT');
+                scRec.type = 'text/javascript';
+                scRec.src = "//d2oh4tlt9mrke9.cloudfront.net/Record/js/sessioncam.recorder.js";
+                document.getElementsByTagName('head')[0].appendChild(scRec);
+                //]]>
+            </script>
+            <!-- End SessionCam -->
+        </div>
+        <div class="risk_warning">Remember that trading CFDs is a high risk that could result in the loss of your deposit. Please make sure to trade wisely.</div>
+        <script>
+            $(document).ready(function() {
+
+                communicator.interval_write("widget_height", {
+                    "widget": "login",
+                    "height": function() {
+                        return $('body').height()
+                    },
+                    "width": function() {
+                        return $('body')[0].scrollWidth
+                    }
+                });
+
+                $('#rememberme, .rememberme_block label').on("click", function() {
+                    $('#rememberme').toggleClass("checked");
+                    $('#remember').val() == 0 ? $('#remember').val(1) : $('#remember').val(0);
+                });
+
+                $username_label = $("#username_label");
+                $password_label = $("#password_label");
+                $('#login_username').attr('placeholder', $username_label.text().replace('*', ''));
+                $('#login_password').attr('placeholder', $password_label.text().replace('*', ''));
+                $username_label.html('');
+                $password_label.html('');
+            });
+        </script>
+    </div>
+    <div class="clear"></div>
+    <iframe height="0" width="0" src="https://widgets.finq.com/en/events/onlineIndication?45124690" style="display:none"></iframe> </body>
+
+</html>

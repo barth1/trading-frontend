@@ -1,0 +1,60 @@
+#registration-form {
+    float: left;
+    width: 100%
+}
+
+#registration-form .form-group {
+    display: flex;
+    flex-direction: column
+}
+
+#registration-form .form-group label.error {
+    background-color: #bb302d;
+    color: #fff;
+    padding: 5px 13px;
+    font-weight: normal;
+    margin-top: 3px;
+    line-height: 1;
+    border-radius: 3px
+}
+
+#registration-form .form-group .form-control {
+    font-size: 13px;
+    color: #999;
+    padding: 16px 13px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d2;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#registration-form #phone_code {
+    margin-right: 10px;
+    width: 95px
+}
+
+#registration-form button {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.73;
+    text-align: center;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-transform: uppercase
+}
+
+#registration-form .alert {
+    align-self: flex-start
+}
+
+#registration .form {
+    padding-left: 50px;
+    display: flex;
+    padding-bottom: 15px
+}

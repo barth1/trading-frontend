@@ -1,0 +1,123 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+}
+
+.rounded-5 {
+    border-radius: 5px
+}
+
+.full-rounded {
+    border-radius: 1000px
+}
+
+.color-main {
+    color: #125688
+}
+
+.color-light_blue {
+    color: #19aab4
+}
+
+.color-feature-green {
+    color: #1abc9c
+}
+
+.color-light-green {
+    color: #2ecc71
+}
+
+.color-feature-orange {
+    color: #e67e22
+}
+
+.color-purple {
+    color: #9b59b6
+}
+
+.color-red {
+    color: #e74c3c
+}
+
+.color-blue {
+    color: #3498db
+}
+
+.alert-feature-purple {
+    background-color: #9b59b6
+}
+
+.alert-feature-green {
+    background-color: #1abc9c
+}
+
+.alert-feature-light-green {
+    background-color: #2ecc71
+}
+
+.alert-feature-blue {
+    background-color: #3498db
+}
+
+.alert-feature-orange {
+    background-color: #e67e22
+}
+
+.alert-feature-red {
+    background-color: #e74c3c
+}
+
+.alert-deep-blue {
+    background-color: #071f37
+}
+
+.alert-light-gray {
+    background-color: #f2f0f0
+}
+
+.alert-gray {
+    background-color: #ccc
+}
+
+.alert-light-blue {
+    background-color: #2e83bc
+}
+
+.alert-light-blue2 {
+    background-color: #19aab4
+}
+
+.alert-main-blue {
+    background-color: #125688
+}
+
+.alert-black {
+    background: #000
+}
+
+.alert-white {
+    background: #fff
+}
+
+.border-feature-purple {
+    border-color: #9b59b6
+}
+
+.border-feature-green {
+    border-color: #1abc9c
+}
+
+.border-feature-light-green {
+    border-color: #2ecc71
+}
+
+.border-feature-blue {
+    border-color: #3498db
+}
+
+.border-feature-orange {
+    border-color: #e67e22
+}
+
+.border-feature-red {
+    border-color: #e74c3c
+}

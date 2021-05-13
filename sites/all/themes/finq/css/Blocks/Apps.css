@@ -1,0 +1,47 @@
+.block-apps {
+    margin-top: 40px
+}
+
+.block-apps a {
+    margin-left: 20px
+}
+
+.block-apps a:first-child {
+    margin-left: 0
+}
+
+.block-apps img {
+    height: 40px
+}
+
+#download-android,
+#download-ios {
+    float: left;
+    width: 100%
+}
+
+#download-android img,
+#download-ios img {
+    margin: auto;
+    float: none;
+    display: block;
+    height: 70px
+}
+
+@media all and (max-width:500px) {
+    .block-apps a {
+        width: 49%;
+        margin-left: 2%
+    }
+    .block-apps a:first-child {
+        margin-left: 0
+    }
+    .block-apps a img {
+        margin: auto;
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto
+    }
+}

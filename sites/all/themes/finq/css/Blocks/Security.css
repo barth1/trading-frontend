@@ -1,0 +1,100 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+}
+
+.block-security {
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 0 100px
+}
+
+.block-security img {
+    display: block;
+    margin: auto
+}
+
+.block-security .img {
+    height: 120px
+}
+
+.block-security .part-a {
+    padding: 0 100px
+}
+
+.block-security .part-a p {
+    color: #125688;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.5
+}
+
+.block-security .part-b {
+    margin-top: 50px;
+    padding: 0 20px
+}
+
+.block-security .part-b>div {
+    padding: 0 40px
+}
+
+.block-security .part-b h3 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #424242; 
+    margin-top: 20px;
+    font-weight: bold
+}
+
+.block-security .regulated img {
+    margin-top: 20px
+}
+
+.block-security .bank img {
+    margin-top: 10px
+}
+
+@media all and (max-width:1180px) {
+    div.block-security {
+        margin-top: 50px
+    }
+    div.block-security .full-tablet {
+        margin-top: 60px
+    }
+    div.block-security .full-tablet:first-child {
+        margin-top: 0
+    }
+    div.block-security .part-b {
+        padding: 0
+    }
+    div.block-security .part-b>div {
+        padding: 0
+    }
+    div.block-security .img {
+        width: 150px;
+        max-width: 20%
+    }
+    div.block-security .img img {
+        margin-top: 0 !important;
+        height: auto !important;
+        max-width: 100%
+    }
+    div.block-security .text {
+        width: 80%;
+        text-align: left
+    }
+    div.block-security .text h3 {
+        margin: 0 0 10px
+    }
+}
+
+@media all and (max-width:500px) {
+    div.block-security .img img {
+        height: auto;
+        margin: 0;
+        width: 75%;
+        float: left
+    }
+    div.block-security .part-a h2 {
+        font-weight: bold
+    }
+}

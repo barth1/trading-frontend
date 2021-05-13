@@ -1,0 +1,264 @@
+body .frontPage #footer-width {
+    margin-bottom: 100px
+}
+
+body .frontPage #footer-width div.alert-black.footer-copywright {
+    padding-bottom: 50px
+}
+
+body .footer .social-media {
+    background-color: #1f1f23
+}
+
+body .footer .social-media .col-5_12,
+body .footer .social-media .col-7_12 {
+    padding: 30px
+}
+
+body .footer .social-media .col-5_12 span,
+body .footer .social-media .col-7_12 span {
+    float: left;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #a9a9a9;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+body .footer .social-media .col-5_12 a,
+body .footer .social-media .col-7_12 a {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img,
+body .footer .social-media .col-7_12 a>.gray-img {
+    display: inline-block
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.facebook,
+body .footer .social-media .col-7_12 a>.gray-img.facebook {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -10px -106px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.twitter,
+body .footer .social-media .col-7_12 a>.gray-img.twitter {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -72px -106px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.instagram,
+body .footer .social-media .col-7_12 a>.gray-img.instagram {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -132px -106px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.app-store,
+body .footer .social-media .col-7_12 a>.gray-img.app-store {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -6px -6px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.play-store,
+body .footer .social-media .col-7_12 a>.gray-img.play-store {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -136px -6px
+}
+
+body .footer .social-media .col-5_12 a>.gray-img.trader,
+body .footer .social-media .col-7_12 a>.gray-img.trader {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -265px -6px
+}
+
+body .footer .social-media .col-5_12 a>.white-img,
+body .footer .social-media .col-7_12 a>.white-img {
+    display: none
+}
+
+body .footer .social-media .col-5_12 a:hover>.gray-img,
+body .footer .social-media .col-7_12 a:hover>.gray-img {
+    display: none
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img,
+body .footer .social-media .col-7_12 a:hover>.white-img {
+    display: inline-block
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.facebook,
+body .footer .social-media .col-7_12 a:hover>.white-img.facebook {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -192px -106px
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.twitter,
+body .footer .social-media .col-7_12 a:hover>.white-img.twitter {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -253px -106px
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.instagram,
+body .footer .social-media .col-7_12 a:hover>.white-img.instagram {
+    width: 44px;
+    height: 44px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -313px -106px
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.app-store,
+body .footer .social-media .col-7_12 a:hover>.white-img.app-store {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -6px -53px
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.play-store,
+body .footer .social-media .col-7_12 a:hover>.white-img.play-store {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -136px -53px
+}
+
+body .footer .social-media .col-5_12 a:hover>.white-img.trader,
+body .footer .social-media .col-7_12 a:hover>.white-img.trader {
+    width: 113px;
+    height: 41px;
+    background: url(/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png) -265px -53px
+}
+
+body .footer .social-media .col-7_12 a,
+body .footer .social-media .col-7_12 span {
+    float: right
+}
+
+body .footer .footer-navigation-area {
+    background-color: #131316;
+    padding: 40px 0;
+    border-bottom: 1px solid #1f1f23
+}
+
+body .footer .footer-navigation-area h4 {
+    font-weight: 300;
+    color: #dcad54;
+    text-decoration: none;
+    border-bottom: none
+}
+
+body .footer .footer-navigation-area ul li a {
+    color: #a9a9a9;
+    font-size: 16px
+}
+
+body .footer .footer-payments {
+    background-color: #131316
+}
+
+body .footer .footer-payments .tablet-version,
+body .footer .footer-payments .phone-version {
+    display: none
+}
+
+body .footer .footer-payments .col-mg-15_15 {
+    padding-top: 45px;
+    text-align: center
+}
+
+body .footer .footer-payments .col-mg-15_15 img {
+    margin: 0 10px;
+    vertical-align: middle
+}
+
+body .footer .footer-payments .col-mg-15_15 a {
+    text-decoration: none
+}
+
+body .footer .footer-risk-note {
+    background-color: #131316;
+    padding: 40px 30px
+}
+
+body .footer .footer-risk-note p,
+body .footer .footer-risk-note a {
+    color: #a9a9a9;
+    text-align: justify;
+    font-size: 16px
+}
+
+body .footer .show-mobile {
+    background-color: #131316
+}
+
+body .footer .show-mobile .terms a {
+    text-align: center;
+    color: #a9a9a9
+}
+
+@media only screen and (max-width:1024px) {
+    body .footer .footer-payments .col-mg-15_15 img {
+        margin: 0 5px
+    }
+}
+
+@media only screen and (min-width:720px) and (max-width:960px) {
+    body .footer .social-media .col-5_12,
+    body .footer .social-media .col-7_12 {
+        text-align: center
+    }
+    body .footer .social-media .col-5_12 span,
+    body .footer .social-media .col-7_12 span {
+        display: none
+    }
+    body .footer .social-media .col-5_12 a,
+    body .footer .social-media .col-7_12 a {
+        float: left;
+        text-align: center
+    }
+    body .footer .footer-payments .col-mg-15_15 img {
+        margin: 5px 0
+    }
+    body .footer .footer-payments img.tablet-version {
+        display: inline-block;
+        margin: auto
+    }
+    body .footer .footer-payments img.pc-version {
+        display: none
+    }
+}
+
+@media only screen and (max-width:719px) {
+    body .footer .social-media .col-5_12,
+    body .footer .social-media .col-7_12 {
+        width: 100%;
+        text-align: center
+    }
+    body .footer .social-media .col-5_12 span,
+    body .footer .social-media .col-7_12 span {
+        display: none
+    }
+    body .footer .social-media .col-5_12 a,
+    body .footer .social-media .col-7_12 a {
+        float: none;
+        text-align: center
+    }
+    body .footer .footer-payments .col-mg-15_15 img {
+        margin: 5px 0
+    }
+    body .footer .footer-payments img.phone-version {
+        display: inline-block;
+        margin: auto
+    }
+    body .footer .footer-payments img.pc-version,
+    body .footer .footer-payments img.tablet-version {
+        display: none
+    }
+}

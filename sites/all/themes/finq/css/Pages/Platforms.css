@@ -1,0 +1,218 @@
+.platforms .comp-main-plain-banner {
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/pages/platforms-banner.png") no-repeat scroll center center / cover;
+}
+
+.platforms .comp-main-plain-banner .theme-content {
+    width: 95%;
+}
+
+.platforms .comp-main-plain-banner .text {
+    padding: 140px 10px 250px;
+    max-width: 950px;
+}
+
+.platforms .comp-main-plain-banner .text h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.platforms .comp-main-plain-banner .text p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.platforms .alert-light-gray {
+    background-color: #ffffff;
+}
+
+.platforms .alert-light-gray .theme-content {
+    width: 95%;
+}
+
+.platforms .theme-tabs {
+    margin: -140px 0 150px;
+}
+
+.platforms .theme-tabs .theme-tabs-content h2 {
+    margin: 0 0 30px;
+}
+
+.platforms .theme-tabs .theme-tabs-content p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.platforms .theme-tabs .theme-tabs-content .btn {
+    margin-top: 30px;
+    font-size: 23px;
+    padding: 12px 50px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .apps {
+    margin-top: 40px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .apps b {
+    margin-bottom: 15px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .apps a img {
+    padding: 10px;
+    height: 40px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .mt4-app {
+    margin-top: 40px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .mt4-app b {
+    margin-bottom: 15px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .mt4-app .btn {
+    margin-top: 0;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav {
+    cursor: pointer;
+    margin: 20px 0 10px;
+    padding: 20px;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav img {
+    float: left;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav img.active {
+    display: none;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav.active {
+    background-color: #ffffff;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav.active img {
+    display: none;
+    float: left;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav.active img.active {
+    display: block;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav span {
+    font-size: 23px;
+    text-align: center;
+    float: left;
+    margin-top: 26px;
+    margin-left: 10px;
+    font-weight: 700;
+    color: #000;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav h2 {
+    font-size: 40px;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav p {
+    font-size: 24px;
+}
+
+.platforms .theme-tabs .theme-tabs-nav .theme-tab-nav:not(.active) span {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.platforms .theme-tabs .theme-tabs-content .col-4_12 {
+    padding-left: 100px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .col-4_12 .border-left-gold {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-left: 15px solid #ddae53;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 55px;
+}
+
+.platforms .theme-tabs .theme-tabs-content .col-4_12 .border-left-gold>a {
+    margin-top: 0px;
+}
+
+body.i18n-ur .platforms .alert-light-gray .theme-tab-nav span,
+body.i18n-ar .platforms .alert-light-gray .theme-tab-nav span {
+    max-width: 150px;
+}
+
+body.i18n-ur .platforms .alert-light-gray .theme-tabs-content .col-4_12,
+body.i18n-ar .platforms .alert-light-gray .theme-tabs-content .col-4_12 {
+    padding-left: 100px;
+}
+
+body.i18n-ur .platforms .alert-light-gray .theme-tabs-content .col-4_12 .border-left-gold,
+body.i18n-ar .platforms .alert-light-gray .theme-tabs-content .col-4_12 .border-left-gold {
+    border-left: 0;
+    border-right: 15px solid #ddae53;
+}
+
+@media all and (max-width: 1180px) {
+    .platforms .theme-tabs {
+        margin: 30px 0 50px;
+    }
+    .platforms .theme-tabs .theme-tabs-content .col-8_12,
+    .platforms .theme-tabs .theme-tabs-content .col-4_12 {
+        width: 100%;
+    }
+    .platforms .theme-tabs .theme-tabs-content .col-4_12 {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .platforms .alert-light-gray {
+        background-color: transparent;
+    }
+    .platforms .theme-tabs .theme-tabs-content {
+        box-shadow: none;
+        padding: 0;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab {
+        display: block !important;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .col-8_12,
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .col-4_12 {
+        width: 100%;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .col-4_12 {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .img {
+        margin: 100px auto 10px;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .img img {
+        margin: 0 auto;
+        display: block;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab h2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0 0 10px;
+        text-align: center;
+    }
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .btn,
+    .platforms .theme-tabs .theme-tabs-content .theme-tab .apps {
+        font-size: 23px;
+        margin-top: 10px;
+        padding: 12px 50px;
+    }
+}

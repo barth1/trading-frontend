@@ -1,0 +1,373 @@
+.page-node-806305 .col-4_12.left-part.pull-right.hide-tablet img {
+    display: none
+}
+
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+}
+
+.node-type-traders-room {}
+
+.node-type-traders-room a.logo-area {
+    padding: initial
+}
+
+.node-type-traders-room.page-node-588616,
+.node-type-traders-room.page-node-796674,
+.node-type-traders-room.page-node-588615 {
+    padding-top: 0
+}
+
+.node-type-traders-room.page-node-796674 .header,
+.node-type-traders-room.page-node-588616 .header,
+.node-type-traders-room.page-node-588615 .header {
+    display: none
+}
+
+.node-type-traders-room.page-node-796674 .logo-area,
+.node-type-traders-room.page-node-588616 .logo-area,
+.node-type-traders-room.page-node-588615 .logo-area {
+    padding: 50px 0 0 35px
+}
+
+.node-type-traders-room.page-node-588614 .nav li.navigation-sign-up,
+.node-type-traders-room.page-node-588614 .nav li.navigation-register {
+    display: none
+}
+
+.node-type-traders-room .my-account {
+    padding: 30px 0 100px;
+    position: relative
+}
+
+.node-type-traders-room .my-account .deposit-link {
+    padding-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-weight: 500;
+    position: absolute;
+    top: 190px;
+    background: #f3f0f0;
+    padding-right: 50px
+}
+
+.node-type-traders-room .my-account .deposit-link:hover {
+    color: #0077a2
+}
+
+@media screen and (max-width:700px) {
+    .node-type-traders-room .my-account a.deposit-link {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        font-weight: 500;
+        position: relative;
+        top: auto;
+        margin: 0;
+        padding: 10px 30px;
+        background-color: #dcad54;
+        float: left;
+        border-radius: 20px
+    }
+    .node-type-traders-room .my-account a.deposit-link:hover {
+        color: #000;
+        background-color: #c39133
+    }
+}
+
+@media screen and (max-width:500px) {
+    .node-type-traders-room .my-account .btn {
+        font-size: 16px;
+        margin-right: 20px;
+        float: left;
+        margin-bottom: 10px
+    }
+}
+
+.node-type-traders-room .my-account .btn {
+    font-size: 16px;
+    margin-right: 20px;
+    background: #c39133;
+    color: #000;
+    font-weight: 500
+}
+
+.node-type-traders-room .my-account .btn:hover {
+    background: #c39133
+}
+
+.node-type-traders-room .reset-password {
+    padding-top: 40px
+}
+
+.node-type-traders-room .reset-password .theme-content {
+    width: 400px
+}
+
+.traders_room {
+    background-color: #f2f0f0
+}
+
+.traders_room .widgets .left-part img {
+    float: left;
+    width: 100%
+}
+
+.traders_room .widgets.live-registration {
+    position: relative
+}
+
+.traders_room .widgets.live-registration .live-registration-area {
+    min-width: 800px
+}
+
+.traders_room .widgets.live-registration h1 {
+    font-size: 21px;
+    float: left;
+    width: 100%;
+    margin: 20px 0 30px 40px
+}
+
+.traders_room .widgets.live-registration .live-registration-widget {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin: 40px 0 60px;
+    padding: 40px 20px 20px;
+    background: #fff
+}
+
+.traders_room .widgets.live-registration .live-registration-info {
+    margin: 40px 0 60px;
+    padding: 0 50px 0
+}
+
+.traders_room .widgets.live-registration .live-registration-info .img img {
+    margin: auto;
+    display: block
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-a {
+    border-bottom: 1px #000 solid
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item {
+    margin-bottom: 60px
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .img {
+    width: 120px;
+    float: left;
+    margin-right: 10px
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .text {
+    float: left;
+    margin-top: 5px;
+    width: 60%
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .text p {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.2
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-b {
+    margin-top: 30px;
+    text-align: center
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-b .img {
+    height: 50px
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-b b,
+.traders_room .widgets.live-registration .live-registration-info .part-b span {
+    float: left;
+    width: 100%
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-b b {
+    font-size: 15px;
+    font-weight: normal
+}
+
+.traders_room .widgets.live-registration .live-registration-info .part-b span {
+    font-size: 8px
+}
+
+.traders_room .widgets.login h1 {
+    font-size: 30px;
+    color: #000
+}
+
+.traders_room .widgets.login .login-area {
+    min-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    float: left;
+    margin: 30px 10%;
+    width: 80%;
+    padding: 50px 35px;
+    background-color: #fff;
+    text-align: center
+}
+
+.traders_room .widgets.login .login-area .login-info {
+    padding-left: 35px
+}
+
+.traders_room .widgets.login .login-area .login-widget {
+    border-right: 1px solid #636363;
+    padding-right: 35px
+}
+
+.traders_room .widgets.login .login-area h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 40px 0 15px
+}
+
+.traders_room .widgets.login .login-area p {
+    font-size: 15px
+}
+
+.traders_room .widgets.login .login-area a {
+    border-radius: 30px;
+    background: #fff;
+    border: 2px solid #dcad54;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-top: 20px;
+    float: left;
+    text-decoration: none;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 1;
+    color: #000
+}
+
+.traders_room .widgets.login .login-area a:hover {
+    background: #dcad54;
+    color: #fff
+}
+
+@media all and (max-width:1180px) {
+    div.traders_room .widgets.live-registration .live-registration-widget {
+        margin: 50px 10%;
+        width: 80%
+    }
+    div.traders_room .widgets.live-registration .live-registration-widget h1 {
+        margin: 0 0 20px;
+        text-align: center
+    }
+    div.traders_room .widgets.live-registration .live-registration-widget h1 br {
+        display: none
+    }
+    div.traders_room .widgets.live-registration .live-registration-info {
+        margin: 40px 0 60px;
+        padding: 0 10px;
+        text-align: center
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a {
+        border: none
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item {
+        margin-bottom: 10px
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .img {
+        float: left;
+        height: 70px;
+        margin: 0 0 10px;
+        width: 100%
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .text {
+        box-sizing: border-box;
+        float: left;
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+        width: 100%
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .text p {
+        font-size: 15px
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-a .registration-features-item .text br {
+        display: none
+    }
+    div.traders_room .widgets.live-registration .live-registration-info .part-b {
+        border-top: 1px solid #000;
+        margin: 30px 10% 0;
+        padding-top: 30px;
+        text-align: center;
+        width: 80%
+    }
+    .node-type-traders-room .logo-area {
+        float: left;
+        padding: 40px 0 0 5%;
+        width: 50%;
+        max-width: 300px;
+        min-width: 180px
+    }
+    .node-type-traders-room .logo-area .logo {
+        float: left;
+        width: 40%
+    }
+    .node-type-traders-room .logo-area .slogan {
+        float: left;
+        margin: 15% 0 0 5%;
+        width: 45%
+    }
+    .traders_room .widgets.login .login-area {
+        width: 96%;
+        margin-left: 2%
+    }
+}
+
+@media all and (max-width:800px) {
+    .traders_room .widgets.login .login-area,
+    .traders_room .widgets.live-registration .live-registration-area {
+        min-width: 96%
+    }
+}
+
+@media all and (max-width:650px) {
+    .traders_room .widgets.login .login-area .login-widget,
+    .traders_room .widgets.login .login-area .login-info {
+        border: none;
+        padding: 0
+    }
+    .traders_room .widgets.login .login-area .login-info h2 {
+        font-size: 18px;
+        font-weight: normal;
+        margin: 10px 0 0
+    }
+    .traders_room .widgets.login .login-area .login-info p {
+        display: none
+    }
+}
+
+@media all and (max-width:500px) {
+    .traders_room .widgets.login .login-area a {
+        margin: 15px 0 0;
+        width: 100%
+    }
+    .node-type-traders-room .logo-area {
+        float: left;
+        padding: 20px 0 0 5%
+    }
+    .node-type-traders-room .logo-area .slogan {
+        float: left;
+        margin: 10% 0 0 5%;
+        width: 45%
+    }
+    div.traders_room .widgets.live-registration .live-registration-widget {
+        margin: 30px 3%;
+        width: 94%;
+        padding: 30px 10px
+    }
+    div.traders_room .widgets.live-registration .live-registration-widget h1 {
+        font-size: 18px
+    }
+}

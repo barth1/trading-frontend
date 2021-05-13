@@ -1,0 +1,1322 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #139ec1 0%, #12457a 100%);
+    background: -moz-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    background: -webkit-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#139ec1', endColorstr='#12457a', GradientType=1);
+}
+
+.btn {
+    -moz-user-select: none;
+    user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    /*box-shadow: 10px 10px 5px rgba(34, 33, 34, 0.7);*/
+}
+
+.btn.btn-promo {
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 25px;
+    background: #34de7c;
+    background: linear-gradient(to right, #34de7c 0%, #139ec1 100%);
+    background: -moz-linear-gradient(left, #34de7c 0%, #139ec1 100%);
+    background: -webkit-linear-gradient(left, #34de7c 0%, #139ec1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34de7c', endColorstr='#139ec1', GradientType=1);
+}
+
+.btn.btn-promo:hover,
+.btn.btn-promo:focus {
+    background: linear-gradient(to right, #139ec1 0%, #12457a 100%);
+    background: -moz-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    background: -webkit-linear-gradient(left, #139ec1 0%, #12457a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#139ec1', endColorstr='#12457a', GradientType=1);
+    background: #139ec1;
+    transition: none;
+    -webkit-transition: none;
+    color: #fff;
+}
+
+.btn.btn-orange {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.btn.btn-orange:hover,
+.btn.btn-orange:focus {
+    background-color: #d62c1a;
+}
+
+.btn.label-light-blue {
+    color: #fff;
+    background-color: #dcad54;
+    cursor: default;
+}
+
+.btn.label-light-blue:hover {
+    cursor: pointer;
+}
+
+.btn.btn-gold {
+    background-color: #dcad54;
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn.btn-transparent {
+    background-color: #ffffff1a;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*Responsive*/
+
+/* 15 Collumns */
+
+/* 12 Collumns */
+
+.float-element,
+.col-1_12,
+.col-2_12,
+.col-3_12,
+.col-4_12,
+.col-5_12,
+.col-6_12,
+.col-7_12,
+.col-8_12,
+.col-9_12,
+.col-10_12,
+.col-11_12,
+.col-12_12 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.float-element-mg,
+.col-mg-1_15,
+.col-mg-2_15,
+.col-mg-3_15,
+.col-mg-4_15,
+.col-mg-5_15,
+.col-mg-6_15,
+.col-mg-7_15,
+.col-mg-8_15,
+.col-mg-9_15,
+.col-mg-10_15,
+.col-mg-11_15,
+.col-mg-12_15,
+.col-mg-13_15,
+.col-mg-14_15,
+.col-mg-15_15 {
+    float: left;
+    box-sizing: border-box;
+    margin-left: 1.69491525%;
+}
+
+.first-child,
+.col-mg-1_15:first-child,
+.col-mg-2_15:first-child,
+.col-mg-3_15:first-child,
+.col-mg-4_15:first-child,
+.col-mg-5_15:first-child,
+.col-mg-6_15:first-child,
+.col-mg-7_15:first-child,
+.col-mg-8_15:first-child,
+.col-mg-9_15:first-child,
+.col-mg-10_15:first-child,
+.col-mg-11_15:first-child,
+.col-mg-12_15:first-child,
+.col-mg-13_15:first-child,
+.col-mg-14_15:first-child,
+.col-mg-15_15:first-child {
+    margin-left: 0;
+}
+
+.col-1_5 {
+    float: left;
+    width: 20%;
+}
+
+/*
+    Start Create common Elements
+*/
+
+/* 15 GRID common styles */
+
+/* 15 GRID common styles */
+
+/* 12 GRID common styles */
+
+/*
+    End
+*/
+
+/*
+    Start set width programmatically
+*/
+
+.col-mg-15_15 {
+    width: 100%;
+}
+
+.col-mg-14_15 {
+    width: 93.22033898%;
+}
+
+.col-mg-13_15 {
+    width: 86.44067797%;
+}
+
+.col-mg-12_15 {
+    width: 79.66101695%;
+}
+
+.col-mg-11_15 {
+    width: 72.88135593%;
+}
+
+.col-mg-10_15 {
+    width: 66.10169492%;
+}
+
+.col-mg-9_15 {
+    width: 59.3220339%;
+}
+
+.col-mg-8_15 {
+    width: 52.54237288%;
+}
+
+.col-mg-7_15 {
+    width: 45.76271186%;
+}
+
+.col-mg-6_15 {
+    width: 38.98305085%;
+}
+
+.col-mg-5_15 {
+    width: 32.20338983%;
+}
+
+.col-mg-4_15 {
+    width: 25.42372881%;
+}
+
+.col-mg-3_15 {
+    width: 18.6440678%;
+}
+
+.col-mg-2_15 {
+    width: 11.86440678%;
+}
+
+.col-mg-1_15 {
+    width: 5.08474576%;
+}
+
+.col-12_12 {
+    width: 100%;
+}
+
+.col-11_12 {
+    width: 91.66666667%;
+}
+
+.col-10_12 {
+    width: 83.33333333%;
+}
+
+.col-9_12 {
+    width: 75%;
+}
+
+.col-8_12 {
+    width: 66.66666667%;
+}
+
+.col-7_12 {
+    width: 58.33333333%;
+}
+
+.col-6_12 {
+    width: 50%;
+}
+
+.col-5_12 {
+    width: 41.66666667%;
+}
+
+.col-4_12 {
+    width: 33.33333333%;
+}
+
+.col-3_12 {
+    width: 25%;
+}
+
+.col-2_12 {
+    width: 16.66666667%;
+}
+
+.col-1_12 {
+    width: 8.33333333%;
+}
+
+/*
+    End
+*/
+
+.theme-content {
+    display: block;
+    margin: auto;
+    width: 1180px;
+}
+
+.theme-content-900 {
+    display: block;
+    margin: auto;
+    width: 900px;
+}
+
+.full,
+.content {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.show-mobile {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.col-mg-5_15:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+/* 
+    Tablet
+*/
+
+@media all and (max-width: 1180px) {
+    .tablet-padding {
+        padding: 0 10PX;
+    }
+    .theme-content,
+    .theme-content-900 {
+        width: 100%;
+        padding: 0 10PX;
+        float: left;
+        box-sizing: border-box;
+    }
+    .full-tablet {
+        margin-left: 0;
+        width: 100%;
+    }
+    .hide-tablet {
+        display: none;
+    }
+    .show-tablet {
+        display: block;
+    }
+    .half-tablet {
+        margin-left: 2%;
+        width: 49%;
+    }
+    .half-tablet:first-child {
+        margin-left: 0;
+    }
+    .col-4_12-tablet {
+        width: 33.33333%;
+    }
+    .col-mg-6_15-tablet {
+        width: 38.9831%;
+    }
+    .col-mg-7_15-tablet {
+        width: 45.7627%;
+    }
+    .col-mg-8_15-tablet {
+        width: 52.5424%;
+    }
+    .col-mg-9_15-tablet {
+        width: 59.322%;
+    }
+    .col-mg-10_15-tablet {
+        width: 66.1017%;
+    }
+}
+
+/* 
+    Mobile
+*/
+
+@media all and (max-width: 650px) {
+    .show-tablet-650 {
+        display: block;
+    }
+    .tablet-650-padding {
+        padding: 0 10PX;
+    }
+    .full-650 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .hide-650 {
+        display: none;
+    }
+}
+
+/* 
+    Mobile
+*/
+
+@media all and (max-width: 500px) {
+    .show-mobile {
+        display: block !important;
+    }
+    .hide-mobile {
+        display: none !important;
+    }
+    .full-mobile {
+        margin-left: 0;
+        width: 100%;
+    }
+    .half-mobile {
+        margin-left: 2%;
+        width: 49%;
+    }
+    .half-mobile:nth-child(2n+1) {
+        margin-left: 0;
+    }
+}
+
+.cfd-instrument th,
+.cfds-list th,
+.rollovers-dates th,
+.cfd-instrument td,
+.cfds-list td,
+.rollovers-dates td {
+    text-align: center;
+}
+
+.cfds-list.mt4-list .assets-list a {
+    width: 18%;
+    margin-left: 2%;
+}
+
+.cfds-list.mt4-list .assets-list a:first-child {
+    margin-left: 0;
+}
+
+.cfds-list.mt4-list .description p {
+    padding-top: 15px;
+}
+
+.cfds-list.mt4-list ul {
+    padding-left: 30px;
+}
+
+.tab-pane .tap-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.tab-pane .notes.last {
+    padding-bottom: 10px;
+}
+
+.cfds-list {
+    padding: 50px 0 10;
+}
+
+.cfds-list .cfds-info h1 {
+    margin: 0;
+}
+
+.cfds-list .cfds-info .cfds-info-content {
+    margin-top: 20px;
+}
+
+.cfds-list .cfds-info .cfds-info-content p {
+    margin-bottom: 10px;
+}
+
+.cfds-list .assets-list {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.cfds-list .description {
+    padding-top: 10px;
+}
+
+.cfds-list .category .category-heading a {
+    text-decoration: none;
+}
+
+.cfds-list .category .category-heading a b.asset-title {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 60px 0 40px;
+    text-transform: capitalize;
+    float: left;
+    width: 100%;
+}
+
+.cfds-list .category .sub-category-tabs {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.cfds-list .category .sub-category-tabs .sub-category-tab {
+    padding: 10px 25px 10px 15px;
+    line-height: 1;
+    margin-right: 25px;
+    cursor: pointer;
+    color: #363636;
+    text-decoration: none;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.cfds-list .category .sub-category-tabs .sub-category-tab:hover {
+    color: #000000;
+}
+
+.cfds-list .category .sub-category-tabs .sub-category-tab:before {
+    font-family: FontAwesome;
+    font-size: 22px;
+    content: "\f105";
+    padding-right: 10px;
+}
+
+.cfds-list .category .sub-category-tabs .sub-category-tab.btn {
+    color: #fff;
+}
+
+.cfds-list .category .sub-category-tabs .sub-category-tab.btn:before {
+    content: "\f107";
+}
+
+.cfds-list .tab-pane.fade {
+    display: none;
+}
+
+.cfds-list .tab-pane.fade.active {
+    display: block;
+    opacity: 1;
+}
+
+.cfds-list table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.cfds-list table tr td:nth-child(4n+1) {
+    font-weight: bold;
+}
+
+.cfd-instrument {
+    padding: 30px 0 100px;
+}
+
+.cfd-instrument h1 {
+    float: left;
+    width: 100%;
+}
+
+.cfd-instrument .instruments-container {
+    margin-top: 20px;
+}
+
+.cfd-instrument .instrument-content {
+    float: right;
+}
+
+.cfd-instrument .instrument-info {
+    background: #ffffff;
+    padding: 25px 35px;
+}
+
+.cfd-instrument .instrument-info .instrument-value {
+    min-height: 50px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .price {
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+    margin-right: 50px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage {
+    float: left;
+    font-size: 16px;
+    margin-top: 17px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage:before {
+    font-family: FontAwesome;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage.up {
+    color: #00a63b;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage.up:before {
+    content: "\f062";
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage.down {
+    color: #a9000c;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .percentage.down:before {
+    content: "\f063";
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-name {
+    border-bottom: 1px #d6dadd solid;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-name p {
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-high-low {
+    margin-top: 20px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-high-low span {
+    font-size: 15px;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 3px;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-high-low .low,
+.cfd-instrument .instrument-info .instrument-value-header .instrument-high-low .high {
+    color: #9ea9ae;
+}
+
+.cfd-instrument .instrument-info .instrument-value-header .instrument-high-low .low {
+    margin-left: 30px;
+}
+
+.cfd-instrument .instrument-info .info-row-label {
+    float: left;
+}
+
+.cfd-instrument .instrument-info .info-row-value {
+    float: right;
+}
+
+.cfd-instrument .instrument-content-table {
+    margin-top: 30px;
+}
+
+.cfd-instrument .instrument-content-table .col-6_12:nth-child(1) {
+    padding-right: 0;
+}
+
+.cfd-instrument .instrument-content-table .col-6_12:nth-child(2) {
+    padding-left: 0;
+}
+
+.cfd-instrument .instrument-content-table .col-6_12>.info-rows>.full {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.cfd-instrument .instrument-content-table span.sub-title {
+    width: 50%;
+    color: #9ea9ae;
+    font-size: 16px;
+    background: #f2f2f2;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 26px 0;
+    text-align: center;
+}
+
+.cfd-instrument .instrument-content-table span.sub-value {
+    width: 50%;
+    color: #000;
+    font-size: 18px;
+    margin: 25px 0;
+    text-align: right;
+    text-align: center;
+}
+
+.cfd-instrument .instrument-actions .instrument-actions-buy {
+    padding-right: 10px;
+}
+
+.cfd-instrument .instrument-actions .instrument-actions-sell {
+    padding-left: 10px;
+}
+
+.cfd-instrument .instrument-actions .buy a,
+.cfd-instrument .instrument-actions .sell a {
+    text-decoration: none;
+    background: #19a119;
+    min-height: 55px;
+}
+
+.cfd-instrument .instrument-actions .buy a:hover,
+.cfd-instrument .instrument-actions .sell a:hover {
+    background: #51ac71;
+}
+
+.cfd-instrument .instrument-actions .buy a span,
+.cfd-instrument .instrument-actions .sell a span {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    line-height: 1;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.cfd-instrument .instrument-actions .buy a span.title,
+.cfd-instrument .instrument-actions .sell a span.title {
+    width: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    background: #19a119;
+    min-height: 55px;
+    overflow: hidden;
+}
+
+.cfd-instrument .instrument-actions .buy a span.value,
+.cfd-instrument .instrument-actions .sell a span.value {
+    width: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cfd-instrument .instrument-actions .sell a {
+    background: #dc1b22;
+}
+
+.cfd-instrument .instrument-actions .sell a:hover {
+    background: #bd4a52;
+}
+
+.cfd-instrument .instrument-actions .sell a span.title {
+    background: #dc1b22;
+}
+
+.cfd-instrument .instrument-actions .info-rows {
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+}
+
+.cfd-instrument .instrument-actions .info-rows .info-row {
+    border-top: 1px solid #e2e7e9;
+    padding: 25px 20px;
+}
+
+.cfd-instrument .instrument-actions .info-rows .info-row .info-row-label {
+    text-transform: uppercase;
+    color: #9ea9ae;
+}
+
+.cfd-instrument .instruments-chart {
+    margin: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #e6e6e6;
+}
+
+.cfd-instrument .instruments-chart .controls {
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    z-index: 2;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cfd-instrument .instruments-chart .controls li {
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cfd-instrument .instruments-chart .controls li.active {
+    background-color: #419bcf;
+    color: white;
+}
+
+.cfd-instrument .instruments-chart .chart-container {
+    min-height: 200px;
+    border: 3px solid #E3E3E3;
+}
+
+.cfd-instrument .instruments-chart .chart-container.progress {
+    background: transparent url('../images/ajax-loader.gif') no-repeat center;
+}
+
+.cfd-instrument .instruments-chart select.chart_instrument {
+    color: #ccc;
+    text-overflow: clip;
+    border-radius: 2px;
+    background: #121216 url('/sites/default/files/instruments/widget-arrow-down.png') no-repeat right 10px center;
+    font-size: 12px;
+    border: 1px solid #2F2F30;
+    cursor: pointer;
+    padding: 5px;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    direction: ltr;
+}
+
+.cfd-instrument .instruments-chart select:focus {
+    outline: 0;
+}
+
+.cfd-instrument .instruments-chart .chart_control a {
+    background-color: #000000;
+    border-radius: 2px;
+    border: 1px solid #2F2F30 !important;
+    color: #ccc !important;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 300ms ease-out 0s;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 8px;
+    margin-right: 2px;
+}
+
+.cfd-instrument .instruments-chart .chart_control a:hover,
+.cfd-instrument .instruments-chart .chart_control a.active {
+    background-color: #2D2D2D;
+}
+
+.cfd-instrument .instruments-chart .chart_type {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid #2F2F30 !important;
+    display: inline-block;
+    transition: background-color 300ms ease-out 0s;
+    margin-right: 2px;
+    text-indent: -9999px;
+    width: 27px;
+    height: 27px;
+}
+
+.cfd-instrument .instruments-chart .chart_type:hover {
+    background-color: #2D2D2D;
+}
+
+.cfd-instrument .instruments-chart .chart_type.l {
+    background-image: url('/sites/default/files/instruments/instruments-candle-gray.png');
+}
+
+.cfd-instrument .instruments-chart .chart_type.c {
+    background-image: url('/sites/default/files/instruments/instruments-chart-gray.png');
+}
+
+.cfd-instrument #chartContainer {
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.cfd-instrument .instruments-table {
+    float: left;
+    width: 100%;
+    margin: 30px 0 0;
+}
+
+.rollovers-weekly {
+    padding: 30px 0 100px;
+}
+
+.rollovers-weekly .ro-current-date {
+    margin-top: 30px;
+}
+
+.rollovers-weekly .ro-text {
+    margin-top: 10px;
+}
+
+.rollovers-weekly .notes {
+    margin-top: 40px;
+}
+
+.rollovers-weekly .notes span {
+    color: #000000;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+}
+
+.rollovers-dates {
+    padding: 30px 0 100px;
+}
+
+.rollovers-dates .ro-text {
+    margin-top: 20px;
+}
+
+.rollovers-dates ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.rollovers-dates ul li {
+    margin-bottom: 10px;
+}
+
+.rollovers-dates .notes {
+    margin-top: 10px;
+}
+
+.rollovers-dates .notes ul {
+    margin-top: 10px;
+}
+
+.rollovers-dates .ro-subtitle {
+    margin-top: 30px;
+}
+
+.rollovers-dates table {
+    margin: 10px 0 20px;
+}
+
+#sentiment {
+    background: #fff;
+}
+
+#sentiment .sentiment-header {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sentiment .sentiment-header:before {
+    background: url(https://www.markets.com/sites/markets.com/themes/markets/images/instruments/updown.png) no-repeat;
+    content: "";
+    padding-right: 25px;
+}
+
+#sentiment .sentiment-content {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#sentiment .sentiment-content .sentiment-buy {
+    margin-left: 5px;
+}
+
+#sentiment .sentiment-content .sentiment-buy span {
+    color: #02a62a;
+}
+
+#sentiment .sentiment-content .sentiment-sell {
+    margin-right: 5px;
+    text-align: left;
+}
+
+#sentiment .sentiment-content .sentiment-sell span {
+    color: #ff372f;
+}
+
+#sentiment .sentiment-content span {
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+#sentiment .sentiment-content .percentage-wrapper {
+    width: 100%;
+    color: #02a62a;
+    background-color: #02a62a;
+    height: 10px;
+}
+
+#sentiment .sentiment-content .percentage-wrapper .percentage {
+    color: #ff372f;
+    background-color: #ff372f;
+    height: 10px;
+}
+
+#sentiment .sentiment-help {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+#sentiment .sentiment-help a {
+    color: #333 !important;
+    font-size: 14px;
+    background: url(https://www.markets.com/sites/markets.com/themes/markets/images/instruments/sentiment-question-bg.png) no-repeat;
+    padding: 0 20px;
+}
+
+.cfds-list-v2 {
+    background: #fff;
+}
+
+.cfds-list-v2 h1 {
+    font-size: 65px;
+    margin: 65px 0 45px;
+    float: left;
+}
+
+.cfds-list-v2 .nav-tabs li {
+    line-height: 1;
+    padding: 20px !important;
+}
+
+.cfds-list-v2 .nav-tabs li a {
+    color: #000;
+    border: none !important;
+}
+
+.cfds-list-v2 .nav-tabs li.active {
+    background: #d3d3d3;
+}
+
+.cfds-list-v2 .nav-tabs li.active a {
+    font-weight: bold;
+}
+
+.cfds-list-v2 .nav-tabs li:hover a {
+    color: #000;
+}
+
+.cfds-list-v2 .tables-container .panel-title a {
+    background: #fff;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.cfds-list-v2 .assets-categories a {
+    border: 2px solid #ffffff;
+    color: #757575;
+    font-size: 22px;
+    float: left;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cfds-list-v2 .assets-categories a.selected {
+    color: #000000;
+    border: 2px solid #7f7f7f;
+}
+
+.cfds-list-v2 .assets-body {
+    padding: 60px 0;
+    background: #e6e6e6;
+}
+
+.cfds-list-v2 .assets-body h2 .selected {
+    font-size: 40px;
+}
+
+.cfds-list-v2 .assets-body .panel-group .panel {
+    margin-top: 1px;
+    float: left;
+    width: 100%;
+}
+
+.cfds-list-v2 .assets-body .panel-group .panel-default {
+    border: none;
+}
+
+.cfds-list-v2 .assets-body .panel-collapse.collapse.in {
+    background: #e6e6e6;
+}
+
+.cfds-list-v2 .assets-body .panel-heading {
+    padding: 0;
+}
+
+.cfds-list-v2 .assets-body .panel-title a {
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.cfds-list-v2 .assets-body .panel-title a .fa-angle-up,
+.cfds-list-v2 .assets-body .panel-title a .fa-angle-down {
+    display: block;
+    float: left;
+    color: #b0b0b0;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.cfds-list-v2 .assets-body .panel-title a .fa-angle-down {
+    display: none;
+}
+
+.cfds-list-v2 .assets-body .panel-title a.collapsed {
+    background: #fff;
+}
+
+.cfds-list-v2 .assets-body .panel-title a.collapsed .fa-angle-up {
+    display: none;
+}
+
+.cfds-list-v2 .assets-body .panel-title a.collapsed .fa-angle-down {
+    display: block;
+}
+
+.cfds-list-v2 .assets-body .panel-body {
+    background: #d3d3d3;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading .fa {
+    color: #000;
+    font-size: 17px;
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading .fa-angle-right {
+    display: block;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading .fa-angle-down {
+    display: none;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading a[aria-expanded="true"] .fa-angle-right {
+    display: none;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading a[aria-expanded="true"] .fa-angle-down {
+    display: block;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading a[aria-expanded="false"] .fa-angle-right {
+    display: block;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-heading a[aria-expanded="false"] .fa-angle-down {
+    display: none;
+}
+
+.cfds-list-v2 .assets-body .panel-body .panel-body {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.cfds-list-v2 .assets-body .panel-body .sub-category-tab {
+    float: left;
+    font-size: 14px;
+    border-radius: 20px !important;
+    line-height: 1;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.cfds-list-v2 .assets-body .panel-body .sub-category-tab.active.btn.btn-promo {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cfds-list-v2 .assets-body .panel-body table tr {
+    background: #fff;
+}
+
+.cfds-list-v2 .assets-body .panel-body table tr:nth-child(2n) {
+    background: #f2f2f2;
+}
+
+.cfds-list-v2 .assets-body .panel-body table tr th {
+    background: #e8e8e9;
+    text-align: center;
+    border: none;
+    text-transform: initial;
+    font-size: 14px;
+    color: #000;
+    font-weight: 100;
+}
+
+.cfds-list-v2 .assets-body .panel-body table tr td,
+.cfds-list-v2 .assets-body .panel-body table tr th {
+    text-align: center;
+    border: none;
+    padding: 25px 20px;
+}
+
+.cfds-list-v2 .assets-body .panel-body table tr td:nth-child(4n+1),
+.cfds-list-v2 .assets-body .panel-body table tr th:nth-child(4n+1) {
+    text-align: left;
+}
+
+@media all and (max-width: 1180px) {
+    .cfd-instrument .instrument-content {
+        margin-top: 30px;
+    }
+    .cfd-instrument .instrument-info {
+        padding: 25px 20px;
+    }
+    .cfds-list-v2 h1 {
+        font-size: 40px;
+        margin: 50px 0 30px;
+        float: left;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .cfds {
+        margin-top: 20px;
+    }
+    .cfds h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .cfds-list .category .sub-category-tabs .sub-category-tab {
+        margin-right: 10px;
+        padding: 10px 20px 10px 15px;
+        font-size: 18px;
+    }
+    .cfds-list .category .category-heading a h3 {
+        font-size: 27px;
+    }
+    .cfds-list .tab-pane.fade,
+    .cfds-list .instruments-container {
+        overflow-x: scroll;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    .cfds-list .tab-pane.fade table,
+    .cfds-list .instruments-container table {
+        min-width: 500px;
+    }
+    .cfd-instrument .instrument-actions .instrument-actions-buy,
+    .cfd-instrument .instrument-actions .instrument-actions-sell {
+        padding: 0;
+    }
+    .cfd-instrument .instrument-actions .instrument-actions-buy {
+        margin-bottom: 30px;
+    }
+    .cfd-instrument #chartContainer {
+        padding: 0;
+    }
+    .cfd-instrument .instruments-chart .controls {
+        left: 5px;
+        top: 5px;
+    }
+    .rollovers-dates .ro-subtitle a {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cfds-list-v2 .tab-pane.fade,
+    .cfds-list-v2 .instruments-container,
+    .cfds-list .trading-conditions {
+        overflow-x: scroll;
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    .cfds-list-v2 .tab-pane.fade table,
+    .cfds-list-v2 .instruments-container table,
+    .cfds-list .trading-conditions table {
+        min-width: 500px;
+    }
+    .cfds-list-v2 h1 {
+        font-size: 25px;
+        margin: 30px 0 20px;
+    }
+    .cfds-list-v2 h2 {
+        font-size: 20px;
+    }
+    .cfds-list-v2 .nav-tabs li {
+        padding: 10px !important;
+    }
+    .cfds-list-v2 .panel-group .panel-body {
+        padding: 10px;
+    }
+    .cfds-list-v2 .assets-body .panel-title a .fa {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .cfds-list-v2 .assets-body .panel-body table tr th,
+    .cfds-list-v2 .assets-body .panel-body table tr td {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+}
+
+/*# sourceMappingURL=Cfds-List.css.map */

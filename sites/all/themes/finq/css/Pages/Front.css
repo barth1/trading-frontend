@@ -1,0 +1,329 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+}
+
+.i18n-fil .frontPage .assets-part .assets-part-img>div .assets-part-img-text span {
+    font-size: 40px
+}
+
+.i18n-fil .frontPage .assets-part .assets-part-img>div .assets-part-img-text span.color-main {
+    margin-top: 10px
+}
+
+.frontPage .comp-main-plain-banner .text {
+    padding: 80px 80px 0 80px
+}
+
+.frontPage .comp-main-plain-banner .open-account-btn {
+    padding-left: 80px;
+    max-width: 580px
+}
+
+.frontPage .assets-part {
+    padding: 90px 0 100px
+}
+
+.frontPage .assets-part .theme-content>div {
+    float: right
+}
+
+.frontPage .assets-part .col-mg-2_15 {
+    margin-left: 0
+}
+
+.frontPage .assets-part .assets-part-text {
+    margin: 50px 0 0
+}
+
+.frontPage .assets-part .assets-part-text p {
+    margin: 20px 0 0
+}
+
+.frontPage .assets-part .assets-part-img {
+    margin-left: 1.69491525%
+}
+
+.frontPage .assets-part .assets-part-img img {
+    max-width: 100%
+}
+
+.frontPage .assets-part .assets-part-img>div {
+    position: relative
+}
+
+.frontPage .assets-part .assets-part-img>div .assets-part-img-text {
+    position: absolute;
+    top: 32%;
+    text-align: center;
+    width: 100%
+}
+
+.frontPage .assets-part .assets-part-img>div .assets-part-img-text span {
+    font-size: 50px;
+    float: left;
+    width: 100%;
+    line-height: 1
+}
+
+.frontPage .features {
+    margin-top: 120px
+}
+
+.frontPage .features .mainImg {
+    margin-top: 40px
+}
+
+.frontPage .features h2 {
+    margin-bottom: 20px
+}
+
+.frontPage .features h3 {
+    margin: 15px 0 5px
+}
+
+.frontPage .features .seperator {
+    position: relative;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-top: 12px
+}
+
+.frontPage .features .seperator img {
+    position: absolute;
+    top: -7px
+}
+
+.frontPage .testimonial {
+    margin: 120px 0 0
+}
+
+.frontPage .testimonial h3 {
+    margin: 15px 0 30px
+}
+
+.frontPage .testimonial .part-b {
+    float: right;
+    margin-left: 1.69491525%
+}
+
+.frontPage .testimonial .part-a {
+    float: right;
+    margin-left: 0
+}
+
+.frontPage .testimonial .italic {
+    font-size: 18px;
+    line-height: 1.8
+}
+
+.frontPage .testimonial .key-points {
+    margin: 35px 0 30px
+}
+
+.frontPage .testimonial .key-points>div {
+    margin-top: 35px
+}
+
+.frontPage .testimonial .key-points>div.chart p {
+    margin-top: 10px
+}
+
+.frontPage .testimonial .key-points>div.multi-platform p {
+    margin-top: 5px
+}
+
+.frontPage .testimonial .key-points>div.multi-tools p {
+    margin-top: 5px
+}
+
+.frontPage .testimonial .key-points>div.multi-tools img {
+    margin-left: 5px
+}
+
+.frontPage .testimonial .key-points>div.calendar img {
+    margin-left: 2px
+}
+
+.frontPage .testimonial .key-points>div.support p {
+    margin-top: 3px
+}
+
+.frontPage .testimonial .key-points>div.bank p {
+    margin-top: 15px
+}
+
+.frontPage .testimonial .key-points>div.regulated p {
+    margin-top: 10px
+}
+
+.frontPage .testimonial .key-points>div.regulated img {
+    margin-left: 3px
+}
+
+.frontPage .testimonial .testimonials-text,
+.frontPage .testimonial .theme-tabs-nav {
+    width: 100%;
+    max-width: 500px
+}
+
+.frontPage .testimonial .theme-tab-nav {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 14px;
+    color: #acabab;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 0 10px 5px;
+    min-height: 45px
+}
+
+.frontPage .testimonial .theme-tab-nav.disabled {
+    border-bottom-color: #acabab
+}
+
+.frontPage .testimonial .theme-tab-nav.active {
+    color: #000
+}
+
+.frontPage .cosmos {
+    margin-top: 150px
+}
+
+.frontPage .cosmos .img img {
+    float: left;
+    max-width: 100%
+}
+
+.frontPage .cosmos .btn {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: 100;
+    margin-top: 20px
+}
+
+.frontPage .cosmos .part-a p {
+    margin-top: 15px
+}
+
+.frontPage .cosmos .part-b {
+    margin-top: 20px
+}
+
+.frontPage .cosmos .part-b h2 {
+    margin-top: 50px
+}
+
+.frontPage .cosmos .block-apps {
+    margin-top: 40px
+}
+
+.i18n-ar .frontPage .comp-main-plain-banner .open-account-btn,
+.i18n-ur .frontPage .comp-main-plain-banner .open-account-btn {
+    padding-left: 0;
+    padding-right: 80px
+}
+
+.i18n-ar .frontPage .features .seperator,
+.i18n-ur .frontPage .features .seperator {
+    float: right
+}
+
+@media all and (max-width:1180px) {
+    .frontPage div.comp-main-plain-banner .text {
+        padding: 20px 10px 0 0
+    }
+    .frontPage div.comp-main-plain-banner .open-account-btn {
+        margin: 20px 0 30px;
+        max-width: 100%;
+        padding: 15px 10px !important
+    }
+    .frontPage .features {
+        margin-top: 60px
+    }
+    .frontPage .features .mainImg {
+        max-width: 100%
+    }
+    .frontPage .testimonial .theme-tabs-nav {
+        float: left;
+        margin-top: 30px;
+        text-align: center
+    }
+    .frontPage div.cosmos {
+        margin-top: 60px
+    }
+    .frontPage div.block-security .part-a {
+        padding: 0
+    }
+    .frontPage div.block-security .part-a h2,
+    .frontPage div.block-security .part-a p {
+        text-align: left
+    }
+}
+
+@media all and (max-width:650px) {
+    .frontPage div.assets-part h2 {
+        text-align: center
+    }
+    .frontPage div.assets-part h2 br {
+        display: none
+    }
+    .frontPage div.assets-part .assets-part-img {
+        margin-left: 0;
+        width: 100%
+    }
+    .frontPage div.assets-part .assets-part-img>div {
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .frontPage div.assets-part .assets-part-img>div img {
+        display: block;
+        float: none;
+        margin: auto;
+        max-width: 100%
+    }
+    .frontPage .features h2 {
+        margin-bottom: 0
+    }
+    .frontPage .features .seperator {
+        margin-bottom: 20px
+    }
+    .frontPage .testimonial h3 {
+        font-size: 18px
+    }
+    .frontPage .testimonial .testimonials-text {
+        max-width: 100%;
+        margin-top: 20px
+    }
+    .frontPage .testimonial .key-points img {
+        margin: auto !important;
+        display: block !important;
+        float: none !important
+    }
+    .frontPage .testimonial .key-points p {
+        margin-top: 0 !important;
+        padding-left: 10px
+    }
+    .frontPage .testimonial .theme-tabs-nav {
+        max-width: 100%
+    }
+    .frontPage .testimonial .theme-tabs-nav .theme-tab-nav {
+        width: 100%;
+        margin: 15px 0 0;
+        min-height: auto
+    }
+}
+
+@media all and (max-width:500px) {
+    .cosmos .part-b .img img {
+        display: block;
+        float: none;
+        margin: auto
+    }
+    .frontPage div.assets-part h2 {
+        text-align: center
+    }
+    .frontPage div.assets-part h2 br {
+        display: none
+    }
+}

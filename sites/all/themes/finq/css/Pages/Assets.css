@@ -1,0 +1,431 @@
+.assets.commodities .main-plain-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/commodities/assets-banner-commodities.png") no-repeat scroll bottom center / cover;
+}
+
+.assets.commodities .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.stocks .main-plain-banner {
+      background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/stocks/assets-banner-stocks.png") no-repeat scroll bottom center / cover;  
+}
+
+.assets.stocks .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.forex .main-plain-banner {
+     background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/forex/assets-banner-forex.png") no-repeat scroll bottom center / cover; 
+}
+
+.assets.forex .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.forex .main-plain-banner .col-mg-15_15 .text {
+    max-width: 1300px;
+}
+
+.assets.indices .main-plain-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/indices/assets-banner-indices.png") no-repeat scroll bottom center / cover;
+}
+
+.assets.indices .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.indices .main-plain-banner .col-mg-15_15 .text {
+    max-width: 1300px;
+}
+
+.assets.bonds .main-plain-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/bonds/assets-banner-bonds.png") no-repeat scroll bottom center / cover;
+}
+
+.assets.bonds .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.bonds .main-plain-banner .col-mg-15_15 .text {
+    max-width: 1300px;
+}
+
+.assets.etfs .main-plain-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/etfs/assets-banner-etfs.png") no-repeat scroll bottom center / cover;
+}
+
+.assets.etfs .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.etfs .main-plain-banner .col-mg-15_15 .text {
+    max-width: 1300px;
+}
+
+.assets.crypto .main-plain-banner {
+    background: #fff url("/sites/all/themes/finq/images/v2.0/pages/assets/crypto/assets-banner-crypto.png") no-repeat scroll bottom center / cover;
+}
+
+.assets.crypto .main-plain-banner .col-mg-15_15 {
+    padding: 90px 0px;
+}
+
+.assets.crypto .main-plain-banner .col-mg-15_15 .text {
+    max-width: 1300px;
+}
+
+.assets .theme-content {
+    max-width: 1786px;
+    width: 100%;
+}
+
+.assets .theme-content .text {
+    max-width: 1100px;
+    padding: 75px 0px;
+}
+
+.assets .theme-content .text h1 {
+    font-size: 65px;
+    font-weight: 300;
+    color: white;
+}
+
+.assets .theme-content .border-left-gold {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-left: 15px solid #ddae53;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 55px;
+    padding-left: 37px;
+}
+
+.assets .theme-content .border-left-gold>a {
+    margin-top: 0px;
+}
+
+.assets .theme-content h2 {
+    font-size: 40px;
+}
+
+.assets .theme-content p.subtitle {
+    font-size: 24px;
+}
+
+.assets .theme-content p {
+    font-size: 18px;
+}
+
+.assets .banner2 {
+    background-image: linear-gradient(to right, #fff 50%, #e6e6e6 50%);
+}
+
+.assets .banner2 .assets-description {
+    padding: 50px;
+}
+
+.assets .banner2 .assets-description h2 {
+    font-weight: 700;
+    color: black;
+    font-size: 40px;
+}
+
+.assets .banner2 .assets-description p {
+    padding: 10px 0;
+    color: #9d9d9d;
+    font-size: 18px;
+}
+
+.assets .banner2 .assets-table {
+    padding: 35px 50px 50px;
+    margin-top: -110px;
+    background: #e6e6e6;
+}
+
+.assets .banner2 .assets-table h2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.assets .banner2 .assets-table #market-stats {
+    background-color: #e6e6e6;
+}
+
+.assets .banner2 .assets-table input#edit-instrument {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #d9ab53 !important;
+    font-size: 24px;
+    color: #000000;
+    padding-left: 26px;
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/icons/search-instriments-black.png") no-repeat 97% center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.assets .banner2 .assets-table #instruments-search-form #autocomplete {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+.assets .banner2 .assets-table #instruments-search-form #autocomplete ul li {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 25px;
+}
+
+.assets .banner2 .assets-table #instruments-search-form #autocomplete ul li.selected {
+    background-color: #dcad54;
+}
+
+.assets .banner2 .border-left-gold {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-left: 15px solid #ddae53;
+    margin-top: 55px;
+    padding: 20px 37px;
+}
+
+.assets .banner2 .border-left-gold>a {
+    margin-top: 0px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.assets .banner3 {
+    background: #1f1f23 url("/sites/all/themes/finq/images/v2.0/pages/assets/assets-banner3.png") no-repeat center center;
+}
+
+.assets .banner3 .assets-description {
+    padding: 210px 0 50px;
+}
+
+.assets .banner3 .assets-description h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.assets .banner3 .assets-description p {
+    padding-bottom: 35px;
+}
+
+.assets .banner3 .assets-description h2,
+.assets .banner3 .assets-description p {
+    color: #ffffff;
+}
+
+.assets .banner3 .assets-description .btn-gold {
+    padding: 15px;
+}
+
+.assets .banner3 .assets-description .btn-transparent {
+    border: 2px solid #363639;
+    color: #ffffff;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.assets .banner3 .assets-image-right {
+    margin: -100px 0;
+    overflow-x: hidden;
+}
+
+.assets .banner3 .assets-image-right img {
+    z-index: 1;
+    position: relative;
+    padding-top: 60px;
+}
+
+.assets .banner4 {
+    background: #1f1f23 url("/sites/all/themes/finq/images/v2.0/pages/assets/assets-banner4.png") no-repeat center/ cover;
+}
+
+.assets .banner4 .col-6_12 {
+    padding: 100px 0;
+}
+
+.assets .banner4 .col-6_12 h2 {
+    font-weight: 700;
+}
+.assets .banner4 .col-6_12 p {
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.assets .banner4 .col-6_12 h2,
+.assets .banner4 .col-6_12 p {
+    /* color: #ffffff; */
+    color:chocolate; 
+    float: left;
+}
+
+.assets .banner4 .col-6_12.assets-trends {
+    padding: 100px 35px 115px 80px;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 {
+    position: relative;
+    background-color: #0a0a0d;
+    margin-top: 20px;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 img {
+    width: 100%;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .red {
+    background-color: #ed1c24;
+    height: 7px;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .green {
+    background-color: #0d9d0d;
+    height: 7px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .short-positions {
+    font-size: 16px;
+    color: #4d4d4e;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .short-positions span {
+    color: #ed1c24;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .long-positions {
+    font-size: 16px;
+    color: #4d4d4e;
+    float: right;
+}
+
+.assets .banner4 .col-6_12.assets-trends .col-mg-5_15 .description-asset .long-positions span {
+    color: #0d9d0d;
+}
+
+body.i18n-ur .assets .banner2 .col-6_12.assets-description .border-left-gold,
+body.i18n-ar .assets .banner2 .col-6_12.assets-description .border-left-gold {
+    border-right: 15px solid #ddae53;
+    border-left: 0;
+}
+
+body.i18n-ur .assets .banner2 input#edit-instrument,
+body.i18n-ar .assets .banner2 input#edit-instrument {
+    padding-right: 26px;
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/icons/search-instriments-black.png") no-repeat 3% center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+body.i18n-ur .assets .banner3 .col-6_12:nth-child(2) img,
+body.i18n-ar .assets .banner3 .col-6_12:nth-child(2) img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 961px)and (max-width: 1200px) {
+    .i18n-ur .assets .banner3 .assets-image-right,
+    .i18n-ar .assets .banner3 .assets-image-right {
+        margin: -20px 0px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px),
+only screen and (max-width: 719px) {
+    .assets .banner2 .assets-description {
+        padding: 100px 10px;
+        background-color: #ffffff;
+        width: 100%;
+    }
+    .assets .banner2 .assets-table {
+        padding: 100px 10px;
+        background-color: #e6e6e6;
+        width: 100%;
+        margin-top: 0;
+    }
+    .assets .banner3 .assets-description {
+        width: 100%;
+        padding: 100px 10px;
+    }
+    .assets .banner3 .assets-description .col-5_12,
+    .assets .banner3 .assets-description .col-7_12 {
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .assets .banner3 .assets-image-right {
+        display: none;
+    }
+    .assets .banner4 .assets-trends {
+        width: 100%;
+        padding: 100px 10px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    .assets .banner3 .col-6_12.assets-description .col-5_12,
+    .assets .banner3 .col-6_12.assets-description .col-7_12 {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    .assets .banner3 .col-6_12.assets-description .col-5_12,
+    .assets .banner3 .col-6_12.assets-description .col-7_12 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .assets .banner4 .col-6_12:nth-child(1) {
+        display: none;
+    }
+    .assets .banner4 .col-6_12.assets-trends {
+        padding: 100px 10px;
+    }
+    .assets .banner4 .col-6_12.assets-trends h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .assets .banner4 .col-6_12.assets-trends p {
+        text-align: justify;
+        padding-bottom: 15px;
+    }
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15 {
+        margin-top: 8px;
+        margin-left: 0px;
+        width: 49%;
+    }
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15 p {
+        display: block;
+        position: relative;
+        text-align: left;
+        color: #dcad54;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15 img {
+        display: none;
+    }
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15:nth-child(2),
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15:nth-child(4),
+    .assets .banner4 .col-6_12.assets-trends .col-mg-5_15:nth-child(6) {
+        margin-left: 2%;
+    }
+}

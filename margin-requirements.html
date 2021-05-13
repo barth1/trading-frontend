@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" dir="ltr" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        (window.NREUM || (NREUM = {})).loader_config = {
+            licenseKey: "45fdd47439",
+            applicationID: "5704333"
+        };
+        window.NREUM || (NREUM = {}), __nr_require = function(e, t, n) {
+            function r(n) {
+                if (!t[n]) {
+                    var i = t[n] = {
+                        exports: {}
+                    };
+                    e[n][0].call(i.exports, function(t) {
+                        var i = e[n][1][t];
+                        return r(i || t)
+                    }, i, i.exports)
+                }
+                return t[n].exports
+            }
+            if ("function" == typeof __nr_require) return __nr_require;
+            for (var i = 0; i < n.length; i++) r(n[i]);
+            return r
+        }({
+            1: [function(e, t, n) {
+                function r() {}
+
+                function i(e, t, n) {
+                    return function() {
+                        return o(e, [u.now()].concat(c(arguments)), t ? null : this, n), t ? void 0 : this
+                    }
+                }
+                var o = e("handle"),
+                    a = e(7),
+                    c = e(8),
+                    f = e("ee").get("tracer"),
+                    u = e("loader"),
+                    s = NREUM;
+                "undefined" == typeof window.newrelic && (newrelic = s);
+                var d = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"],
+                    p = "api-",
+                    l = p + "ixn-";
+                a(d, function(e, t) {
+                    s[t] = i(p + t, !0, "api")
+                }), s.addPageAction = i(p + "addPageAction", !0), s.setCurrentRouteName = i(p + "routeName", !0), t.exports = newrelic, s.interaction = function() {
+                    return (new r).get()
+                };
+                var m = r.prototype = {
+                    createTracer: function(e, t) {
+                        var n = {},
+                            r = this,
+                            i = "function" == typeof t;
+                        return o(l + "tracer", [u.now(), e, n], r),
+                            function() {
+                                if (f.emit((i ? "" : "no-") + "fn-start", [u.now(), r, i], n), i) try {
+                                    return t.apply(this, arguments)
+                                } catch (e) {
+                                    throw f.emit("fn-err", [arguments, this, e], n), e
+                                } finally {
+                                    f.emit("fn-end", [u.now()], n)
+                                }
+                            }
+                    }
+                };
+                a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function(e, t) {
+                    m[t] = i(l + t)
+                }), newrelic.noticeError = function(e, t) {
+                    "string" == typeof e && (e = new Error(e)), o("err", [e, u.now(), !1, t])
+                }
+            }, {}],
+            2: [function(e, t, n) {
+                function r() {
+                    return c.exists && performance.now ? Math.round(performance.now()) : (o = Math.max((new Date).getTime(), o)) - a
+                }
+
+                function i() {
+                    return o
+                }
+                var o = (new Date).getTime(),
+                    a = o,
+                    c = e(9);
+                t.exports = r, t.exports.offset = a, t.exports.getLastTimestamp = i
+            }, {}],
+            3: [function(e, t, n) {
+                function r(e) {
+                    return !(!e || !e.protocol || "file:" === e.protocol)
+                }
+                t.exports = r
+            }, {}],
+            4: [function(e, t, n) {
+                function r(e, t) {
+                    var n = e.getEntries();
+                    n.forEach(function(e) {
+                        "first-paint" === e.name ? d("timing", ["fp", Math.floor(e.startTime)]) : "first-contentful-paint" === e.name && d("timing", ["fcp", Math.floor(e.startTime)])
+                    })
+                }
+
+                function i(e, t) {
+                    var n = e.getEntries();
+                    n.length > 0 && d("lcp", [n[n.length - 1]])
+                }
+
+                function o(e) {
+                    e.getEntries().forEach(function(e) {
+                        e.hadRecentInput || d("cls", [e])
+                    })
+                }
+
+                function a(e) {
+                    if (e instanceof m && !g) {
+                        var t = Math.round(e.timeStamp),
+                            n = {
+                                type: e.type
+                            };
+                        t <= p.now() ? n.fid = p.now() - t : t > p.offset && t <= Date.now() ? (t -= p.offset, n.fid = p.now() - t) : t = p.now(), g = !0, d("timing", ["fi", t, n])
+                    }
+                }
+
+                function c(e) {
+                    d("pageHide", [p.now(), e])
+                }
+                if (!("init" in NREUM && "page_view_timing" in NREUM.init && "enabled" in NREUM.init.page_view_timing && NREUM.init.page_view_timing.enabled === !1)) {
+                    var f, u, s, d = e("handle"),
+                        p = e("loader"),
+                        l = e(6),
+                        m = NREUM.o.EV;
+                    if ("PerformanceObserver" in window && "function" == typeof window.PerformanceObserver) {
+                        f = new PerformanceObserver(r);
+                        try {
+                            f.observe({
+                                entryTypes: ["paint"]
+                            })
+                        } catch (v) {}
+                        u = new PerformanceObserver(i);
+                        try {
+                            u.observe({
+                                entryTypes: ["largest-contentful-paint"]
+                            })
+                        } catch (v) {}
+                        s = new PerformanceObserver(o);
+                        try {
+                            s.observe({
+                                type: "layout-shift",
+                                buffered: !0
+                            })
+                        } catch (v) {}
+                    }
+                    if ("addEventListener" in document) {
+                        var g = !1,
+                            w = ["click", "keydown", "mousedown", "pointerdown", "touchstart"];
+                        w.forEach(function(e) {
+                            document.addEventListener(e, a, !1)
+                        })
+                    }
+                    l(c)
+                }
+            }, {}],
+            5: [function(e, t, n) {
+                function r(e, t) {
+                    if (!i) return !1;
+                    if (e !== i) return !1;
+                    if (!t) return !0;
+                    if (!o) return !1;
+                    for (var n = o.split("."), r = t.split("."), a = 0; a < r.length; a++)
+                        if (r[a] !== n[a]) return !1;
+                    return !0
+                }
+                var i = null,
+                    o = null,
+                    a = /Version\/(\S+)\s+Safari/;
+                if (navigator.userAgent) {
+                    var c = navigator.userAgent,
+                        f = c.match(a);
+                    f && c.indexOf("Chrome") === -1 && c.indexOf("Chromium") === -1 && (i = "Safari", o = f[1])
+                }
+                t.exports = {
+                    agent: i,
+                    version: o,
+                    match: r
+                }
+            }, {}],
+            6: [function(e, t, n) {
+                function r(e) {
+                    function t() {
+                        e(a && document[a] ? document[a] : document[i] ? "hidden" : "visible")
+                    }
+                    "addEventListener" in document && o && document.addEventListener(o, t, !1)
+                }
+                t.exports = r;
+                var i, o, a;
+                "undefined" != typeof document.hidden ? (i = "hidden", o = "visibilitychange", a = "visibilityState") : "undefined" != typeof document.msHidden ? (i = "msHidden", o = "msvisibilitychange") : "undefined" != typeof document.webkitHidden && (i = "webkitHidden", o = "webkitvisibilitychange", a = "webkitVisibilityState")
+            }, {}],
+            7: [function(e, t, n) {
+                function r(e, t) {
+                    var n = [],
+                        r = "",
+                        o = 0;
+                    for (r in e) i.call(e, r) && (n[o] = t(r, e[r]), o += 1);
+                    return n
+                }
+                var i = Object.prototype.hasOwnProperty;
+                t.exports = r
+            }, {}],
+            8: [function(e, t, n) {
+                function r(e, t, n) {
+                    t || (t = 0), "undefined" == typeof n && (n = e ? e.length : 0);
+                    for (var r = -1, i = n - t || 0, o = Array(i < 0 ? 0 : i); ++r < i;) o[r] = e[t + r];
+                    return o
+                }
+                t.exports = r
+            }, {}],
+            9: [function(e, t, n) {
+                t.exports = {
+                    exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart
+                }
+            }, {}],
+            ee: [function(e, t, n) {
+                function r() {}
+
+                function i(e) {
+                    function t(e) {
+                        return e && e instanceof r ? e : e ? u(e, f, a) : a()
+                    }
+
+                    function n(n, r, i, o, a) {
+                        if (a !== !1 && (a = !0), !l.aborted || o) {
+                            e && a && e(n, r, i);
+                            for (var c = t(i), f = v(n), u = f.length, s = 0; s < u; s++) f[s].apply(c, r);
+                            var p = d[h[n]];
+                            return p && p.push([b, n, r, c]), c
+                        }
+                    }
+
+                    function o(e, t) {
+                        y[e] = v(e).concat(t)
+                    }
+
+                    function m(e, t) {
+                        var n = y[e];
+                        if (n)
+                            for (var r = 0; r < n.length; r++) n[r] === t && n.splice(r, 1)
+                    }
+
+                    function v(e) {
+                        return y[e] || []
+                    }
+
+                    function g(e) {
+                        return p[e] = p[e] || i(n)
+                    }
+
+                    function w(e, t) {
+                        s(e, function(e, n) {
+                            t = t || "feature", h[n] = t, t in d || (d[t] = [])
+                        })
+                    }
+                    var y = {},
+                        h = {},
+                        b = {
+                            on: o,
+                            addEventListener: o,
+                            removeEventListener: m,
+                            emit: n,
+                            get: g,
+                            listeners: v,
+                            context: t,
+                            buffer: w,
+                            abort: c,
+                            aborted: !1
+                        };
+                    return b
+                }
+
+                function o(e) {
+                    return u(e, f, a)
+                }
+
+                function a() {
+                    return new r
+                }
+
+                function c() {
+                    (d.api || d.feature) && (l.aborted = !0, d = l.backlog = {})
+                }
+                var f = "nr@context",
+                    u = e("gos"),
+                    s = e(7),
+                    d = {},
+                    p = {},
+                    l = t.exports = i();
+                t.exports.getOrSetContext = o, l.backlog = d
+            }, {}],
+            gos: [function(e, t, n) {
+                function r(e, t, n) {
+                    if (i.call(e, t)) return e[t];
+                    var r = n();
+                    if (Object.defineProperty && Object.keys) try {
+                        return Object.defineProperty(e, t, {
+                            value: r,
+                            writable: !0,
+                            enumerable: !1
+                        }), r
+                    } catch (o) {}
+                    return e[t] = r, r
+                }
+                var i = Object.prototype.hasOwnProperty;
+                t.exports = r
+            }, {}],
+            handle: [function(e, t, n) {
+                function r(e, t, n, r) {
+                    i.buffer([e], r), i.emit(e, t, n)
+                }
+                var i = e("ee").get("handle");
+                t.exports = r, r.ee = i
+            }, {}],
+            id: [function(e, t, n) {
+                function r(e) {
+                    var t = typeof e;
+                    return !e || "object" !== t && "function" !== t ? -1 : e === window ? 0 : a(e, o, function() {
+                        return i++
+                    })
+                }
+                var i = 1,
+                    o = "nr@id",
+                    a = e("gos");
+                t.exports = r
+            }, {}],
+            loader: [function(e, t, n) {
+                function r() {
+                    if (!E++) {
+                        var e = x.info = NREUM.info,
+                            t = l.getElementsByTagName("script")[0];
+                        if (setTimeout(u.abort, 3e4), !(e && e.licenseKey && e.applicationID && t)) return u.abort();
+                        f(h, function(t, n) {
+                            e[t] || (e[t] = n)
+                        });
+                        var n = a();
+                        c("mark", ["onload", n + x.offset], null, "api"), c("timing", ["load", n]);
+                        var r = l.createElement("script");
+                        r.src = "https://" + e.agent, t.parentNode.insertBefore(r, t)
+                    }
+                }
+
+                function i() {
+                    "complete" === l.readyState && o()
+                }
+
+                function o() {
+                    c("mark", ["domContent", a() + x.offset], null, "api")
+                }
+                var a = e(2),
+                    c = e("handle"),
+                    f = e(7),
+                    u = e("ee"),
+                    s = e(5),
+                    d = e(3),
+                    p = window,
+                    l = p.document,
+                    m = "addEventListener",
+                    v = "attachEvent",
+                    g = p.XMLHttpRequest,
+                    w = g && g.prototype;
+                if (d(p.location)) {
+                    NREUM.o = {
+                        ST: setTimeout,
+                        SI: p.setImmediate,
+                        CT: clearTimeout,
+                        XHR: g,
+                        REQ: p.Request,
+                        EV: p.Event,
+                        PR: p.Promise,
+                        MO: p.MutationObserver
+                    };
+                    var y = "" + location,
+                        h = {
+                            beacon: "bam.nr-data.net",
+                            errorBeacon: "bam.nr-data.net",
+                            agent: "js-agent.newrelic.com/nr-1208.min.js"
+                        },
+                        b = g && w && w[m] && !/CriOS/.test(navigator.userAgent),
+                        x = t.exports = {
+                            offset: a.getLastTimestamp(),
+                            now: a,
+                            origin: y,
+                            features: {},
+                            xhrWrappable: b,
+                            userAgent: s
+                        };
+                    e(1), e(4), l[m] ? (l[m]("DOMContentLoaded", o, !1), p[m]("load", r, !1)) : (l[v]("onreadystatechange", i), p[v]("onload", r)), c("mark", ["firstbyte", a.getLastTimestamp()], null, "api");
+                    var E = 0
+                }
+            }, {}],
+            "wrap-function": [function(e, t, n) {
+                function r(e, t) {
+                    function n(t, n, r, f, u) {
+                        function nrWrapper() {
+                            var o, a, s, p;
+                            try {
+                                a = this, o = d(arguments), s = "function" == typeof r ? r(o, a) : r || {}
+                            } catch (l) {
+                                i([l, "", [o, a, f], s], e)
+                            }
+                            c(n + "start", [o, a, f], s, u);
+                            try {
+                                return p = t.apply(a, o)
+                            } catch (m) {
+                                throw c(n + "err", [o, a, m], s, u), m
+                            } finally {
+                                c(n + "end", [o, a, p], s, u)
+                            }
+                        }
+                        return a(t) ? t : (n || (n = ""), nrWrapper[p] = t, o(t, nrWrapper, e), nrWrapper)
+                    }
+
+                    function r(e, t, r, i, o) {
+                        r || (r = "");
+                        var c, f, u, s = "-" === r.charAt(0);
+                        for (u = 0; u < t.length; u++) f = t[u], c = e[f], a(c) || (e[f] = n(c, s ? f + r : r, i, f, o))
+                    }
+
+                    function c(n, r, o, a) {
+                        if (!m || t) {
+                            var c = m;
+                            m = !0;
+                            try {
+                                e.emit(n, r, o, t, a)
+                            } catch (f) {
+                                i([f, n, r, o], e)
+                            }
+                            m = c
+                        }
+                    }
+                    return e || (e = s), n.inPlace = r, n.flag = p, n
+                }
+
+                function i(e, t) {
+                    t || (t = s);
+                    try {
+                        t.emit("internal-error", e)
+                    } catch (n) {}
+                }
+
+                function o(e, t, n) {
+                    if (Object.defineProperty && Object.keys) try {
+                        var r = Object.keys(e);
+                        return r.forEach(function(n) {
+                            Object.defineProperty(t, n, {
+                                get: function() {
+                                    return e[n]
+                                },
+                                set: function(t) {
+                                    return e[n] = t, t
+                                }
+                            })
+                        }), t
+                    } catch (o) {
+                        i([o], n)
+                    }
+                    for (var a in e) l.call(e, a) && (t[a] = e[a]);
+                    return t
+                }
+
+                function a(e) {
+                    return !(e && e instanceof Function && e.apply && !e[p])
+                }
+
+                function c(e, t) {
+                    var n = t(e);
+                    return n[p] = e, o(e, n, s), n
+                }
+
+                function f(e, t, n) {
+                    var r = e[t];
+                    e[t] = c(r, n)
+                }
+
+                function u() {
+                    for (var e = arguments.length, t = new Array(e), n = 0; n < e; ++n) t[n] = arguments[n];
+                    return t
+                }
+                var s = e("ee"),
+                    d = e(8),
+                    p = "nr@original",
+                    l = Object.prototype.hasOwnProperty,
+                    m = !1;
+                t.exports = r, t.exports.wrapFunction = c, t.exports.wrapInPlace = f, t.exports.argsToArray = u
+            }, {}]
+        }, {}, ["loader"]);
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="google-play-app" content="app-id=com.finq.android">
+
+
+    <meta property="og:image" content="http://www.finq.com/sites/all/themes/finq/images/v2.0/social-media/finq-share.jpg" />
+
+
+
+
+
+
+    <link href="/sites/all/themes/finq/images/Favicon/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+	-->
+
+    <!--<link rel="stylesheet" href="/sites/all/themes/finq/css/Common/Alert.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Common/Button.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Common/Dom-Elements.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Common/Responsive.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Common/Breadcrumb-Navigation.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Blocks/Header.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Blocks/Footer.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Blocks/Apps.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Blocks/Security.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Blocks/Assets-block.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/Bootrap-Navigation.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/MainPlainBanner.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/Tab.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/Tooltip.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/Panel.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Components/Language-Switcher.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Front.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Platforms.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Assets.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Article.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Regulation.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Widgets.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Cfds-List.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Contact-us.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/About-us.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/Faq.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/Pages/News.css" />
+	<link rel="stylesheet" href="/sites/all/themes/finq/css/v2.0/pages/front.css" />-->
+    <!---->
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="/sites/all/themes/finq/js/WidgetCommunicator.js"></script>
+    <script src="/sites/all/themes/finq/js/Base64.js"></script>
+    <script src="/sites/all/themes/finq/js/Tabs.js"></script>
+    <script type="text/javascript" src="/sites/all/themes/finq/js/slick/slick.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-itunes-app" content="app-id=1280873475" />
+    <meta name="trustpilot-one-time-domain-verification-id" content="NfwhoLzma9l4TJyhqRLhOLwCB6A132RqQy6yEScd" />
+    <meta name="description" content="Please review this page to learn about Forex and CFD Margin Requirements.  Customers should maintain the Minimum Margin Requirement on their Open Positions at all times in order to avoid close out. Finq.com has the right to liquidate any or all Open Positions whenever the Minimum Margin Requirement is not maintained. "
+    />
+    <meta name="generator" content="FINQ.com" />
+    <link rel="canonical" href="margin-requirements.html" />
+    <link rel="shortlink" href="https://www.finq.com/en/node/619577" />
+
+
+    <title>Margin Requirements | Finq.com</title>
+
+    <style type="text/css" media="all">
+        @import url("/modules/system/system.base.css?qsp1az");
+        @import url("/modules/system/system.menus.css?qsp1az");
+        @import url("/modules/system/system.messages.css?qsp1az");
+        @import url("/modules/system/system.theme.css?qsp1az");
+    </style>
+    <style type="text/css" media="all">
+        @import url("/modules/comment/comment.css?qsp1az");
+        @import url("/sites/all/modules/contrib/date/date_api/date.css?qsp1az");
+        @import url("/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?qsp1az");
+        @import url("/modules/field/theme/field.css?qsp1az");
+        @import url("/sites/all/modules/contrib/fitvids/fitvids.css?qsp1az");
+        @import url("/sites/all/modules/footer_sitemap/footer_sitemap.css?qsp1az");
+        @import url("/modules/node/node.css?qsp1az");
+        @import url("/modules/search/search.css?qsp1az");
+        @import url("/sites/all/modules/biotic/tb_menu/css/tb-menu.css?qsp1az");
+        @import url("/sites/all/modules/biotic/tb_menu/css/style-default.css?qsp1az");
+        @import url("/modules/user/user.css?qsp1az");
+        @import url("/sites/all/modules/contrib/views/css/views.css?qsp1az");
+        @import url("/sites/all/modules/contrib/ckeditor/css/ckeditor.css?qsp1az");
+    </style>
+    <style type="text/css" media="all">
+        @import url("/sites/all/modules/contrib/ctools/css/ctools.css?qsp1az");
+        @import url("/sites/all/modules/contrib/responsive_menus/styles/meanMenu/meanmenu.min.css?qsp1az");
+    </style>
+    <style type="text/css" media="all">
+        @import url("/sites/all/themes/finq/css/Common/Alert.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Common/Button.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Common/Dom-Elements.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Common/Responsive.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Common/Breadcrumb-Navigation.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Blocks/Apps.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Blocks/Security.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Blocks/Assets-block.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Blocks/Footer.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/MainPlainBanner.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/Tab.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/Tooltip.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/Panel.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/Language-Switcher.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/ScrollableWidget.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Front.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Platforms.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Assets.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Article.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Regulation.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Widgets.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Cfds-List.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Contact-us.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/About-us.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Faq.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/News.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Pages/Trading-Account-Types.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/v2.0/common/footer.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/v2.0/pages/front.css?qsp1az");
+        @import url("/sites/all/themes/finq/js/slick/slick.css?qsp1az");
+        @import url("/sites/all/themes/finq/css/Components/modals.css?qsp1az");
+    </style>
+    <style type="text/css" media="all">
+        @import url("/sites/all/themes/finq/css/v2.0/pages/tradingview.css?qsp1az");
+    </style>
+
+
+
+
+    <script type="text/javascript" src="/sites/default/files/google_tag/language/google_tag.en.script.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+    <script type="text/javascript" src="/misc/jquery.once.js?v=1.2"></script>
+    <script type="text/javascript" src="/misc/drupal.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/libraries/fitvids/jquery.fitvids.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/dynamic_content/js/dynamic_content.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/fitvids/fitvids.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/infra/js/js.cookie.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/infra/js/mobile-detect.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/infra/js/infra.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/markets/js/markets.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/parameters_tracker/js/parameters_tracker.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/biotic/tb_menu/js/tb-menu.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/lcm/instruments/js/autocomplete.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/behavior_weights/behavior_weights.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/iframe/iframe.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?qsp1az"></script>
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+        ga("create", "UA-57581925-3", {
+            "cookieDomain": "auto",
+            "allowLinker": true
+        });
+        ga("require", "linker");
+        ga("linker:autoLink", ["www.finq.com"]);
+        ga("set", "anonymizeIp", true);
+        ga("send", "pageview");
+    </script>
+    <script type="text/javascript" src="/sites/all/themes/finq/js/v2.0/change-menu.js?qsp1az"></script>
+    <script type="text/javascript">
+        jQuery.extend(Drupal.settings, {
+            "basePath": "\/",
+            "pathPrefix": "en\/",
+            "ajaxPageState": {
+                "theme": "finq",
+                "theme_token": "CHfq-D3Ie-1m1ChUeUMpszrxpROpLGdtMBc25GVfcto",
+                "js": {
+                    "sites\/all\/modules\/contrib\/browserclass\/browserclass.js": 1,
+                    "sites\/all\/modules\/contrib\/addthis\/addthis.js": 1,
+                    "": 1,
+                    "public:\/\/google_tag\/language\/google_tag.en.script.js": 1,
+                    "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js": 1,
+                    "misc\/jquery.once.js": 1,
+                    "misc\/drupal.js": 1,
+                    "sites\/all\/libraries\/fitvids\/jquery.fitvids.js": 1,
+                    "sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js": 1,
+                    "sites\/all\/modules\/lcm\/dynamic_content\/js\/dynamic_content.js": 1,
+                    "sites\/all\/modules\/contrib\/fitvids\/fitvids.js": 1,
+                    "sites\/all\/modules\/lcm\/infra\/js\/js.cookie.js": 1,
+                    "sites\/all\/modules\/lcm\/infra\/js\/mobile-detect.js": 1,
+                    "sites\/all\/modules\/lcm\/infra\/js\/infra.js": 1,
+                    "sites\/all\/modules\/lcm\/markets\/js\/markets.js": 1,
+                    "sites\/all\/modules\/lcm\/parameters_tracker\/js\/parameters_tracker.js": 1,
+                    "sites\/all\/modules\/biotic\/tb_menu\/js\/tb-menu.js": 1,
+                    "misc\/autocomplete.js": 1,
+                    "sites\/all\/modules\/contrib\/behavior_weights\/behavior_weights.js": 1,
+                    "sites\/all\/modules\/contrib\/iframe\/iframe.js": 1,
+                    "sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js": 1,
+                    "sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js": 1,
+                    "sites\/all\/modules\/google_analytics\/googleanalytics.js": 1,
+                    "0": 1,
+                    "sites\/all\/themes\/finq\/js\/v2.0\/change-menu.js": 1
+                },
+                "css": {
+                    "modules\/system\/system.base.css": 1,
+                    "modules\/system\/system.menus.css": 1,
+                    "modules\/system\/system.messages.css": 1,
+                    "modules\/system\/system.theme.css": 1,
+                    "modules\/comment\/comment.css": 1,
+                    "sites\/all\/modules\/contrib\/date\/date_api\/date.css": 1,
+                    "sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css": 1,
+                    "modules\/field\/theme\/field.css": 1,
+                    "sites\/all\/modules\/contrib\/fitvids\/fitvids.css": 1,
+                    "sites\/all\/modules\/footer_sitemap\/footer_sitemap.css": 1,
+                    "modules\/node\/node.css": 1,
+                    "modules\/search\/search.css": 1,
+                    "sites\/all\/modules\/biotic\/tb_menu\/css\/tb-menu.css": 1,
+                    "sites\/all\/modules\/biotic\/tb_menu\/css\/style-default.css": 1,
+                    "modules\/user\/user.css": 1,
+                    "sites\/all\/modules\/contrib\/views\/css\/views.css": 1,
+                    "sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css": 1,
+                    "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+                    "sites\/all\/modules\/contrib\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Common\/Alert.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Common\/Button.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Common\/Dom-Elements.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Common\/Responsive.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Common\/Breadcrumb-Navigation.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Blocks\/Apps.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Blocks\/Security.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Blocks\/Assets-block.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Blocks\/Header.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Blocks\/Footer.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/Bootrap-Navigation.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/MainPlainBanner.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/Tab.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/Tooltip.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/Panel.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/Language-Switcher.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/ScrollableWidget.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Front.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Platforms.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Assets.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Article.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Regulation.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Widgets.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Cfds-List.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Contact-us.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/About-us.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Faq.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/News.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Pages\/Trading-Account-Types.css": 1,
+                    "sites\/all\/themes\/finq\/css\/v2.0\/common\/footer.css": 1,
+                    "sites\/all\/themes\/finq\/css\/v2.0\/common\/header.css": 1,
+                    "sites\/all\/themes\/finq\/css\/v2.0\/pages\/front.css": 1,
+                    "sites\/all\/themes\/finq\/js\/slick\/slick.css": 1,
+                    "sites\/all\/themes\/finq\/css\/Components\/modals.css": 1,
+                    "sites\/all\/themes\/finq\/css\/NewThemeCorrections.css": 1,
+                    "sites\/all\/themes\/finq\/css\/v2.0\/pages\/tradingview.css": 1
+                }
+            },
+            "dynamicContent": {
+                "requestPath": "system\/get-dynamic\/",
+                "language": "en",
+                "countryCode": "NG",
+                "dcLiveRegistrationLinkClientDesktop": "real-registration",
+                "dcLivePlatformLinkClientDesktop": "https:\/\/live-trader.markets.com\/fxclient5\/",
+                "dcLivePlatformLinkClientTabletAndroid": "https:\/\/live-trader.markets.com\/fxclient5\/",
+                "dcLivePlatformLinkClientTabletIos": "https:\/\/live-trader.markets.com\/fxclient5\/",
+                "dcLivePlatformLinkClientMobileAndroid": "http:\/\/app.appsflyer.com\/com.markets.android",
+                "dcLivePlatformLinkClientMobileIos": "http:\/\/app.appsflyer.com\/id875786044",
+                "dcDemoRegistrationLinkClientDesktop": "demo-registration",
+                "dcDemoPlatformLinkClientDesktop": "https:\/\/demo-trader.markets.com\/fxclient5\/",
+                "dcDemoPlatformLinkClientTabletAndroid": "https:\/\/demo-trader.markets.com\/fxclient5\/",
+                "dcDemoPlatformLinkClientTabletIos": "https:\/\/demo-trader.markets.com\/fxclient5\/",
+                "dcDemoPlatformLinkClientMobileAndroid": "",
+                "dcDemoPlatformLinkClientMobileIos": "",
+                "dcCallToActionTextDesktop": "Start Trading Now",
+                "dcCallToActionTextMobile": "Download App",
+                "dcWidgetDomainUrl": "https:\/\/widgets.markets.com",
+                "dcMt4Mobile": "\/mobile-trader-login",
+                "dcMt4Website": "http:\/\/mt4.markets.com\/en",
+                "dcWidgetQuotesDomainUrl": "https:\/\/widget.markets.com",
+                "dcWebtraderLink": "https:\/\/live-trader.markets.com\/fxclient5\/",
+                "dcForbiddenCountries": ""
+            },
+            "marketingTracking": {
+                "dcTrackingCookiesLifeTime": "30"
+            },
+            "contactUsPage": {
+                "dcMarketsContactFormEmailSendFrom": "ContactUsForm@markets.com"
+            },
+            "instruments": {
+                "instrumentsRealTimeData": "https:\/\/api-v2.finq.com\/quotesv2?key=1",
+                "instrumentsChartsData": "https:\/\/api-v2.finq.com\/chartsv2?key=1",
+                "instrumentSearchDataPath": "instruments-data"
+            },
+            "fitvids": {
+                "custom_domains": [],
+                "selectors": ["body\r", "video\r", "#video-box\r", "#block-block-71"],
+                "simplifymarkup": 1
+            },
+            "responsive_menus": [{
+                "selectors": "#main-menu",
+                "container": "body",
+                "trigger_txt": "\u003Cspan \/\u003E\u003Cspan \/\u003E\u003Cspan \/\u003E",
+                "close_txt": "X",
+                "close_size": "18px",
+                "position": "right",
+                "media_size": "1100",
+                "show_children": "1",
+                "expand_children": "1",
+                "expand_txt": ".",
+                "contract_txt": ".",
+                "remove_attrs": "1",
+                "responsive_menus_style": "mean_menu"
+            }],
+            "googleanalytics": {
+                "trackOutbound": 1,
+                "trackMailto": 1,
+                "trackDownload": 1,
+                "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip",
+                "trackDomainMode": 2,
+                "trackCrossDomains": ["www.finq.com"]
+            }
+        });
+
+    </script>
+
+    <script>
+        (function(w, d, t, r, u) {
+            var f, n, i;
+            w[u] = w[u] || [], f = function() {
+                var o = {
+                    ti: "25052138"
+                };
+                o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+            }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function() {
+                var s = this.readyState;
+                s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+            }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+        })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
+    </script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Components/Navigation.css?v=6" />
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Common/Pull.css" />
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Common/Buttons.css" />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Container.css' />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Grid.css' />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Display.css' />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Flex.css' />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Spacing.css' />
+    <link rel="stylesheet" href="wow/css/animate.css"> 
+
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Blocks/Header.css?v=16" />
+    <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Blocks/Footer.css?v=1' />
+
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Blocks/Menu.css?v=4" />
+    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Pages/OldThemeCorrections.css?v=3" />
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-619577 node-type-regulation i18n-en">
+
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3VCBR2" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>
+    <div class='full'>
+
+        <div class="header">
+            <div id="navigation-black" class="full header">
+                <div class="header-content full">
+                    <div class="region region-header">
+                        <div id="block-block-100" class="full">
+
+
+                            <div id="header" class="col-12">
+                                <div class="container">
+                                    <div class="region region-header">
+                                        <a href="index.html" id="logo" class="pull-left">
+    <img class="d-sm-none" alt="Trading the global markets" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo.svg" />
+    <div class="d-none d-sm-block">
+        <img alt="Trading the global markets" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w.svg" />
+    </div>
+</a>
+                                        <button class="navbar-toggler collapsed menu-button" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="icon-bar top-bar"></span>
+    <span class="icon-bar middle-bar"></span>
+    <span class="icon-bar bottom-bar"></span>
+</button>
+                                        <nav id="LangNavbar" class="navbar navigation-area d-none d-xl-block pull-right">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="languagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span>en</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+                                                    <div class="dropdown-menu animate slideIn" aria-labelledby="languagesDropdown">
+                                                        <a href='/en/margin-requirements'>English</a>
+                                                        <!--<a href='/sq/margin-requirements'>Shqip</a>-->
+                                                        <a href='/ar/margin-requirements'>العربية</a>
+                                                        <a href='/zh/margin-requirements'> 简体中文</a>
+                                                        <a href='/id/margin-requirements'>Bahasa Indonesia</a>
+                                                        <a href='/ms/margin-requirements'>Bahasa Melayu</a>
+                                                        <a href='/ru/margin-requirements'>Русский</a>
+                                                        <a href='/es/margin-requirements'>Español</a>
+                                                        <a href='/ur/margin-requirements'>اردو</a>
+                                                        <a href='/vi/margin-requirements'>Tiếng Việt</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                        <nav id="MainNavbar" class="navbar navigation-area pull-right mt-10">
+                                            <div class="navbar-collapse">
+                                                <ul class="nav navbar-nav">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">
+                    Home
+                </a>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="assetsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span>Equity</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+                                                        <div class="dropdown-menu animate slideIn" aria-labelledby="assetsDropdown" style="">
+                                                            <a href="equity.html">Equity</a>
+                                                            <a href="stocks.html">Stocks</a>
+                                                            <a href="forex.html">Forex</a>
+                                                            <a href="crypto.html">Crypto</a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span>Resources</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+                                                        <div class="dropdown-menu animate slideIn" aria-labelledby="resourcesDropdown" style="">
+                                                            <a href="refer-friend.html">Refer a friend</a>
+                                                            <a href="rollovers-dates.html">CFD Expiration Dates</a>
+                                                            <a href="webtrader-app-faq.html">Webtrader App-FAQ</a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="platformsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span>About Us</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+                                                        <div class="dropdown-menu animate slideIn" aria-labelledby="platformsDropdown" style="">
+                                                            <a href="about-us.html">Who are we</a>
+                                                            <a href="contact.html">Contact Us</a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="trading-accounts.html">
+                    Accounts
+                </a>
+                                                    </li>
+                                                    <li class="nav-item nav-item-btn">
+                                                        <!--btn-promo-->
+                                                        <a style="height: 20px;" class="btn btn-gold" href="live-registration.html">
+Start Trading
+</a>
+
+
+
+                                                    </li>
+                                                    <li class="nav-item nav-item-btn">
+                                                        <a class="nav-link" href="login.html">
+                    LOGIN
+                </a>
+                                                    </li>
+                                                    <li class="nav-item dropdown d-xl-none">
+                                                        <a class="nav-link dropdown-toggle" href="#" id="languagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span>en</span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+                                                        <div class="dropdown-menu animate slideIn" aria-labelledby="languagesDropdown">
+                                                            <a href='/en/margin-requirements'>English</a>
+                                                            <!--<a href='/sq/margin-requirements'>Shqip</a>-->
+                                                            <a href='/ar/margin-requirements'>العربية</a>
+                                                            <a href='/zh/margin-requirements'> 简体中文</a>
+                                                            <a href='/id/margin-requirements'>Bahasa Indonesia</a>
+                                                            <a href='/ms/margin-requirements'>Bahasa Melayu</a>
+                                                            <a href='/ru/margin-requirements'>Русский</a>
+                                                            <a href='/es/margin-requirements'>Español</a>
+                                                            <a href='/ur/margin-requirements'>اردو</a>
+                                                            <a href='/vi/margin-requirements'>Tiếng Việt</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.block -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="full">
+            <div class="tabs"></div>
+            <div class="region region-content">
+                <div id="block-system-main" class="full">
+
+
+                    <div class="full regulation risk-disclosure">
+                        <div class="full comp-main-full-plain-banner">
+                            <span class="btn label-light-blue wow bounceInDown" data-wow-delay="2s" data-wow-offset="10">Margin Requirements</span>
+                        </div>
+                        <div class="full article-content">
+                            <div class="theme-content">
+                                <h1 class="wow slideInLeft" data-wow-delay="2.1s" data-wow-offset="10">Margin Requirements</h1>
+                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                    <div class="field-items">
+                                        <div class="field-item even" property="content:encoded">
+                                            <p class="wow slideInRight" data-wow-delay="2.2s" data-wow-offset="10">Please review this page to learn about Forex and CFD Margin Requirements. </p>
+                                            <p class="wow slideInLeft" data-wow-delay="2.3s" data-wow-offset="10">Customers should maintain the Minimum Margin Requirement on their Open Positions at all times in order to avoid close out.</p>
+                                            <p class="wow slideInRight" data-wow-delay="2.4s" data-wow-offset="10">Finq.com has the right to liquidate any or all Open Positions whenever the Minimum Margin Requirement is not maintained. </p>
+                                            <p class="wow slideInLeft" data-wow-delay="2.5s" data-wow-offset="10">Margin requirements are subject to change at any time. In order to prevent any confusion, Finq.com, at its best effort, will inform customers about any projected changes on Margin Requirements by email and via
+                                                the messaging system of the trading platform at least a week before changes are implemented.</p>
+                                            <p> </p>
+                                            <p class="wow slideInRight" data-wow-delay="2.6s" data-wow-offset="10"><strong>MARGIN REQUIREMENT LEVELS</strong></p>
+                                            <p class="wow slideInLeft" data-wow-delay="2.7s" data-wow-offset="10">Margin requirements are calculated by dividing the true dollar value of a position by the maximum leverage allowed for that trading instrument. <br /><strong>Example A:</strong> <br /> 35,000 EURUSD position
+                                                at 1.4000 <br /> 35,000 x 1.4000 (dollar value of 1 Euro)/200(maximum leverage) = $245 <br /><strong>Example B:</strong> <br /> What is the margin requirement of 1,400,000 USD/JPY position? <br /><strong>Answer:</strong> <br
+                                                /> 1,400,000 has a 0.5% margin requirement (200:1 leverage) which equals: $7,000</p>
+                                            <p> </p>
+                                            <p class="wow slideInRight" data-wow-delay="2.8s" data-wow-offset="10"><strong>MARGIN CALLS</strong></p>
+                                            <p class="wow slideInLeft" data-wow-delay="2.9s" data-wow-offset="10">If you are a Finq.com Web/Mobile Trader platform client, in the event that the value of your positions falls below 100% of the Initial Margin requirement, we will send you an email and / or any other notification.</p>
+                                            <p class="wow slideInRight" data-wow-delay="3s" data-wow-offset="10">Note that if you are an MT4 client, you will not be receiving any specific notifications at the 100% level. Therefore, customers are advised to log into their trading platform on a regular basis to ensure they
+                                                monitor their margin level of their positions.</p>
+                                            <p class="wow slideInLeft" data-wow-delay="3.1s" data-wow-offset="10">Please note that this is an additional service from us to you and does not create any obligation or responsibility on us, for either the performance of your trading account, or for notifying you of the current
+                                                margin level and the action that you may wish to take. Please monitor the performance of your positions on an ongoing basis. Once an account reaches a Margin Call warning level, it is possible that the margin
+                                                level could increase above 100%. Should this happen the Margin Call process will reset. If the Margin Call Warning levels are reached again, the Margin Call process will start again. Closure of positions
+                                                will be done on the basis of best execution prices available to Finq.com at that time.</p>
+                                            <p class="wow slideInRight" data-wow-delay="3.2s" data-wow-offset="10">We reserve the right, acting reasonably, to change at our discretion and with or without prior notice to you, the minimum Margin / Close Out level, in anticipation of evolving market conditions. We do not have
+                                                any obligation and we will not be notifying you of the execution of the Close Out when the Close Out level is at 50%.</p>
+                                            <p class="wow slideInLeft" data-wow-delay="3.3s" data-wow-offset="10">You should consider the following options when in margin call:</p>
+                                            <ul>
+                                                <li class="wow slideInRight" data-wow-delay="3.4s" data-wow-offset="10">If you anticipate that the market will turn back in your favour, you may deposit additional funds and/or keep your position(s) open</li>
+                                                <li class="wow slideInLeft" data-wow-delay="3.5s" data-wow-offset="10">Close or hedge some or all of your positions</li>
+                                            </ul>
+                                            <p class="wow slideInRight" data-wow-delay="3.6s" data-wow-offset="10">Customers are responsible for placing their own Stop Loss Orders to minimize losses. In addition, Finq.com may, from time to time and at our best effort, contact the Customer and request that the Customer considers
+                                                the above-mentioned options. Any call for additional margin shall not be deemed precedent for future calls nor future waiver of liquidation rights by Finq.com.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- /.block -->
+
+            </div>
+        </div>
+
+
+        <div id="footer" class="col-12">
+            <div class="region region-footer">
+                <div id="block-block-86" class="full">
+    
+    
+                    <div class="full social-media" style="display: none;">
+                        <div class="full">
+                            <div class="col-5_12">
+                                <span class="wow slideInLeft" data-wow-delay="3.7s" data-wow-offset="10">Stay in touch</span>
+                                <a href="https://www.facebook.com/"><img class="gray-img facebook"src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img facebook" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                                <a href="https://twitter.com/"><img class="gray-img twitter" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img twitter" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                                <!--<a><img class="gray-img" src="/sites/all/themes/finq/images/v2.0/social-media/footer_ico_youtube.png"><img class="white-img" src="/sites/all/themes/finq/images/v2.0/social-media/footer_ico_youtube_white.png"></a>-->
+                                <a href="https://www.instagram.com/"><img class="gray-img instagram" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img instagram" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                            </div>
+                            <div class="col-7_12 pull-right">
+                                <a href="live-registration.html"><img class="gray-img trader" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img trader" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                                <a href="https://app.appsflyer.com/com.finq.android?pid=Finq_Web"><img class="gray-img play-store" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img play-store" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                                <a href="https://live-cosmos.finq.com/trading-platform/#login"><img class="gray-img app-store" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"><img class="white-img app-store" src="/sites/all/themes/finq/images/v2.0/social-media/img_trans.gif"></a>
+                                <span>We’re available on:</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer-width" class="full footer" style="display: none;">
+                        <div class="hide-mobile full">
+                            <div class="full footer-navigation-area">
+                                <div class="theme-content">
+                                    <div class="full">
+                                        <div class="col-mg-15_15">
+                                            <div class="col-mg-3_15">
+                                                <h4 class="">About us</h4>
+                                                <ul class="wow slideInLeft" data-wow-delay="2.2s" data-wow-offset="10">
+                                                    <li><a href="about-us.html">Who we are</a></li>
+                                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-mg-3_15">
+                                                <h4 class="">Equity</h4>
+                                                <ul class="wow slideInLeft" data-wow-delay="2.3s" data-wow-offset="10">
+                                                    <li><a href="equity.html">Equity</a></li>
+                                                    <li><a href="stocks.html">Stocks</a></li>
+                                                    <li><a href="forex.html">Forex</a></li>
+                                                    <li><a href="crypto.html">Crypto</a></li>
+    
+                                                </ul>
+                                            </div>
+                                            <div class="col-mg-3_15">
+                                                <h4 class="">Resources</h4>
+                                                <ul class="wow slideInLeft" data-wow-delay="2.4s" data-wow-offset="10">
+                                                    <li><a href="rollovers-dates.html">CFD Expiration Dates</a></li>
+                                                    <li><a href="webtrader-app-faq.html">WebTrader App FAQ</a></li>
+                                                    <li><a href="refer-friend.html">Refer a friend</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-mg-3_15">
+                                                <h4 class="">Regulation</h4>
+                                                <ul class="wow slideInLeft" data-wow-delay="2.5s" data-wow-offset="10">
+                                                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                    <li><a href="risk-disclosure.html">Risk Disclosure</a></li>
+                                                    <li><a target="_blank" href="http://www.leadcapitalcrp.com/policies/complaints-handling-policy.pdf">Complaints Handling Policy</a></li>
+                                                    <li><a href="awards-policy.html">Bonus Policy</a></li>
+                                                    <li><a href="conflict-interest-policy.html">Conflict of Interest</a></li>
+                                                    <li><a href="aml-and-kyc-policy.html">AML and KYC Policy</a></li>
+                                                    <li><a href="webtrader-app-faq.html">Webtrader App - FAQ</a></li>
+                                                    <li><a href="margin-requirements.html">Margin Requirements</a></li>
+                                                    <li><a href="cookies-policy.html">Cookies Policy</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="show-mobile full">
+                            <div class="theme-content terms">
+                                <a href="terms-conditions.html" class="col-4_12">Terms & Conditions</a>
+                                <a href="privacy-policy.html" class="col-4_12">Privacy Policy</a>
+                                <a href="risk-disclosure.html" class="col-4_12">Risk Disclosure</a>
+                            </div>
+                        </div>
+                        <div class="full footer-payments">
+                            <div class="theme-content">
+                                <div class="full">
+                                    <div class="col-mg-15_15">
+                                        <img class="pc-version" src="/sites/all/themes/finq/images/v2.0/payments/payment-for-desktop.png?v6">
+    
+                                        <img class="tablet-version wow slideInLeft" data-wow-delay="0.5s" data-wow-offset="10" src="/sites/all/themes/finq/images/v2.0/payments/payment-for-tablet-1.png?v4">
+                                        <img class="tablet-version wow slideInLeft" data-wow-delay="0.5s" data-wow-offset="10" src="/sites/all/themes/finq/images/v2.0/payments/payment-for-tablet-2.png?v4">
+                                        <img class="phone-version wow slideInLeft" data-wow-delay="0.5s" data-wow-offset="10"src="/sites/all/themes/finq/images/v2.0/payments/payment-for-mobile-1.png?v4">
+                                        <img class="phone-version wow slideInLeft" data-wow-delay="0.5s" data-wow-offset="10" src="/sites/all/themes/finq/images/v2.0/payments/payment-for-mobile-2.png?v5">
+                                        <img class="phone-version wow slideInRight" data-wow-delay="0.5s" data-wow-offset="10" src="/sites/all/themes/finq/images/v2.0/payments/payment-for-mobile-3.png?v4">
+                                     <a href="/files/pdf/Fasapay.pdf" target="_blank">
+                            <img src="/sites/all/themes/finq/images/v2.0/payments/fasapay.png?v1">
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full footer-risk-note">
+                            <div class="col-mg-15_15 wow slideInDown" data-wow-delay="0.5s" data-wow-offset="10">
+                                <p>HIGH RISK INVESTMENT WARNING: Leveraged trading in foreign currency contracts, contracts for difference or other off-exchange products carries a high level of risk and may not be suitable for everyone. Before trading, you are
+                                    strongly advised to read and ensure that you understand the relevant risk disclosures and warnings here: <a href="risk-disclosure.html"> Risk Disclosure Statement</a>. There is a substantial risk that you may lose all of
+                                    your initial investment. We advise you to consider whether trading leveraged products is appropriate for you in light of your own personal circumstances. We recommend that you seek independent financial advice and ensure
+                                    that you fully understand all risks involved before trading. Trading through an online platform carries additional risks. Refer to our Regulation section <a href="terms-conditions.html"> here</a>.</p>
+                                <p>Finq.com is operated by Dilna Investments Ltd which is the primary payment provider and website operator. Dilna Investments Ltd is acting on behalf of its mother company, Leadcapital Corp Ltd is regulated as a Securities Dealer
+                                    by the Seychelles Financial Services Authority
+                                    <!--, a company which is authorised and regulated as a securities dealer by the Financial Services Authority (FSA) of the Seychelles with License No: SD007-->.</p>
+                                <p>Payment Services in the GCC are provided by JM Financial Brokerage Services Co. and regulated by the Ministry of Commerce in the State of Kuwait bearing registration No. 355893.</p>
+                                <p>Restricted Jurisdictions: We do not establish accounts to residents of certain jurisdictions including the European Union, United States or any particular country or jurisdiction where such distribution or use would be contrary
+                                    to local law or regulation. For further details please see <a href='terms-conditions.html'> Terms & Conditions</a>.</p>
+                            </div>
+                        </div>
+                        <div class="full alert-black footer-copywright">
+                            <div class="theme-content">
+                                <p class="align-center">© Copyright 2021 Capital Finq - All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="footer" class="col-12">
+                        <div class="container">
+                            <div class="footer-container col-12">
+                                <div class="col-10 col-md-12 d-sm-none d-md-none ">
+                                    <div class="col-2">
+                                        <h4 class="">About us</h4>
+                                        <ul class="wow slideInLeft" data-wow-delay="0.5s" data-wow-offset="10">
+                                            <li><a href="about-us.html">Who we are</a></li>
+                                            <li><a href="contact-us.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h4 class="">Equity</h4>
+                                        <ul class="wow slideInDown" data-wow-delay="1s" data-wow-offset="10">
+                                            <li><a href="equity.html">Equity</a></li>
+                                            <li><a href="stocks.html">Stocks</a></li>
+                                            <li><a href="forex.html">Forex</a></li>
+                                            <li><a href="crypto.html">Crypto</a></li>
+    
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-3">
+                                        <h4 class="">Resources</h4>
+                                        <ul class="wow slideInRight" data-wow-delay="1.5s" data-wow-offset="10">
+                                            <li><a href="rollovers-dates.html">CFD Expiration Dates</a></li>
+                                            <li><a href="webtrader-app-faq.html">WebTrader App FAQ</a></li>
+                                            <li><a href="refer-friend.html">Refer a friend</a></li>
+                                            <li><a href="tradingview.html">Trading View Charts</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <h4 class="">Regulation</h4>
+                                        <ul class="wow slideInDown" data-wow-delay="2s" data-wow-offset="10">
+                                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                            <li><a href="risk-disclosure.html">Risk Disclosure</a></li>
+                                            <li><a target="_blank" href="http://www.leadcapitalcrp.com/policies/complaints-handling-policy.pdf">Complaints Handling Policy</a></li>
+                                            <li><a href="awards-policy.html">Bonus Policy</a></li>
+                                            <li><a href="conflict-interest-policy.html">Conflict of Interest</a></li>
+                                            <li><a href="aml-and-kyc-policy.html">AML and KYC Policy</a></li>
+                                            <li><a href="webtrader-app-faq.html">Webtrader App - FAQ</a></li>
+                                            <li><a href="margin-requirements.html">Margin Requirements</a></li>
+                                            <li><a href="cookies-policy.html">Cookies Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-2 col-md-12">
+                                    <img class="pull-right wow slideInLeft" data-wow-delay="2.5s" data-wow-offset="10" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w-p.svg" height="47" width="148" />
+                                </div>
+                            </div>
+                            <div class="risk-note col-12 wow slideInLeft" data-wow-delay="2s" data-wow-offset="10">
+                                <p>HIGH RISK INVESTMENT WARNING: Leveraged trading in foreign currency contracts, contracts for difference or other off-exchange products carries a high level of risk and may not be suitable for everyone. Before trading, you are
+                                    strongly advised to read and ensure that you understand the relevant risk disclosures and warnings here: <a href="risk-disclosure.html"> Risk Disclosure Statement</a>. There is a substantial risk that you may lose all of
+                                    your initial investment. We advise you to consider whether trading leveraged products is appropriate for you in light of your own personal circumstances. We recommend that you seek independent financial advice and ensure
+                                    that you fully understand all risks involved before trading. Trading through an online platform carries additional risks. Refer to our Regulation section <a href="terms-conditions.html"> here</a>.</p>
+                                <p>Finq.com is operated by Dilna Investments Ltd which is the primary payment provider and website operator. Dilna Investments Ltd is acting on behalf of its mother company, Leadcapital Corp Ltd is regulated as a Securities Dealer
+                                    by the Seychelles Financial Services Authority
+                                    <!--, a company which is authorised and regulated as a securities dealer by the Financial Services Authority (FSA) of the Seychelles with License No: SD007-->.</p>
+                                <p>Payment Services in the GCC are provided by JM Financial Brokerage Services Co. and regulated by the Ministry of Commerce in the State of Kuwait bearing registration No. 355893.</p>
+                                <p>Leadcapital Corp Ltd is the entity that is responsible for Skrill and NETELLER payments.</p>
+                                <p>Restricted Jurisdictions: We do not establish accounts to residents of certain jurisdictions including the European Union, United States or any particular country or jurisdiction where such distribution or use would be contrary
+                                    to local law or regulation. For further details please see <a href='terms-conditions.html'> Terms & Conditions</a>.</p>
+                            </div>
+                            <div class="risk-sm d-none d-sm-block col-12">
+                                <div class="display-flex">
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                    <a href="cookies-policy.html">Cookies Policy</a>
+                                </div>
+                                <p>Trading on financial markets carries risks.</p>
+                            </div>
+                        </div>
+                        <div class="copyright col-12">
+                            <div class="container">
+                                <div class="col-6 col-sm-12">
+                                    <p>© Copyright 2021  Capital Finq - All rights reserved</p>
+                                </div>
+                                <div class="col-6 d-sm-none">
+                                    <p>Trading on financial markets carries risks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.block -->
+
+                <div id="block-block-92" class="full">
+
+
+                    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+                    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+                    <script>
+                        window.addEventListener("load", function() {
+                            window.cookieconsent.initialise({
+                                "palette": {
+                                    "popup": {
+                                        "background": "#000",
+                                        "text": '#a9a9a9'
+                                    },
+                                    "button": {
+                                        "background": "#dcad54"
+                                    }
+                                },
+                                "theme": "edgeless",
+                                "position": "bottom",
+                                "content": {
+                                    "dismiss": "I have read and accept cookies policy",
+                                    "message": "Finq.com uses cookies to ensure you get the best experience on our website.",
+                                    "href": "/en/cookies-policy"
+                                }
+                            })
+                        });
+                    </script>
+                </div>
+                <!-- /.block -->
+
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="/sites/all/modules/contrib/browserclass/browserclass.js?qsp1az"></script>
+    <script type="text/javascript" src="/sites/all/modules/contrib/addthis/addthis.js?qsp1az"></script>
+    <script type="text/javascript" src=""></script>
+
+
+
+    <!-- Twitter single-event website tag code -->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        twttr.conversion.trackPid('o1eu8', {
+            tw_sale_amount: 0,
+            tw_order_quantity: 0
+        });
+    </script>
+    <noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=o1eu8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=o1eu8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+    <!-- End Twitter single-event website tag code -->
+
+
+
+    <script type="text/javascript">
+        window.NREUM || (NREUM = {});
+        NREUM.info = {
+            "beacon": "bam.nr-data.net",
+            "licenseKey": "45fdd47439",
+            "applicationID": "5704333",
+            "transactionName": "YFYBMBMCDEVYUUcPCVkcIgcVCg1YFlxcAgNoQwIDBDwUX1xF",
+            "queueTime": 0,
+            "applicationTime": 705,
+            "atts": "TBECRlsYH0s=",
+            "errorBeacon": "bam.nr-data.net",
+            "agent": ""
+        }
+    </script>
+     <script type="text/javascript" src="wow/js/wow.js"></script>
+
+     <script>
+         wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+          }
+        );
+        wow.init();
+      </script>
+</body>
+
+</html>

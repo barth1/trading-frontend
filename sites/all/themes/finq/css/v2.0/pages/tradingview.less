@@ -1,0 +1,488 @@
+@laptopHD: ~"only screen and (max-width: 1440px)";
+@laptop: ~"only screen and (max-width: 1280px)";
+@screen1024: ~"only screen and (max-width: 1024px)";
+@tablet: ~"only screen and (max-width: 768px)";
+@phone: ~"only screen and (max-width: 600px)";
+@COLOR_TEXT: #404041;
+#tradingview {
+  background: #fff;
+  h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: @COLOR_TEXT;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: @COLOR_TEXT;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.56;
+    color: @COLOR_TEXT;
+  }
+  .btn.btn-gold {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    //text-align: left;
+    color: #414141;
+    padding: 10px 20px;
+  }
+  .pc-version{}
+  .large-tablet-version{display: none}
+  .phone-version{display: none}
+
+
+  .banner1{
+    background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-1.jpg") no-repeat scroll center center / cover;
+    padding-top: 80px;
+    margin-bottom: -20px;
+    .title {
+      padding-bottom: 26px;
+    }
+
+    .row-1 {
+      padding-bottom: 113px;
+      .txt-area {
+        padding-right: 5%;
+      }
+      .img-area {
+        text-align: center;
+        padding-top: 39px;
+      }
+    }
+    .row-2 {
+      .img-area img{
+        margin-left: -157px;
+        position: relative;
+        z-index: 10;
+      }
+      .txt-area {
+        padding-top: 42px;
+        padding-right: 3%;
+        text-align: right;
+
+      }
+    }
+    .btn-area{
+      text-align: right;
+      padding-top: 34px;
+      padding-right: 3%;
+    }
+  }
+  .banner2{
+    background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-2.jpg") no-repeat scroll center center / cover;
+    padding: 59px 0 65px;
+    border-top: 3px solid #d3a261;
+    .title,.paragraph {
+      color: #fff;
+    }
+    .title {
+      padding-bottom: 21px;
+    }
+    .txt-area {
+      text-align: center;
+      padding: 0 13%;
+    }
+  }
+  .banner3 {
+    padding-top: 91px;
+    padding-bottom: 110px;
+    .header {
+      padding-bottom: 43px;
+      .title {
+        text-align: center;
+      }
+    }
+    .text-area {
+      padding: 30px 90px 0 22px;
+      .banner3-row{
+        padding: 22.6px 19.3px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        .title {
+          padding-bottom: 5px;
+        }
+        .paragraph {
+          line-height: 1.39;
+        }
+        &.active {
+          //width: 361.2px;
+          //height: 139.1px;
+          //margin: 5.4px 70.6px 22.1px 407px;
+
+          border-radius: 8px;
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+          background-color: #f4f4f5;
+        }
+      }
+    }
+    .image-area{
+      img {
+        //opacity: 0;
+        display: none;
+        &.active {
+          display: block;
+          //opacity: 1;
+        }
+      }
+
+      &.show-img-1 .banner3-img-1{
+        display: block;opacity: 1; transition: opacity .25s ease-in-out;
+      }
+      &.show-img-2 .banner3-img-2{display: block;opacity: 1; transition: opacity .25s ease-in-out;}
+      &.show-img-3 .banner3-img-3{display: block;opacity: 1; transition: opacity .25s ease-in-out;}
+    }
+  }
+  .banner4 {
+    background: #f4f4f5;
+    padding: 48px 0 50px;
+    .title,.paragraph,.btn-area {
+      text-align: center;
+    }
+    .container {
+      width: 500px;
+    }
+    .txt-area{
+      padding-bottom: 26px;
+      //padding: 0 10%;
+    }
+    .title {
+      padding-bottom: 10px;
+    }
+
+  }
+}
+
+
+.i18n-ru {
+  #tradingview {
+    .banner1 .row-2 .txt-area {
+      padding-top: 0;
+      .title {
+        margin-left: -30px;
+      }
+      p {
+        margin-left: -30px;
+      }
+    }
+  }
+}
+.i18n-vi {
+  #tradingview {
+    .banner1 .row-2 .txt-area {
+      .title {
+        margin-left: -30px;
+      }
+      p {
+        margin-left: -30px;
+      }
+    }
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 150dpi){
+  #tradingview {
+    .banner1{
+      background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-1@2x.jpg") no-repeat scroll center center / cover;
+    }
+    .banner2{
+      background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-2@2x.jpg") no-repeat scroll center center / cover;
+    }
+  }
+}
+
+@media only screen and(-webkit-min-device-pixel-ratio: 3),
+only screen and (min-resolution: 192dpi){
+  #tradingview {
+    .banner1{
+      background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-1@3x.jpg") no-repeat scroll center center / cover;
+    }
+    .banner2{
+      background: #ffffff url("/sites/all/themes/finq2020/Content/Images/Pages/tradingview/banner-2@3x.jpg") no-repeat scroll center center / cover;
+    }
+  }
+}
+
+
+@media @laptop {
+  #tradingview .banner1 .row-2 .img-area img {
+    margin-left: -87px;
+    width: 100%;
+  }
+  //#tradingview .banner3 .image-area img{
+  //  width: 100%;
+  //}
+}
+
+@media @screen1024 {
+  #tradingview {
+    .col-12-large-tablet {
+      width: 100%;
+    }
+    .large-tablet-version{display: block}
+    .pc-version{display: none}
+
+    .container {
+      width: 650px;
+    }
+    h2,h3,p {
+      text-align: center;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.33;
+    }
+
+    .banner1{
+      margin-bottom: 0;
+      padding-bottom: 60px;
+      .row-1 {
+        padding-bottom: 33px;
+        .txt-area {
+          padding: 0 10%;
+        }
+      }
+      .row-2 {
+        display: flex;
+        flex-direction: column;
+        .img-area {
+          text-align: center;
+          img{
+            margin-left: 0;
+          }
+        }
+        .title {order: 1}
+        .paragraph {order: 2}
+        .img-area {order: 3}
+        .btn-area {order: 4}
+
+        .btn-area{
+          text-align: center;
+          padding-right: 0;
+        }
+
+        .txt-area {
+
+          padding: 0 10% 40px;
+        }
+      }
+    }
+    .banner3 {
+      .image-area img {
+        width: 100%;
+      }
+      .text-area {
+        padding: 0;
+        .banner3-row {
+          width: 33.33%;
+          min-height: 150px;
+
+        }
+      }
+    }
+
+  }
+}
+
+@media @tablet {
+  #tradingview {
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.33;
+    }
+
+    .container {
+      width: 580px;
+    }
+    .btn.btn-gold {
+    }
+    .banner1 {
+      padding-top: 43px;
+      .title {
+        padding-bottom: 17px;
+      }
+      .row-1 {
+        padding-bottom: 62px;
+        .img-area {
+          padding-top: 27px;
+          img {
+            width: 187px;
+          }
+        }
+      }
+      .row-2 .txt-area {
+        padding: 0 0 40px;
+      }
+    }
+    .banner2 {
+      padding: 47px 0 54px;
+      .txt-area {
+        padding: 0;
+      }
+    }
+    .banner3 {
+      padding-top: 66px;
+      padding-bottom: 110px;
+      .text-area .banner3-row {
+        min-height: 132px;
+        padding: 15px;
+        margin-bottom: 40px;
+      }
+      .image-area img {
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+  .i18n-ru {
+    #tradingview .banner3 .text-area .banner3-row {
+      min-height: 170px;
+    }
+    #tradingview .banner1 .row-2 .txt-area {
+      .title {
+        margin-left: 0;
+      }
+      p {
+        margin-left: 0;
+      }
+    }
+  }
+  .i18n-vi {
+    #tradingview .banner1 .row-2 .txt-area {
+      .title, p {
+        margin-left: 0;
+      }
+    }
+  }
+  .i18n-ms,.i18n-vi {
+    #tradingview .banner3 .text-area .banner3-row {
+      min-height: 140px;
+    }
+  }
+}
+@media @phone {
+  #tradingview {
+    h2 {
+      font-size: 23px;
+    }
+    h3 {
+      font-size: 17px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.33;
+    }
+    .col-12-phone {
+      width: 100%;
+    }
+    .large-tablet-version{display: none}
+    .phone-version{display: block}
+    .container,.banner4 .container {
+      width: 100%;
+      max-width: 315px;
+    }
+
+    .banner1 {
+      padding-top: 42px;
+      padding-bottom: 51px;
+      .title {
+        padding-bottom: 15px;
+      }
+      .row-1 {
+        padding-bottom: 52px;
+        .txt-area {
+          padding: 0;
+        }
+        .img-area {
+          padding-top: 21px;
+          img {
+            width: 129px;
+          }
+        }
+      }
+      .row-2 .img-area img {
+        margin-left: -26px;
+        width: unset;
+      }
+    }
+    .banner2 {
+      padding: 44px 0;
+      .title {
+        padding: 0 5% 15px;
+      }
+    }
+    .banner3 {
+      padding-top: 45px;
+      padding-bottom: 46px;
+      .container {
+        width: 100%;
+        max-width: unset;
+        padding: 0;
+      }
+      .image-area {
+        padding: 0 30px;
+      }
+      .text-area .banner3-row {
+        width: 204px;
+        min-height: 110px;
+        border-radius: 8px;
+        background-color: #f4f4f5;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+        margin: 0 10px 41px;
+        &:active,&:focus{
+          border: 0;
+          outline: none;
+        }
+      }
+    }
+    .banner4 {
+      padding: 39px 0 42px;
+      .title {
+        padding-bottom: 12px;
+      }
+    }
+  }
+
+
+
+  .i18n-ur, .i18n-ar {
+    #tradingview .banner1 .row-2 .img-area img {
+      margin-left: 0;
+      margin-right: -26px;
+      width: unset;
+    }
+    .slick-track {
+      left: -38px;
+    }
+  }
+  .i18n-ru {
+    #tradingview .banner3 .text-area .banner3-row {
+      min-height: 160px;
+    }
+  }
+  .i18n-ms,.i18n-vi {
+    #tradingview .banner3 .text-area .banner3-row {
+      min-height: 120px;
+    }
+  }
+}

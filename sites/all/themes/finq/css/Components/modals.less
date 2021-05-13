@@ -1,0 +1,246 @@
+@phone:    ~"only screen and (max-width: 576px)";
+.modal-open {
+  overflow: hidden;
+  .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+  //background: #000000c0;
+  background: #000c;
+  &.fade .modal-dialog {
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+  }
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .modal.fade .modal-dialog {
+    transition: none;
+  }
+}
+
+.modal.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-dialog-centered {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+.modal-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  /* text-shadow: 0 1px 0 #fff; */
+  opacity: 1;
+  //padding: 1rem;
+  //margin: -1rem -1rem -1rem auto;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.modal-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 587px;
+    margin: 1.75rem auto;
+  }
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+  }
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 800px;
+  }
+}
+
+
+#myModal{
+  padding-top: 200px;
+  margin: 0 -100px -100px -100px;
+  .modal-header, .modal-footer{
+    border: none;
+  }
+  .modal-body{
+    padding-top: 450px;
+  }
+  .modal-content{
+    //background: #fff0 url("/sites/all/themes/finq/images/v2.0/modal/bg-pc.png") no-repeat scroll center center;
+    //background: #fff0 url("/sites/all/themes/finq/images/v2.0/modal/modal-pc.png") no-repeat scroll center center;
+    background: #fff0 url("/sites/all/themes/finq/images/v2.0/accounts/Slide_left_right.png") no-repeat scroll center center;
+    text-align: center;
+    height: 750px;
+    border: none;
+    p{
+      font-weight: 400;
+      font-size: 25px;
+      color: #000000;
+      span{
+        font-size: 127px;
+        font-weight: 900;
+        line-height: 1;
+
+      }
+      &.rotate{
+        -ms-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+      }
+    }
+    .btn-black{
+      background: #000;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 25px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+
+
+  .modal-footer{
+    p{
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+@media @phone {
+  #myModal {
+    margin: 0;
+    .modal-dialog {
+      margin: 0;
+      .close{
+        padding: 15px;
+
+      }
+    }
+    .modal-content {
+      //background: #fff0 url("/sites/all/themes/finq/images/v2.0/accounts/Slide_left_right.png") no-repeat scroll center center /300px 300px;
+      background: #fff0 url("/sites/all/themes/finq/images/v2.0/accounts/swipe-hand.png") no-repeat scroll top+140px center /116px 132px;
+    }
+  }
+}

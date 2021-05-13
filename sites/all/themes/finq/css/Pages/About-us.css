@@ -1,0 +1,148 @@
+.plain-box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.about-us {
+    background: #f2f0f0;
+}
+
+.about-us .comp-main-full-plain-banner {
+    background: rgba(0, 0, 0, 0) url("/sites/all/themes/finq/images/v2.0/pages/plain-banner.jpg") repeat scroll center center / cover;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.about-us .comp-main-full-plain-banner .btn {
+    margin-top: 240px;
+}
+
+.about-us .article-content p {
+    font-size: 15px;
+}
+
+.about-us .article-content h2 {
+    font-weight: bold;
+    color: #424242;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.about-us .article-content .intro p {
+    font-size: 18px;
+}
+
+.about-us .features {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    background: #1f1f23;
+    padding: 40px 0 60px;
+    margin-top: 120px;
+}
+
+.about-us .features h2 {
+    color: #ffffff;
+    font-size: 27px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us .features .item {
+    border-left: 1px solid #d1d1d1;
+    padding-top: 25px;
+}
+
+.about-us .features .item:first-child {
+    border: none;
+}
+
+.about-us .features .img {
+    height: 100px;
+}
+
+.about-us .features .img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-us .features .text {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 90px;
+}
+
+.about-us .about-us-footer {
+    background: #f2f0f0;
+}
+
+.about-us .about-us-footer h2 {
+    float: left;
+    font-size: 25px;
+    margin: 80px 0 30px;
+    width: 100%;
+    color: #125688;
+}
+
+.about-us .about-us-footer ul li {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.about-us .about-us-footer ul li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    margin-right: 15px;
+    font-size: 8px;
+    margin-top: 4px;
+    float: left;
+    color: #125688;
+}
+
+.about-us .about-us-footer img {
+    float: left;
+    width: 100%;
+}
+
+.i18n-ar .about-us .about-us-footer .col-6_12:nth-child(2) ul li:before,
+.i18n-ur .about-us .about-us-footer .col-6_12:nth-child(2) ul li:before {
+    margin-left: 15px;
+    float: right;
+}
+
+@media all and (min-width: 1180px) {
+    .i18n-ar .about-us .about-us-footer .col-6_12:nth-child(2),
+    .i18n-ur .about-us .about-us-footer .col-6_12:nth-child(2) {
+        padding-right: 300px;
+    }
+}
+
+@media all and (max-width: 1180px) {
+    .about-us .comp-main-full-plain-banner {
+        height: 400px;
+    }
+    .about-us .comp-main-full-plain-banner .btn {
+        margin-top: 160px;
+    }
+    .about-us .features .text {
+        padding: 0 20px;
+    }
+    .about-us .about-us-footer h2 {
+        margin-top: 20px;
+    }
+    .about-us .about-us-footer ul {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .about-us .features .item {
+        border-left: none;
+        margin-bottom: 40px;
+        border-top: 1px solid #d1d1d1;
+    }
+    .about-us .about-us-footer {
+        padding: 20px 40px;
+    }
+}

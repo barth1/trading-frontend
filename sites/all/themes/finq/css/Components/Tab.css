@@ -1,0 +1,19 @@
+.theme-tabs {
+    position: relative
+}
+
+.theme-tabs .theme-tab.active {
+    transition: all 0.3s
+}
+
+.theme-tabs .theme-tabs-nav {
+    position: relative
+}
+
+.theme-tabs .theme-tabs-nav .theme-tab-nav {
+    cursor: pointer
+}
+
+.theme-tabs .theme-tabs-nav .theme-tab-nav.active {
+    cursor: default
+}

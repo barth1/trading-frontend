@@ -1,0 +1,16 @@
+.regulation .comp-main-full-plain-banner {
+    background: url(/sites/all/themes/finq/images/v2.0/pages/plain-banner.jpg) center center / cover;
+    height: 600px;
+}
+
+.regulation .comp-main-full-plain-banner .btn {
+    margin-top: 240px;
+}
+
+.regulation .alert {
+    margin-top: 40px;
+}
+
+.regulation .alert p {
+    margin: 0;
+}

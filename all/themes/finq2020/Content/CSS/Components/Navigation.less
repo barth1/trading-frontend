@@ -1,0 +1,181 @@
+@import "../Common/Variables";
+
+.navbar-toggler {
+  display: none;
+  border: none;
+  background: transparent !important;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+
+  margin: 0;
+  outline: none;
+  position: relative;
+  z-index: 10000;
+
+  .top-bar {
+    margin-top: 0;
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  .middle-bar {
+    opacity: 0;
+  }
+
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
+  &.collapsed {
+    .top-bar {
+      transform: rotate(0);
+    }
+
+    .middle-bar {
+      opacity: 1;
+    }
+
+    .bottom-bar {
+      transform: rotate(0);
+    }
+  }
+}
+
+/* Header */
+
+.navbar {
+  position: relative;
+
+  .nav {
+    list-style: none;
+    > li {
+      position: relative;
+      display: block;
+
+
+      &:hover > .dropdown-menu,&.show > .dropdown-menu {
+        display: block;
+      }
+
+      > a {
+        position: relative;
+        display: block;
+      }
+
+      &.tablet-version, &.phone-device {
+        display: none;
+      }
+    }
+
+    li {
+      float: left;
+      box-sizing: border-box;
+    }
+
+    .dropdown.open .dropdown-menu {
+      display: block !important
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      display: none;
+      z-index: 1000;
+    }
+  }
+}
+
+.animate {
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    /*    -webkit-transform: transform; */
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+@media only screen and (max-width: @GRID_EXTRA_LARGE) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  #MainNavbar {
+    float: left;
+    width: 100%;
+    margin: 0;
+    display: none;
+    padding: 0 0 15px;
+
+    &.show, &.collapse.in {
+      display: block;
+    }
+
+    .nav {
+      li {
+        float: left;
+        width: 100%;
+
+        .dropdown-menu {
+          float: left;
+          width: 100%;
+          left: 0;
+          top: 0;
+          padding: 0;
+          box-sizing: border-box;
+          box-shadow: none;
+          border-radius: 0;
+          border: none;
+
+          a {
+            color: #000;
+            padding: 10px 0 10px 65px;
+          }
+        }
+      }
+      .dropdown-menu {
+        position: relative;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: @GRID_EXTRA_LARGE) {
+  nav .dropdown .dropdown-menu {
+    background: transparent;
+    display: none !important;
+  }
+}

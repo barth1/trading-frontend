@@ -1,0 +1,145 @@
+#footer {
+    background-color: #0e0b0d;
+}
+
+#footer .footer-container {
+    padding: 80px 0 70px;
+    border-bottom: 1px solid #d3d3d2;
+}
+
+#footer .footer-container h4 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2.2;
+    float: left;
+    width: 100%;
+    color: #DBAD60;
+    text-transform: uppercase;
+}
+
+#footer .footer-container ul {
+    list-style: none;
+}
+
+#footer .footer-container ul li {
+    float: left;
+    width: 100%;
+}
+
+#footer .footer-container ul li a {
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 15px;
+    max-width: 230px;
+}
+
+#footer .footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer .risk-note {
+    padding: 33px 0 50px;
+}
+
+#footer .risk-note p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #ffffff;
+}
+
+#footer .copyright {
+    background-color: #151115;
+    padding: 7px 0;
+}
+
+#footer .copyright div:nth-child(2) p {
+    text-align: right;
+}
+
+#footer .copyright p {
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: left;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+}
+
+#footer a {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #footer .footer-container {
+        padding: 30px 0;
+        border: none;
+    }
+    #footer .footer-container img {
+        display: block;
+        margin: 40px auto 15px;
+        float: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #footer .footer-container {
+        padding: 30px 0 0;
+    }
+    #footer .footer-container img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        max-width: 95px;
+        height: auto;
+    }
+    #footer .risk-note {
+        padding: 15px 0 30px;
+    }
+    #footer .risk-note p {
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+    }
+    #footer .risk-sm {
+        color: #fff;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 60px;
+        padding-bottom: 5px;
+    }
+    #footer .risk-sm a {
+        color: #fff;
+        font-size: 13px;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    #footer .risk-sm a:hover {
+        text-decoration: underline;
+    }
+    #footer .risk-sm a:first-child {
+        border-right: 1px solid #fff;
+    }
+    #footer .risk-sm p {
+        text-align: center;
+        font-size: 10px;
+        line-height: 1.7;
+    }
+    #footer .copyright p {
+        font-size: 10px;
+        text-align: center;
+        float: left;
+        width: 100%;
+    }
+}
+
+/*# sourceMappingURL=Footer.css.map */

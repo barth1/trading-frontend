@@ -1,0 +1,888 @@
+.page-node-806395 .node-article {
+    margin-bottom: 50px;
+}
+
+.page-node-684603 {
+    padding-bottom: 50px;
+    background: #FFF;
+}
+
+.page-node-684603 .trading-account-types .account-category-pro .account-type .panel-group .panel .panel-body {
+    min-height: 370px;
+}
+
+.page-node-684603 #block-delta-blocks-breadcrumb {
+    display: none;
+}
+
+.page-node-684603 .trading-account-types {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page-node-684603 .trading-account-types .theme-content {
+    width: 1066px;
+}
+
+.page-node-684603 .trading-account-types .theme-content.risk-warning-content {
+    width: 845px;
+    margin: auto;
+    float: none;
+    display: block;
+}
+
+.page-node-684603 .trading-account-types h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404041;
+}
+
+.page-node-684603 .trading-account-types .subtitle {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    color: #313133;
+    padding: 0 15% 30px;
+}
+
+.page-node-684603 .trading-account-types .nv-btn-white-open-account {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #be9355 !important;
+    border: 1px solid #be9355 !important;
+    text-decoration: none;
+    padding: 11px 26px 9px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.page-node-684603 .trading-account-types .compare-accounts-area {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.page-node-684603 .trading-account-types .compare-accounts-area .link-compare-accounts {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #be9355;
+    text-decoration: none;
+}
+
+.page-node-684603 .trading-account-types .account-types {
+    background-color: #ffffff;
+    padding: 0;
+    /*------ */
+    position: relative;
+}
+
+.page-node-684603 .trading-account-types .account-types .txt-area.coming {
+    position: absolute;
+    top: 40%;
+}
+
+.page-node-684603 .trading-account-types .account-types .txt-area.coming .pro-account {
+    font-size: 22.1px;
+    font-weight: 500;
+    text-align: center;
+    color: #404041;
+}
+
+.page-node-684603 .trading-account-types .account-types .txt-area.coming .coming-soon {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    color: #daa961;
+}
+
+.page-node-684603 .trading-account-types .professional-accounts-area {
+    padding: 75px 0 0;
+}
+
+.page-node-684603 .trading-account-types .professional-accounts-area .theme-content {
+    margin: auto;
+    max-width: 854px;
+}
+
+.page-node-684603 .trading-account-types .professional-accounts-area .account-types.professional-accounts-area-types .account-type {
+    width: 49%;
+}
+
+.page-node-684603 .trading-account-types .account-type {
+    background: #fff;
+    width: 24%;
+    margin: -10px 0.5%;
+    padding: 35px 33px;
+}
+
+.page-node-684603 .trading-account-types .account-type .category {
+    color: #424243;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.page-node-684603 .trading-account-types .account-type .account-size-area {
+    padding-bottom: 12px;
+}
+
+.page-node-684603 .trading-account-types .account-type .account-size-area p {
+    color: #424243;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.page-node-684603 .trading-account-types .account-type .account-size-area .txt {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.page-node-684603 .trading-account-types .account-type .account-size-area .account-size {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading {
+    padding: 10px 33px;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .benefits,
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .spreads {
+    padding: 8px 0;
+    width: 50%;
+    text-decoration: none;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .benefits :hover,
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .spreads :hover {
+    cursor: pointer;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .benefits .panel-title,
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .spreads .panel-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .benefits {
+    background-color: #be9355;
+    border: 1px solid #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .benefits .panel-title {
+    color: #ffffff;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .spreads {
+    background-color: #fff;
+    border: 1px solid #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .spreads .panel-title {
+    color: #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .activated {
+    background-color: #be9355;
+    border: 1px solid #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .activated .panel-title {
+    color: #ffffff;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .deactivated {
+    background-color: #fff;
+    border: 1px solid #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel-heading .deactivated .panel-title {
+    color: #be9355;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel {
+    border: none;
+    box-shadow: none;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body {
+    padding: 16px 0 42px;
+    background: none;
+    min-height: 340px;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .spread-row,
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row {
+    position: relative;
+    border-bottom: 1px solid #6d6f72 !important;
+    padding: 5px 20px 6px 0;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .spread-row:nth-last-child(1),
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row:nth-last-child(1) {
+    border-bottom: none !important;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    position: absolute;
+    margin: 5px;
+    right: 1px;
+    top: 3px;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img.yes {
+    background: url("/sites/all/themes/finq/images/Icons/trading-accounts/icon_yes.png") no-repeat center center;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img.no {
+    background: url("/sites/all/themes/finq/images/Icons/trading-accounts/icon_no.png") no-repeat center center;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .txt {
+    font-size: 12px;
+    text-align: left;
+    color: #6d6f72;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .txt.share {
+    float: right;
+    width: 60px;
+    text-align: right;
+}
+
+.page-node-684603 .trading-account-types .account-type .panel-group .panel .panel-body .instrument-spreads {
+    float: right;
+    margin-top: 3px;
+}
+
+.page-node-684603 .trading-account-types .account-type .btn-area {
+    text-align: center;
+}
+
+.page-node-684603 .trading-account-types .account-type:hover,
+.page-node-684603 .trading-account-types .account-type.focused {
+    box-shadow: 0 0 4px 0 rgba(26, 24, 24, 0.25);
+    transition: 0.5s;
+}
+
+.page-node-684603 .trading-account-types .open-account {
+    text-align: center;
+    padding-top: 36px;
+}
+
+.page-node-684603 .trading-account-types .open-account a {
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 14px 50px 16px;
+    color: #FFF !important;
+    text-decoration: none;
+}
+
+.page-node-684603 .trading-account-types .phone-version,
+.page-node-684603 .trading-account-types .tablet-version {
+    display: none;
+}
+
+.risk-warning {
+    padding-top: 55px;
+}
+
+.risk-warning p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.risk-warning p a {
+    text-decoration: underline;
+}
+
+.risk-warning p a:hover {
+    text-decoration: none;
+}
+
+#compare-accounts .risk-warning p {
+    text-align: left;
+}
+
+html[dir="rtl"] #compare-accounts .risk-warning p {
+    text-align: right;
+}
+
+.page-node-806395 #block-delta-blocks-breadcrumb {
+    display: none;
+}
+
+.page-node-806395 .trading-account-types {
+    padding-top: 50px;
+}
+
+.page-node-806395 .trading-account-types .classic-header,
+.page-node-806395 .trading-account-types .professional-header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #404041;
+    text-transform: uppercase;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads,
+.page-node-806395 .trading-account-types .classic-type,
+.page-node-806395 .trading-account-types .professional-type {
+    margin-right: 2%;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .empty {
+    height: 130px;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .benefits,
+.page-node-806395 .trading-account-types .benefits-spreads .spreads {
+    padding: 11px 0;
+    margin-bottom: 14px;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .benefits .title {
+    padding-bottom: 0;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .spreads .title {
+    padding-bottom: 8px;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .commission .title {
+    /*          padding-top: 18px;
+          padding-bottom: 40px;*/
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .benefits-txt,
+.page-node-806395 .trading-account-types .benefits-spreads .instrument-name {
+    padding: 0;
+    color: #6d6f72;
+    font-size: 11px;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+}
+
+.page-node-806395 .trading-account-types .benefits-spreads .benefits-txt.txt,
+.page-node-806395 .trading-account-types .benefits-spreads .instrument-name.txt {
+    text-align: left;
+}
+
+.page-node-806395 .trading-account-types .classic-type .header,
+.page-node-806395 .trading-account-types .professional-type .header {
+    padding-bottom: 17px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #313133;
+}
+
+.page-node-806395 .trading-account-types .commission-tables .spread-area {
+    margin-top: 15px !important;
+}
+
+.page-node-806395 .trading-account-types .benefits-tables,
+.page-node-806395 .trading-account-types .spreads-tables,
+.page-node-806395 .trading-account-types .commission-tables {
+    box-shadow: 0 0 3px 0 rgba(26, 24, 24, 0.25);
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area .type,
+.page-node-806395 .trading-account-types .category .account-size-area .txt,
+.page-node-806395 .trading-account-types .category .account-size-area .account-size {
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area .type {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 29px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area .txt {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area .instrument-spreads {
+    font-size: 11px;
+    color: #6d6f72;
+}
+
+.page-node-806395 .trading-account-types .category .account-size-area .account-size {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
+.page-node-806395 .trading-account-types .category .benefits-area,
+.page-node-806395 .trading-account-types .category .spread-area {
+    margin: 11px 0;
+    border-right: 1px solid #edeeee;
+    padding-top: 22px;
+}
+
+.page-node-806395 .trading-account-types .category .spread-area .instrument-spreads.txt {
+    font-size: 11px;
+}
+
+.page-node-806395 .trading-account-types .category.category-silver .account-size-area {
+    background-image: linear-gradient(to right, #cecdcc 0%, #cfc7bb 96%);
+}
+
+.page-node-806395 .trading-account-types .category.category-gold .account-size-area {
+    background-image: linear-gradient(to right, #cfc7ba 0%, #d1c0a9 96%);
+}
+
+.page-node-806395 .trading-account-types .category.category-platinum .account-size-area {
+    background-image: linear-gradient(to right, #d1c0a7 0%, #d2b996 96%);
+}
+
+.page-node-806395 .trading-account-types .category.category-exclusive .benefits-area,
+.page-node-806395 .trading-account-types .category.category-exclusive .spread-area {
+    border-right: none;
+}
+
+.page-node-806395 .trading-account-types .category.category-exclusive .account-size-area {
+    background-image: linear-gradient(to right, #d2b995 0%, #d4b384 96%);
+}
+
+.page-node-806395 .trading-account-types .category.category-classic .account-size-area {
+    background-image: linear-gradient(to right, #d4b180 0%, #d5ab6e 96%);
+}
+
+.page-node-806395 .trading-account-types .category.category-pro .benefits-area,
+.page-node-806395 .trading-account-types .category.category-pro .spread-area {
+    border-right: none;
+}
+
+.page-node-806395 .trading-account-types .category.category-pro .account-size-area {
+    background-image: linear-gradient(to right, #d6aa6e 0%, #d7a661 96%);
+}
+
+.page-node-806395 .trading-account-types .commission-tables .category .benefits-area,
+.page-node-806395 .trading-account-types .commission-tables .category .spread-area {
+    padding-top: 0;
+}
+
+.page-node-806395 .trading-account-types .benefits-row {
+    position: relative;
+    margin: 11px 0;
+    height: 14px;
+}
+
+.page-node-806395 .trading-account-types .benefits-row .img {
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    float: none;
+    display: block;
+}
+
+.page-node-806395 .trading-account-types .benefits-row .img.yes {
+    background: url("/sites/all/themes/finq/images/Icons/trading-accounts/icon_yes.png") no-repeat center center;
+}
+
+.page-node-806395 .trading-account-types .benefits-row .img.no {
+    background: url("/sites/all/themes/finq/images/Icons/trading-accounts/icon_no.png") no-repeat center center;
+}
+
+.page-node-806395 .trading-account-types .spread-row {
+    padding: 11px 0;
+    text-align: center;
+    height: 40px;
+}
+
+.page-node-806395 .trading-account-types .blurred {
+    filter: blur(5px);
+}
+
+.page-node-684603.i18n-ar .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img,
+.page-node-684603.i18n-ur .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row .img {
+    left: 1px;
+    right: auto;
+}
+
+.page-node-684603.i18n-ar .trading-account-types .account-type .panel-group .panel .panel-body .spread-row,
+.page-node-684603.i18n-ur .trading-account-types .account-type .panel-group .panel .panel-body .spread-row,
+.page-node-684603.i18n-ar .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row,
+.page-node-684603.i18n-ur .trading-account-types .account-type .panel-group .panel .panel-body .benefits-row {
+    padding: 5px 0 6px 20px;
+}
+
+.page-node-684603.i18n-ar .trading-account-types .account-type .panel-group .panel-heading,
+.page-node-684603.i18n-ur .trading-account-types .account-type .panel-group .panel-heading {
+    padding: 10px 0;
+}
+
+.page-node-684603.i18n-ru .trading-account-types .account-type .panel-group .panel-heading {
+    padding: 10px 3px;
+}
+
+.page-node-684603.i18n-ru .trading-account-types .account-type .category {
+    font-size: 23px;
+}
+
+.page-node-684603.i18n-es .trading-account-types .account-type .panel-group .panel-heading,
+.page-node-684603.i18n-vi .trading-account-types .account-type .panel-group .panel-heading {
+    padding: 10px 0;
+}
+
+.page-node-806395.i18n-ar .trading-account-types .benefits-spreads,
+.page-node-806395.i18n-ur .trading-account-types .benefits-spreads,
+.page-node-806395.i18n-ar .trading-account-types .classic-type,
+.page-node-806395.i18n-ur .trading-account-types .classic-type,
+.page-node-806395.i18n-ar .trading-account-types .professional-type,
+.page-node-806395.i18n-ur .trading-account-types .professional-type {
+    float: right;
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category,
+.page-node-806395.i18n-ur .trading-account-types .category {
+    float: right;
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-silver .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-silver .account-size-area {
+    background-image: linear-gradient(to left, #cecdcc 0%, #cfc7bb 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-gold .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-gold .account-size-area {
+    background-image: linear-gradient(to left, #cfc7ba 0%, #d1c0a9 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-platinum .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-platinum .account-size-area {
+    background-image: linear-gradient(to left, #d1c0a7 0%, #d2b996 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-exclusive .benefits-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-exclusive .benefits-area,
+.page-node-806395.i18n-ar .trading-account-types .category.category-exclusive .spread-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-exclusive .spread-area {
+    border-right: 1px solid #edeeee;
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-exclusive .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-exclusive .account-size-area {
+    background-image: linear-gradient(to left, #d2b995 0%, #d4b384 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-classic .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-classic .account-size-area {
+    background-image: linear-gradient(to left, #d4b180 0%, #d5ab6e 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-pro .benefits-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-pro .benefits-area,
+.page-node-806395.i18n-ar .trading-account-types .category.category-pro .spread-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-pro .spread-area {
+    border-right: 1px solid #edeeee;
+}
+
+.page-node-806395.i18n-ar .trading-account-types .category.category-pro .account-size-area,
+.page-node-806395.i18n-ur .trading-account-types .category.category-pro .account-size-area {
+    background-image: linear-gradient(to left, #d6aa6e 0%, #d7a661 96%);
+}
+
+.page-node-806395.i18n-ar .trading-account-types .benefits-spreads .benefits-txt.txt,
+.page-node-806395.i18n-ur .trading-account-types .benefits-spreads .benefits-txt.txt,
+.page-node-806395.i18n-ar .trading-account-types .benefits-spreads .instrument-name,
+.page-node-806395.i18n-ur .trading-account-types .benefits-spreads .instrument-name {
+    text-align: right;
+}
+
+.page-node-806395.i18n-zh-hans .trading-account-types .benefits-spreads .empty {
+    height: 124px;
+}
+
+.page-node-806395.i18n-zh-hans .trading-account-types .category .account-size-area .account-size {
+    font-size: 22px;
+}
+
+.page-node-806395.i18n-ru .trading-account-types .category .account-size-area .type {
+    font-size: 13px;
+}
+
+.page-node-806395.i18n-ru .trading-account-types .category .account-size-area .account-size {
+    font-size: 23px;
+}
+
+.page-node-806395.i18n-vi .trading-account-types .category .account-size-area .type {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.page-node-806395.i18n-vi .trading-account-types .category .account-size-area .account-size {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 1320px) {
+    .page-node-684603 .trading-account-types>.theme-content {
+        width: 100%;
+        padding: 0 10px;
+        float: left;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .page-node-684603 .trading-account-types h2 {
+        text-align: center;
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .page-node-684603 .trading-account-types .theme-content {
+        padding: 0;
+    }
+    .page-node-684603 .trading-account-types .theme-content.risk-warning-content {
+        width: 100%;
+        padding: 0 40px;
+        float: left;
+        box-sizing: border-box;
+    }
+    .trading-account-types .category.category-description .cell {
+        font-size: 14px;
+    }
+    .trading-account-types .category .category-name {
+        font-size: 20px;
+    }
+    .trading-account-types .category .category-amount {
+        font-size: 18px;
+    }
+    .trading-account-types .category .cell {
+        padding: 10px;
+    }
+    .trading-account-types .category .cell-btn .btn {
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-node-684603 .trading-account-types .account-type .panel-group .panel-heading {
+        padding: 10px 0;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .trading-account-types .benefits-spreads {
+        width: 28%;
+    }
+    .trading-account-types .classic-prim-types-container {
+        overflow-x: scroll;
+        width: 70%;
+    }
+    .trading-account-types .classic-prim-types-container>div {
+        width: 850px;
+        margin-left: 2px;
+    }
+    .trading-account-types .risk-warning p {
+        text-align: left !important;
+    }
+    .page-node-684603 .trading-account-types h2 {
+        text-align: center;
+        font-size: 18px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .page-node-684603 .trading-account-types .account-type .category-with-spreads .cell-left .txt {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-node-684603 .trading-account-types .pc-version {
+        display: none;
+    }
+    .page-node-684603 .trading-account-types .tablet-version {
+        display: block;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area {
+        /*------ */
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .theme-content {
+        width: 100%;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .professional-accounts-content {
+        width: 314px;
+        float: none;
+        margin: auto;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .account-types.professional-accounts-area-types .account-type {
+        width: 100%;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .account-types .txt-area.coming {
+        top: 40%;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .account-types .txt-area.coming .pro-account {
+        font-size: 16px;
+    }
+    .page-node-684603 .trading-account-types .professional-accounts-area .account-types .txt-area.coming .coming-soon {
+        font-size: 22px;
+    }
+    .page-node-684603 .theme-content.account-categories {
+        width: 314px;
+        float: none;
+        margin: auto;
+    }
+    .page-node-684603 .account-categories {
+        border-radius: 4.8px;
+        box-shadow: 0 0 3px 0 rgba(26, 24, 24, 0.35);
+        background: #fff;
+        margin-bottom: 31px;
+    }
+    .page-node-684603 .account-categories .account-categories-select-tab {
+        text-align: center;
+        padding: 13px 0 14px;
+    }
+    .page-node-684603 .account-categories .account-categories-select-tab span {
+        color: #323232;
+    }
+    .page-node-684603 .account-categories .account-categories-select-tab.active {
+        border-radius: 4.8px;
+        box-shadow: 0 0 3px 0 rgba(26, 24, 24, 0.35);
+        background-color: #be9355;
+    }
+    .page-node-684603 .account-categories .account-categories-select-tab.active span {
+        color: #fff;
+    }
+    .page-node-684603 .account-category {
+        display: none;
+    }
+    .page-node-684603 .account-category.show {
+        display: block;
+    }
+    .page-node-684603 .trading-account-types .account-content {
+        width: 314px;
+        float: none;
+        margin: auto;
+    }
+    .page-node-684603 .trading-account-types .account-types-select-tab {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 12px 0;
+        position: relative;
+    }
+    .page-node-684603 .trading-account-types .account-types-select-tab span {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #323232;
+        text-transform: capitalize;
+    }
+    .page-node-684603 .trading-account-types .account-types-select-tab.active {
+        background: #edeeef;
+    }
+    .page-node-684603 .trading-account-types .account-types-select-tab.active .hide-shadow-line-top {
+        height: 10px;
+        background: #edeeef;
+        position: absolute;
+        bottom: -5px;
+    }
+    .page-node-684603 .trading-account-types .account-type {
+        box-shadow: none !important;
+        width: 100%;
+        background: #edeeef;
+        display: none;
+    }
+    .page-node-684603 .trading-account-types .account-type .panel-group .panel {
+        background: none;
+    }
+    .page-node-684603 .trading-account-types .account-type.show {
+        display: block;
+    }
+    .page-node-684603 .trading-account-types .account-type:active,
+    .page-node-684603 .trading-account-types .account-type:focus,
+    .page-node-684603 .trading-account-types .account-type:hover,
+    .page-node-684603 .trading-account-types .account-type.show {
+        background: #edeeef;
+        margin: 0;
+        padding-top: 35px;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .category,
+    .page-node-684603 .trading-account-types .account-type:focus .category,
+    .page-node-684603 .trading-account-types .account-type:hover .category,
+    .page-node-684603 .trading-account-types .account-type.show .category,
+    .page-node-684603 .trading-account-types .account-type:active .account-size-area p,
+    .page-node-684603 .trading-account-types .account-type:focus .account-size-area p,
+    .page-node-684603 .trading-account-types .account-type:hover .account-size-area p,
+    .page-node-684603 .trading-account-types .account-type.show .account-size-area p {
+        color: #5a5b5e;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .panel-group .panel .panel-body .txt,
+    .page-node-684603 .trading-account-types .account-type:focus .panel-group .panel .panel-body .txt,
+    .page-node-684603 .trading-account-types .account-type:hover .panel-group .panel .panel-body .txt,
+    .page-node-684603 .trading-account-types .account-type.show .panel-group .panel .panel-body .txt {
+        color: #6d6f72;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .panel-group .panel .panel-body .spread-row,
+    .page-node-684603 .trading-account-types .account-type:focus .panel-group .panel .panel-body .spread-row,
+    .page-node-684603 .trading-account-types .account-type:hover .panel-group .panel .panel-body .spread-row,
+    .page-node-684603 .trading-account-types .account-type.show .panel-group .panel .panel-body .spread-row,
+    .page-node-684603 .trading-account-types .account-type:active .panel-group .panel .panel-body .benefits-row,
+    .page-node-684603 .trading-account-types .account-type:focus .panel-group .panel .panel-body .benefits-row,
+    .page-node-684603 .trading-account-types .account-type:hover .panel-group .panel .panel-body .benefits-row,
+    .page-node-684603 .trading-account-types .account-type.show .panel-group .panel .panel-body .benefits-row {
+        border-bottom: 1px solid #6d6f72 !important;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .nv-btn-white-open-account,
+    .page-node-684603 .trading-account-types .account-type:focus .nv-btn-white-open-account,
+    .page-node-684603 .trading-account-types .account-type:hover .nv-btn-white-open-account,
+    .page-node-684603 .trading-account-types .account-type.show .nv-btn-white-open-account {
+        color: #031d30 !important;
+        border: 1px solid #031d30 !important;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .panel-group .panel .panel-body .benefits-row .img.yes,
+    .page-node-684603 .trading-account-types .account-type:focus .panel-group .panel .panel-body .benefits-row .img.yes,
+    .page-node-684603 .trading-account-types .account-type:hover .panel-group .panel .panel-body .benefits-row .img.yes,
+    .page-node-684603 .trading-account-types .account-type.show .panel-group .panel .panel-body .benefits-row .img.yes {
+        background: url(/sites/all/themes/finq/images/Icons/trading-accounts/icon_yes.png) no-repeat center center;
+    }
+    .page-node-684603 .trading-account-types .account-type:active .panel-group .panel .panel-body .benefits-row .img.no,
+    .page-node-684603 .trading-account-types .account-type:focus .panel-group .panel .panel-body .benefits-row .img.no,
+    .page-node-684603 .trading-account-types .account-type:hover .panel-group .panel .panel-body .benefits-row .img.no,
+    .page-node-684603 .trading-account-types .account-type.show .panel-group .panel .panel-body .benefits-row .img.no {
+        background: url(/sites/all/themes/finq/images/Icons/trading-accounts/icon_no.png) no-repeat center center;
+    }
+}
+
+/*# sourceMappingURL=Trading-Account-Types.css.map */

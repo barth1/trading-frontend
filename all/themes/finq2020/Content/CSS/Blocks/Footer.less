@@ -1,0 +1,162 @@
+@import "../Common/Variables";
+
+#footer {
+  background-color: #0e0b0d;
+
+  .footer-container {
+    padding: 80px 0 70px;
+    border-bottom: 1px solid #d3d3d2;
+
+    h4 {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 2.2;
+      float: left;
+      width: 100%;
+      color: @BRAND_MAIN_COLOR;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        float: left;
+        width: 100%;
+
+        a {
+          text-decoration: none;
+          float: left;
+          width: 100%;
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 1.67;
+          letter-spacing: normal;
+          //text-align: left;
+          color: #ffffff;
+          margin-top: 15px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .risk-note {
+    padding: 33px 0 50px;
+    p {
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1.67;
+      color: #ffffff;
+    }
+  }
+
+  .copyright {
+    background-color: #151115;
+    padding: 7px 0;
+
+
+    div:nth-child(2) p {
+      text-align: right;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 1.2;
+      text-align: left;
+      color: #ffffff;
+      float: left;
+      width: 100%;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+@media (max-width: @GRID_MEDIUM) {
+  #footer {
+    .footer-container {
+      padding: 30px 0;
+      border: none;
+      img {
+        display: block;
+        margin: 40px auto 15px;
+        float: none;
+      }
+    }
+
+    .risk-note p {
+
+    }
+  }
+}
+
+@media (max-width: @GRID_SMALL) {
+  #footer {
+    .footer-container {
+      padding: 30px 0 0;
+
+      img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        max-width: 95px;
+        height: auto;
+      }
+    }
+
+    .risk-note {
+      padding: 15px 0 30px;
+
+      p {
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+      }
+    }
+
+    .risk-sm {
+      color: #fff;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 60px;
+      padding-bottom: 5px;
+
+      a {
+        color: #fff;
+        font-size: 13px;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+        padding: 0 10px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &:first-child {
+          border-right: 1px solid #fff;
+        }
+      }
+
+      p {
+        text-align: center;
+        font-size: 10px;
+        line-height: 1.7;
+      }
+    }
+
+    .copyright p {
+      font-size: 10px;
+      text-align: center;
+      float: left;
+      width: 100%;
+    }
+  }
+}

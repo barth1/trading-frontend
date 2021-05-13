@@ -1,0 +1,1319 @@
+/*
+body {
+  padding-top: 80px;
+}
+*/
+
+body .frontPage h1 {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+body .frontPage .carousel a {
+    position: absolute;
+    top: 50%;
+    background-color: #000 !important;
+    padding: 20px;
+    text-decoration: none;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+body .frontPage .carousel a:hover {
+    cursor: pointer;
+}
+
+body .frontPage .carousel a.left {
+    left: 0;
+}
+
+body .frontPage .carousel a.right {
+    right: 0;
+}
+
+body .frontPage .carousel .main-banner {
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/main-banner-home.jpg") no-repeat scroll bottom center / cover;
+}
+
+body .frontPage .carousel .main-banner .banner-title {
+    padding: 217px 35px 265px 35px;
+}
+
+body .frontPage .carousel .main-banner .banner-title h1 {
+    color: #ffffff;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 {
+    text-align: center;
+    border-right: 1px solid #ffffff33;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div :nth-last-child(1) {
+    border-right: 0;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 25px;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 19px;
+    text-align: left;
+    padding-left: 8px;
+    max-width: 70%;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img {
+    padding-right: 8px;
+    margin: 0;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img.analysis {
+    width: 45px;
+    height: 38px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -6px -164px;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img.deposit {
+    width: 51px;
+    height: 38px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -63px -164px;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img.assets {
+    width: 44px;
+    height: 44px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png?v1") -129px -162px;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img.bonus {
+    width: 54px;
+    height: 46px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -191px -164px;
+}
+
+body .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 div img.no-commission {
+    width: 88px;
+    height: 46px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -262px -164px;
+}
+
+body .frontPage .promo-banner {
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/main-banner2-home.jpg") no-repeat scroll bottom center / cover;
+    max-height: 110px;
+    min-height: 100px;
+}
+
+body .frontPage .promo-banner .tablet-version,
+body .frontPage .promo-banner .phone-version {
+    display: none;
+}
+
+body .frontPage .promo-banner>.full>a {
+    display: none;
+}
+
+body .frontPage .promo-banner .computer-version {
+    display: block;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 h1 {
+    color: #ffffff;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 img {
+    margin-top: -110px;
+    margin-bottom: -35px;
+    margin-left: -125px;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 .btn-gold {
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+body .frontPage .promo-banner .col-mg-15_15 .btn-transparent {
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
+
+body .frontPage .promo-banner .phone-version.btn-gold {
+    background-color: #dcad54;
+    color: #1e1e1e;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body .frontPage .assets-banner {
+    padding-bottom: 110px;
+    background-color: #ffffff;
+}
+
+body .frontPage .assets-banner .theme-content {
+    width: 95%;
+}
+
+body .frontPage .assets-banner .theme-content .assets-buttons {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+body .frontPage .assets-banner .theme-content .assets-buttons a {
+    border: 2px solid #ffffff;
+    color: #828282;
+    font-weight: 300;
+}
+
+body .frontPage .assets-banner .theme-content .assets-buttons .active {
+    color: #000000;
+    border: 2px solid #7f7f7f;
+    font-weight: 700;
+}
+
+body .frontPage .assets-banner h2 {
+    padding-top: 116px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 {
+    border: 1px solid #e0e0e0;
+    padding: 7px;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 a {
+    text-decoration: none;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 img {
+    width: 100%;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 .asset-title {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 .asset-price {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 p .up {
+    color: #0d9d0d;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 p .up .fa-long-arrow-up {
+    color: #0d9d0d;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 p .down {
+    color: #c13636;
+}
+
+body .frontPage .assets-banner .col-mg-3_15 p .down .fa-long-arrow-down {
+    color: #c13636;
+}
+
+body .frontPage .video-and-news {
+    background: #d3d3d3;
+}
+
+body .frontPage .video-and-news .phone-version {
+    display: none;
+}
+
+body .frontPage .video-and-news .col-4_12.play-video,
+body .frontPage .video-and-news .col-8_12 {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+body .frontPage .video-and-news h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+body .frontPage .video-and-news a span.video-and-news-btn {
+    float: left;
+    font-size: 18px;
+    color: #939393;
+    padding: 15px 25px 14px;
+    border: 2px solid #939393;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+body .frontPage .video-and-news .play-video {
+    padding-right: 35px;
+    padding-left: 35px;
+    background: #e9e9e9;
+}
+
+body .frontPage .video-and-news .play-video div {
+    position: relative;
+}
+
+body .frontPage .video-and-news .play-video div a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+body .frontPage .video-and-news .global-news {
+    padding-right: 20px;
+    padding-left: 40px;
+    background: #d3d3d3;
+}
+
+body .frontPage .video-and-news .global-news h2 {
+    margin-right: 10px;
+}
+
+body .frontPage .video-and-news .global-news .assets-news a span.video-and-news-btn {
+    float: right;
+    margin-top: 0;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .news-slider {
+    background: #fff;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .news-slider img {
+    width: 100%;
+    height: 330px;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-4_12 {
+    width: 32%;
+    margin-right: 1.5%;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-4_12#news-slider-next {
+    margin-right: 0;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full {
+    position: relative;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full h3 {
+    position: absolute;
+    bottom: 44px;
+    background: #fff;
+    font-size: 18px;
+    padding: 25px 20px 10px;
+    min-height: 80px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full small {
+    position: absolute;
+    bottom: 3px;
+    background: #fff;
+    width: 100%;
+    padding: 0 20px 27px;
+    color: #ababab;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 {
+    padding-top: 30px;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2) {
+    float: right;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2) a {
+    margin-right: 10px;
+    float: right;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1) {
+    float: left;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1) a {
+    float: left;
+}
+
+body .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15 a {
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 11px 17px;
+    border-radius: 40px;
+    box-shadow: 0 4px 3px #0000004d;
+    cursor: pointer;
+}
+
+body .frontPage .market-prices-banner {
+    height: 33px;
+}
+
+body .frontPage .market-prices-banner .col-mg-15_15 {
+    overflow: hidden;
+}
+
+body .frontPage .market-prices-banner .col-mg-15_15 iframe {
+    width: 100%;
+}
+
+body .frontPage .assets-banner2 {
+    background-color: #1f1f23;
+}
+
+body .frontPage .assets-banner2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+body .frontPage .assets-banner2 p {
+    font-size: 18px;
+    color: #646466;
+}
+
+body .frontPage .assets-banner2 .assets-table {
+    background-color: #0a0a0d;
+    padding: 100px 70px 115px 35px;
+    overflow: auto;
+}
+
+body .frontPage .assets-banner2 .assets-table h2 {
+    margin-bottom: 20px;
+}
+
+body .frontPage .assets-banner2 .assets-table input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #1f1f23 !important;
+    font-size: 24px;
+    color: #646466;
+    color: #ffffff;
+    padding-left: 26px;
+    background: #1f1f23 url("/sites/all/themes/finq/images/v2.0/icons/search-instriments.png") no-repeat 97% center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+body .frontPage .assets-banner2 .assets-table input:focus {
+    border: 1px solid #d9ab53 !important;
+}
+
+body .frontPage .assets-banner2 .assets-table #instruments-search-form #autocomplete {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+body .frontPage .assets-banner2 .assets-table #instruments-search-form #autocomplete ul li {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 25px;
+}
+
+body .frontPage .assets-banner2 .assets-table #instruments-search-form #autocomplete ul li.selected {
+    background-color: #dcad54;
+}
+
+body .frontPage .assets-banner2 .assets-trends {
+    background-color: #1f1f23;
+    padding: 100px 35px 115px 80px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 {
+    position: relative;
+    background-color: #0a0a0d;
+    margin-top: 20px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15.btcfutures {
+    display: none;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 img {
+    width: 100%;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .red {
+    background-color: #ed1c24;
+    height: 7px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .green {
+    background-color: #0d9d0d;
+    height: 7px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .short-positions {
+    font-size: 16px;
+    color: #4d4d4e;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .short-positions span {
+    color: #ed1c24;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .long-positions {
+    font-size: 16px;
+    color: #4d4d4e;
+    float: right;
+}
+
+body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset .long-positions span {
+    color: #0d9d0d;
+}
+
+body .frontPage .security-banner {
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/main-banner-securit.jpg") no-repeat scroll center center / cover;
+    padding: 100px 40px 80px;
+}
+
+body .frontPage .security-banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+     color: #000000; 
+    padding-bottom: 10px;
+}
+
+body .frontPage .security-banner h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000; 
+   
+}
+
+body .frontPage .security-banner p {
+    font-size: 18px;
+     color: #898989; 
+    
+    font-weight: 300;
+}
+
+body .frontPage .security-banner img.money {
+    width: 77px;
+    height: 77px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -6px -224px;
+}
+
+body .frontPage .security-banner img.regulation {
+    width: 78px;
+    height: 75px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -190px -227px;
+}
+
+body .frontPage .security-banner img.protection {
+    width: 82px;
+    height: 73px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -93px -227px;
+}
+
+body .frontPage .security-banner .col-6_12 {
+    padding: 85px 70px 62px;
+}
+
+body .frontPage .security-banner .col-6_12 p {
+    padding-bottom: 15px;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full {
+    margin-top: 30px;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .tablet-version {
+    display: none;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-11_12 {
+    padding-left: 45px;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-11_12 p {
+    padding-bottom: 35px;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-11_12 h3 {
+    margin-top: -5px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full:nth-child(1),
+body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full:nth-child(2) {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+body .frontPage .security-banner .col-6_12 {
+    background-color: #ffffff;
+}
+
+body .frontPage .platform-banner {
+    background: url("/sites/all/themes/finq/images/v2.0/main-page/main-banner-platform-new-v2.jpg?v1") no-repeat scroll bottom center;
+    padding: 180px 0 170px 40px;
+}
+
+body .frontPage .platform-banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+body .frontPage .platform-banner h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+body .frontPage .platform-banner p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+}
+
+body .frontPage .platform-banner img.app-store {
+    width: 143px;
+    height: 50px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -5px -315px;
+}
+
+body .frontPage .platform-banner img.play-store {
+    width: 143px;
+    height: 50px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -152px -315px;
+}
+
+body .frontPage .platform-banner img.web-trader {
+    width: 143px;
+    height: 50px;
+    background: url("/sites/all/themes/finq/images/v2.0/social-media/social-media-icons.png") -5px -370px;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(1) {
+    padding: 1px 55px 1px 1px;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(1) p:nth-child(3) {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(1) h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(1) a:nth-child(6) {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(2) {
+    float: right;
+}
+
+body .frontPage .platform-banner .col-6_12:nth-child(2) img {
+    width: 95%;
+    float: right;
+}
+
+body .frontPage #promo-banner-fix {
+    position: fixed;
+    bottom: -160px;
+    background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/main-banner2-home.png") no-repeat scroll bottom center / cover;
+    max-height: 110px;
+    min-height: 100px;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 h1 {
+    color: #ffffff;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 a {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 img {
+    margin-top: -110px;
+    margin-bottom: -35px;
+    margin-left: -125px;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 .col-mg-4_15 {
+    text-align: center;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 .col-mg-4_15 .btn-gold {
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
+
+body .frontPage #promo-banner-fix .col-mg-15_15 .btn-transparent {
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+body #footer-width div.alert-black.footer-copywright {
+    background-color: #131316;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+body.i18n-ur .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-9_15,
+body.i18n-ar .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-9_15 {
+    border-left: 1px solid #ffffff33;
+    border-right: 0;
+}
+
+body.i18n-ur .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-6_15,
+body.i18n-ar .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-6_15 {
+    float: right;
+}
+
+body.i18n-ur .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-6_15 img,
+body.i18n-ar .frontPage .carousel .main-banner .full:nth-child(2) .col-mg-3_15 .col-mg-6_15 img {
+    float: left;
+}
+
+body.i18n-ur .frontPage .video-and-news .play-video a,
+body.i18n-ar .frontPage .video-and-news .play-video a {
+    float: right;
+}
+
+body.i18n-ur .frontPage .video-and-news .global-news .assets-news a span.video-and-news-btn,
+body.i18n-ar .frontPage .video-and-news .global-news .assets-news a span.video-and-news-btn {
+    float: left;
+}
+
+body.i18n-ur .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1),
+body.i18n-ar .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1) {
+    float: right;
+}
+
+body.i18n-ur .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1) a,
+body.i18n-ar .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(1) a {
+    float: right;
+}
+
+body.i18n-ur .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2),
+body.i18n-ar .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2) {
+    float: left;
+}
+
+body.i18n-ur .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2) a,
+body.i18n-ar .frontPage .video-and-news .global-news .assets-news .col-12_12 .col-mg-2_15:nth-child(2) a {
+    float: left;
+}
+
+body.i18n-ur .frontPage .assets-banner2 .assets-table input,
+body.i18n-ar .frontPage .assets-banner2 .assets-table input {
+    padding-right: 26px;
+    background: #1f1f23 url("/sites/all/themes/finq/images/v2.0/icons/search-instriments.png") no-repeat 3% center;
+}
+
+body.i18n-es .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-fil .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-sq .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-ru .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-es .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-fil .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-sq .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4),
+body.i18n-ru .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) {
+    padding-top: 10px;
+}
+
+body.i18n-es .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-fil .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-sq .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-ru .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-es .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-fil .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-sq .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a,
+body.i18n-ru .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(4) a {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body.i18n-es .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-fil .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-sq .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-ru .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-es .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-fil .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-sq .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-ru .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p {
+    line-height: 1.2;
+    font-size: 26px;
+}
+
+body.i18n-id .frontPage #promo-banner .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p,
+body.i18n-id .frontPage #promo-banner-fix .col-mg-15_15 .theme-content .col-mg-4_15:nth-child(2) p {
+    line-height: 1.2;
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 1440px) {
+    body .frontPage .video-and-news .play-video img {
+        width: 100%;
+    }
+    body .frontPage .video-and-news .global-news {
+        padding-bottom: 60px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .news-slider img {
+        height: 265px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full h3 {
+        bottom: 25px;
+        font-size: 18px;
+        padding: 25px 20px 10px;
+        min-height: 100px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full small {
+        bottom: 3px;
+        padding: 0 20px 10px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full h3 {
+        padding-top: 15px;
+        height: 100px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .news-slider img {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body .frontPage .theme-content {
+        width: 100%;
+    }
+    body .frontPage .banner-title {
+        padding: 100px 35px;
+    }
+    body .frontPage .main-banner .full:nth-child(2) .col-mg-3_15 div p {
+        max-width: 100%;
+    }
+    body .frontPage .promo-banner .col-mg-3_15 img,
+    body .frontPage #promo-banner-fix .col-mg-3_15 img {
+        margin-left: -40px;
+    }
+    body .frontPage .promo-banner .col-mg-4_15 p,
+    body .frontPage #promo-banner-fix .col-mg-4_15 p {
+        font-size: 26px;
+    }
+    body .frontPage .assets-banner2 .assets-table,
+    body .frontPage .assets-banner2 .assets-trends {
+        padding: 30px 30px 50px;
+    }
+    body .frontPage .security-banner .col-6_12 {
+        width: 100%;
+        max-width: 600px;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .col-1_12 img {
+        margin-left: -20px;
+    }
+    body .frontPage .platform-banner {
+        padding: 180px 0 170px 30px;
+    }
+    body .frontPage .platform-banner .col-6_12:nth-child(1) {
+        padding: 0 20px 0 0;
+    }
+    body .frontPage .platform-banner .col-6_12:nth-child(1) a:nth-child(6) {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    body .frontPage .platform-banner .col-6_12:nth-child(2) img {
+        width: 100%;
+    }
+    body .frontPage .video-and-news .play-video video {
+        width: 100%;
+        height: auto;
+    }
+    body .frontPage .video-and-news h2 {
+        font-size: 35px;
+    }
+    body .frontPage .video-and-news a span.video-and-news-btn {
+        font-size: 16px;
+        padding: 11px 25px 10px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .news-slider img {
+        height: 230px;
+    }
+    .i18n-ur .frontPage .promo-banner .col-mg-3_15 img,
+    .i18n-ar .frontPage .promo-banner .col-mg-3_15 img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    body .frontPage .theme-content {
+        width: 100%;
+    }
+    body .frontPage #carousel-example-generic p {
+        font-size: 15px;
+    }
+    body .frontPage .market-prices-banner,
+    body .frontPage .assets-banner,
+    body .frontPage #promo-banner-fix,
+    body .frontPage .icons-footer {
+        display: none;
+    }
+    body .frontPage .promo-banner .col-6_12,
+    body .frontPage .platform-banner .col-6_12,
+    body .frontPage .security-banner .col-6_12 {
+        width: 100%;
+    }
+    body .frontPage .video-and-news h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+    body .frontPage .video-and-news .phone-version {
+        display: block;
+    }
+    body .frontPage .video-and-news .pc-version {
+        display: none;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video,
+    body .frontPage .video-and-news .col-8_12 {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    body .frontPage .video-and-news .play-video img {
+        width: 100%;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video {
+        padding-top: 50px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    body .frontPage .video-and-news .global-news {
+        padding-top: 40px;
+    }
+    body .frontPage .video-and-news .global-news h2 {
+        padding-bottom: 50px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news #news-slider-current,
+    body .frontPage .video-and-news .global-news .assets-news #news-slider-next {
+        display: none;
+    }
+    body .frontPage .video-and-news .global-news .assets-news #news-slider-previous {
+        width: 70%;
+        margin-right: 0;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.phone-version.left-side {
+        width: 15%;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.phone-version.right-side {
+        width: 15%;
+        margin-left: 0;
+    }
+    body .frontPage .video-and-news .global-news .assets-news {
+        padding-top: 30px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.right-side {
+        float: right;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.right-side a {
+        float: right;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.left-side {
+        float: left;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15.left-side a {
+        float: left;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-mg-2_15 a {
+        margin-top: 130px;
+        text-decoration: none;
+        background-color: #ffffff;
+        padding: 11px 17px;
+        border-radius: 40px;
+        box-shadow: 0 4px 3px #0000004d;
+        cursor: pointer;
+    }
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 p {
+        display: block;
+        position: relative;
+        text-align: left;
+        color: #dcad54;
+        font-size: 18px;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    body .frontPage .security-banner {
+        background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/tablet/banner-security.jpg") no-repeat scroll center center / cover;
+        padding: 40px 110px;
+    }
+    body .frontPage .security-banner .col-6_12 {
+        background-color: transparent;
+        padding: 40px 10px;
+    }
+    body .frontPage .security-banner .col-6_12 h2 {
+        text-align: center;
+    }
+    body .frontPage .security-banner .col-6_12 p {
+         color: #000; 
+     
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full {
+        border: none;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-1_12 {
+        width: 33%;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-1_12 img {
+        display: block;
+        margin: auto;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-11_12 {
+        width: 66%;
+        padding-left: 0;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .col-11_12 p {
+        display: block;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .tablet-version {
+        display: block;
+    }
+    body .frontPage .security-banner .col-6_12 .col-mg-15_15 .full .computer-version {
+        display: none;
+    }
+    body .frontPage .platform-banner .col-6_12:nth-child(2) img {
+        width: 100%;
+    }
+    body .frontPage .platform-banner {
+        background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/tablet/phone-right.png?v1") no-repeat scroll center right;
+        padding: 40px 50px 80px;
+    }
+    body .frontPage .platform-banner p,
+    body .frontPage .platform-banner .col-6_12:nth-child(2) img {
+        display: none;
+    }
+    .i18n-ur .frontPage .platform-banner .col-6_12:nth-child(1),
+    .i18n-ar .frontPage .platform-banner .col-6_12:nth-child(1) {
+        padding-right: 120px;
+    }
+    .i18n-ur .frontPage .platform-banner .col-6_12:nth-child(1) h2,
+    .i18n-ar .frontPage .platform-banner .col-6_12:nth-child(1) h2 {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    body .frontPage .carousel .main-banner .banner-title {
+        padding: 50px 30px 190px;
+    }
+    body .frontPage .carousel .main-banner .banner-title h1 {
+        font-size: 60px;
+    }
+    body .frontPage .carousel .main-banner {
+        background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/tablet/main-banner-home-tablet.jpg") no-repeat scroll bottom center / cover;
+    }
+    body .frontPage .promo-banner p {
+        font-size: 25px;
+    }
+    body .frontPage .promo-banner .col-mg-3_15 img {
+        display: none;
+    }
+    body .frontPage .promo-banner .col-mg-4_15 {
+        width: 32%;
+        margin-bottom: 10px;
+    }
+    body .frontPage .promo-banner .col-mg-4_15:nth-child(2) {
+        margin-left: 0;
+    }
+    body .frontPage .promo-banner a.btn.btn_green {
+        display: none;
+    }
+    body .frontPage .promo-banner {
+        max-height: 180px;
+    }
+    body .frontPage .promo-banner .col-mg-15_15 {
+        width: 66%;
+    }
+    body .frontPage .promo-banner .col-mg-15_15 .col-mg-4_15:nth-child(2) {
+        text-align: center;
+        width: 100%;
+    }
+    body .frontPage .promo-banner .col-mg-15_15 .col-mg-4_15:nth-child(3) {
+        width: 50%;
+        margin-left: 0;
+    }
+    body .frontPage .promo-banner .col-mg-15_15 .col-mg-4_15:nth-child(4) {
+        margin-left: 2%;
+        width: 48%;
+    }
+    body .frontPage .promo-banner .tablet-version {
+        display: block;
+        float: right;
+        margin-top: -30px;
+        width: 30%;
+    }
+    body .frontPage .promo-banner .computer-version {
+        display: none;
+    }
+    body .frontPage .assets-banner2 h2 {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    body .frontPage .assets-banner2 .assets-table {
+        width: 100%;
+        padding: 10px;
+    }
+    body .frontPage .assets-banner2 .assets-table h2 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    body .frontPage .assets-banner2 .assets-trends {
+        padding: 10px;
+        width: 100%;
+    }
+    body .frontPage .assets-banner2 .assets-trends p {
+        display: none;
+    }
+    body .frontPage .platform-banner h2 {
+        padding-right: 30%;
+        padding-bottom: 230px;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    /*
+  body {
+    padding-top: 70px;
+  }
+  */
+    body .frontPage .carousel .main-banner .banner-title h1 {
+        font-size: 40px;
+    }
+    body .frontPage .carousel .col-mg-6_15 {
+        width: 100%;
+    }
+    body .frontPage .carousel .col-mg-9_15 {
+        display: none;
+    }
+    body .frontPage .carousel .main-banner .banner-title {
+        padding: 100px 35px 200px 35px;
+    }
+    body .frontPage .promo-banner .computer-version,
+    body .frontPage .promo-banner .tablet-version,
+    body .frontPage .promo-banner .col-mg-15_15 {
+        display: none;
+    }
+    body .frontPage .promo-banner .btn-gold {
+        display: block;
+        padding: 20px;
+        margin: 30px 20px;
+    }
+    body .frontPage .assets-banner2 .col-6_12 {
+        padding: 40px 40px 80px;
+        width: 100%;
+    }
+    body .frontPage .assets-banner2 .col-6_12 input {
+        font-size: 18px;
+        padding-left: 16px;
+    }
+    body .frontPage .assets-banner2 .assets-trends h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    body .frontPage .assets-banner2 .assets-trends p {
+        text-align: justify;
+        padding-bottom: 15px;
+    }
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 {
+        margin-top: 8px;
+        margin-left: 0;
+        width: 49%;
+    }
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(2),
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(4),
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(6) {
+        margin-left: 2%;
+    }
+    body .frontPage .security-banner {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    body .frontPage #footer-width {
+        margin-bottom: 160px;
+    }
+    body .frontPage #promo-banner-fix {
+        max-height: 220px;
+    }
+    body .frontPage .platform-banner {
+        padding: 40px 0 60px 30px;
+    }
+    body .frontPage .platform-banner h2 {
+        padding-right: 20%;
+        padding-bottom: 130px;
+    }
+    body .frontPage .platform-banner img {
+        display: block;
+        margin-left: 0;
+    }
+    body #footer-width {
+        margin-bottom: 0;
+    }
+    body.i18n-ur .frontPage .assets-banner2 .assets-trends .col-mg-5_15,
+    body.i18n-ar .frontPage .assets-banner2 .assets-trends .col-mg-5_15 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    body.i18n-ur .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(2),
+    body.i18n-ar .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(2),
+    body.i18n-ur .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(4),
+    body.i18n-ar .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(4),
+    body.i18n-ur .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(6),
+    body.i18n-ar .frontPage .assets-banner2 .assets-trends .col-mg-5_15:nth-child(6) {
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body .frontPage .carousel .main-banner .banner-title {
+        padding: 100px 35px;
+    }
+    body .frontPage .carousel .main-banner .banner-title h1 {
+        font-size: 35px;
+    }
+    body .frontPage .carousel .main-banner {
+        background: #ffffff url("/sites/all/themes/finq/images/v2.0/main-page/tablet/main-banner-home-phone.jpg") no-repeat scroll bottom center / cover;
+    }
+    body .frontPage .platform-banner {
+        background: #fff;
+    }
+    body .frontPage .platform-banner h2 {
+        padding: 0;
+    }
+    body .frontPage .promo-banner .full>a {
+        display: block;
+    }
+    body .frontPage .assets-banner2 .col-6_12 {
+        padding: 40px 20px 80px;
+        width: 100%;
+    }
+    body .frontPage .assets-banner2 .assets-trends .col-mg-5_15 .description-asset {
+        margin-top: 0;
+    }
+    body .frontPage .security-banner {
+        padding: 0 20px;
+    }
+    body .frontPage .video-and-news .phone-version {
+        display: block;
+    }
+    body .frontPage .video-and-news .pc-version {
+        display: none;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video h2,
+    body .frontPage .video-and-news .col-8_12 h2 {
+        text-align: center;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video h2 span,
+    body .frontPage .video-and-news .col-8_12 h2 span {
+        display: none;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video {
+        padding: 65px 40px 85px;
+    }
+    body .frontPage .video-and-news .col-4_12.play-video img {
+        width: 100%;
+    }
+    body .frontPage .video-and-news .global-news {
+        padding-top: 35px;
+        padding-bottom: 85px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full h3 {
+        bottom: 0;
+        height: 110px;
+    }
+    body .frontPage .video-and-news .global-news .assets-news .col-4_12 div.full small {
+        display: none;
+    }
+}

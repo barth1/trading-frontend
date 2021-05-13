@@ -1,0 +1,26 @@
+.nav-tabs {
+  .tab {
+    cursor: pointer;
+  }
+}
+
+//.tab-content {
+//  > .tab-pane {
+//    display: none;
+//  }
+//  > .active {
+//    display: block;
+//  }
+//}
+
+.tab-content > .tab-pane:not(.active),
+.pill-content > .pill-pane:not(.active) {
+  display: block;
+  height: 0;
+  overflow-y: hidden;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+height: auto;       /* let the content decide it  */
+}

@@ -1,0 +1,526 @@
+.frontPage .mobileView {
+    display: none;
+    background: #fff;
+}
+
+.frontPage .mobileView .flex-btn {
+    float: left;
+    margin: 15px 0 30px;
+    width: 100%;
+}
+
+.frontPage .mobileView h6 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.frontPage .mobileView p {
+    color: #010101;
+    text-align: center;
+}
+
+.frontPage .mobileView .heading h2 {
+    color: #010101;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.frontPage .mobileView .heading p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.frontPage .mobileView .smal-risk {
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    font-style: normal;
+}
+
+.frontPage .mobileView .smal-risk a {
+    color: #0fa937;
+    padding: 0;
+}
+
+.frontPage .mobileView .mobile-social {
+    text-align: center;
+}
+
+.frontPage .mobileView .mobile-social .applications-inner .apple img {
+    max-height: 45px;
+    margin: 6px 5%;
+    width: 90%;
+}
+
+.frontPage .mobileView .mobile-social .applications-inner .android img {
+    max-height: 68px;
+    margin-top: -2px;
+    width: 100%;
+}
+
+.frontPage .mobileView .nv-btn-download-app {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+
+.frontPage .assets {
+    background: #fff;
+    padding: 70px 0 105px;
+    text-align: center;
+}
+
+.frontPage .assets .container {
+    width: 1296px;
+    max-width: 1296px;
+}
+
+.frontPage .assets h2 {
+    font-size: 35px;
+    color: #313133;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: initial;
+    padding-bottom: 18px;
+}
+
+.frontPage .assets h2 span {
+    font-weight: 500;
+}
+
+.frontPage .assets .subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.44;
+    text-align: center;
+    color: #313133;
+    padding-bottom: 60px;
+}
+
+.frontPage .assets .instruments-search-form {
+    width: 500px;
+    margin: auto;
+}
+
+.frontPage .assets .instruments-search-form #edit-instrument {
+    padding: 25px 40px 25px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 0 rgba(26, 24, 24, 0.45);
+    border: 1px solid #d1d1d1;
+    background: #f6f6f6 url(../images/search-icon.png) no-repeat 98% center;
+    height: 40px;
+    color: #797878;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.frontPage .assets .instruments-search-form .input-group-addon:last-child {
+    display: none;
+}
+
+.frontPage .assets .col-12 {
+    margin: 40px 0 0;
+}
+
+.frontPage .assets .col-12 .asset {
+    width: 13.1%;
+    margin-right: 1.1%;
+}
+
+.frontPage .assets .col-12 .asset:last-child(0) {
+    margin-right: 0;
+}
+
+.frontPage .assets .col-12 .asset .asset-info {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.frontPage .assets .col-12 .asset .asset-info a {
+    text-decoration: none;
+}
+
+.frontPage .assets .col-12>div {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.frontPage .assets .col-12>div img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.frontPage .assets .col-12>div img:hover {
+    opacity: 0.85;
+}
+
+.frontPage .assets .col-12>div h3 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 25px 0 0;
+}
+
+.frontPage .assets .col-12>div h3:hover {
+    text-decoration: none;
+}
+
+.frontPage .assets .col-12>div p {
+    font-size: 12px;
+    color: #fff;
+    margin: 10px 0 0;
+}
+
+.frontPage .marketing-features {
+    background: #fff;
+    background-image: url('/sites/default/files/nv-images/front-page/marketing-features-bg.png');
+    padding: 50px 0 0;
+}
+
+.frontPage .marketing-features .nv-marketing-features-heading {
+    margin: 20px 0 0;
+    float: left;
+    width: 100%;
+}
+
+.frontPage .marketing-features .nv-marketing-features-heading img {
+    float: left;
+}
+
+.frontPage .marketing-features .nv-marketing-features-heading h3 {
+    color: #000;
+    font-size: 22px;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.frontPage .marketing-features p {
+    color: #636262;
+    font-size: 18px;
+    margin: 5px 0 0;
+    float: left;
+    width: 100%;
+}
+
+.frontPage .marketing-features a {
+    float: right;
+    margin: 5px 0 0;
+}
+
+.frontPage .marketing-features img.marketing-features-bg {
+    max-width: 100%;
+    float: right;
+    margin: 30px 0 0;
+}
+
+.exclusive-trading-accounts {
+    background: url("/sites/all/themes/finq/images/v2.0/assets/temporary/homepage-banner-3.jpg") no-repeat center top / cover;
+    padding: 50px 0 100px;
+}
+
+.exclusive-trading-accounts .container.container-body {
+    width: 800px;
+    float: none;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-header .title,
+.exclusive-trading-accounts .exclusive-trading-accounts-header .subtitle {
+    text-align: center;
+    color: #313133;
+    font-weight: 300;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-header .title {
+    font-size: 35px;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-header .title span {
+    font-weight: 500;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-header .subtitle {
+    font-size: 18px;
+    line-height: 1.44;
+    padding: 0 11% 72px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets {
+    padding-bottom: 20px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets .row {
+    display: flex;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.45);
+    background-color: #fff;
+    width: 24%;
+    margin-right: 1.2%;
+    margin-bottom: 30px;
+    padding: 7px 16px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title {
+    margin: 0;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title a,
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title p {
+    color: #305993;
+    line-height: 1.9;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title i {
+    color: #8b8481;
+    font-size: 16px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low,
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt,
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .pip {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2.17;
+    color: #1a1a1a;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-as-low {
+    line-height: 1.1 !important;
+    padding-bottom: 19px;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .same-txt {
+    line-height: 1.55;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .pip {
+    line-height: 3 !important;
+}
+
+.exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.58;
+    color: #1a1a1a;
+}
+
+.exclusive-trading-accounts .link-plain-row {
+    text-align: center;
+}
+
+.exclusive-trading-accounts .link-plain-row a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: 20px;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots,
+.frontPage .slick-dotted .slick-dots {
+    text-align: center;
+    padding-left: 0;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots li,
+.frontPage .slick-dotted .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid #c7c9cb !important;
+    background: #c7c9cb;
+    border-radius: 15px;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots li.slick-active,
+.frontPage .slick-dotted .slick-dots li.slick-active {
+    border: 1px solid #041d32 !important;
+    background: #041d32;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots li button,
+.frontPage .slick-dotted .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots li button::before,
+.frontPage .slick-dotted .slick-dots li button::before {
+    font-size: 10px;
+    color: #DADADA;
+}
+
+.exclusive-trading-accounts .slick-dotted .slick-dots li.slick-active button::before,
+.frontPage .slick-dotted .slick-dots li.slick-active button::before {
+    color: #3466AF;
+}
+
+html:lang(ar) .frontPage .assets .assets-row,
+html:lang(ur) .frontPage .assets .assets-row {
+    direction: ltr;
+}
+
+@media (max-width: 1300px) {
+    .frontPage .assets .container {
+        width: 100%;
+        padding: 0;
+    }
+    .frontPage .assets .col-12 .asset .asset-info {
+        position: relative;
+        bottom: 20px;
+        margin-top: -70px;
+        padding: 0 12%;
+        box-sizing: border-box;
+    }
+    .frontPage .assets .col-12 .asset .asset-info h3 {
+        font-size: 21px;
+    }
+    .frontPage .assets .col-12 .asset .asset-info p {
+        font-size: 11px;
+        margin: 7px 0 0;
+    }
+}
+
+@media (max-width: 1120px) {
+    .frontPage .assets .col-12>div {
+        box-sizing: border-box;
+        float: left;
+        width: 25%;
+        min-height: 230px;
+    }
+    .frontPage .marketing-features .container>div {
+        width: 50%;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.45);
+    }
+    .frontPage .marketing-features .container>div img {
+        margin: 60px 0 0;
+        max-width: 90%;
+    }
+    .frontPage .assets .col-12>div {
+        width: 100%;
+    }
+    .frontPage .assets .col-12 .asset {
+        width: 100%;
+        margin: 18px 20px 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .exclusive-trading-accounts .container.container-body {
+        width: 100%;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-assets .row {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .frontPage .mobileView {
+        display: block;
+    }
+    .frontPage .marketing-features .container>div {
+        width: 100%;
+    }
+    .frontPage .marketing-features .container>div img {
+        display: none;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+        width: 48%;
+        margin-right: 3%;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .slick-slide {
+        padding: 4px;
+        margin: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .frontPage .assets {
+        padding-bottom: 50px;
+    }
+    .frontPage .assets h2 {
+        font-size: 21px;
+    }
+    .frontPage .assets .subtitle {
+        font-size: 13px;
+        padding: 0 10% 5%;
+    }
+    .frontPage .assets .instruments-search-form {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .frontPage .assets .slick-slide {
+        margin: 5%;
+        height: 390px;
+    }
+    .frontPage .assets .slick-slide.slick-center img {
+        transform: scale(1.1);
+    }
+    .exclusive-trading-accounts .container.container-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-header .title {
+        font-size: 21px;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-header .subtitle {
+        font-size: 13px;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+        min-height: 200px;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title a,
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .asset-title p {
+        font-size: 16px;
+    }
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset .spreads-num {
+        font-size: 35px;
+    }
+    .exclusive-trading-accounts .link-plain-row a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 500px) {
+    .exclusive-trading-accounts .exclusive-trading-accounts-body .exclusive-trading-accounts-asset {
+        padding: 5px 45px 5px 13px;
+    }
+}
+
+/*# sourceMappingURL=assets-temporary.css.map */

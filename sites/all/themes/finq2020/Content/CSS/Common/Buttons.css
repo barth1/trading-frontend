@@ -1,0 +1,81 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    background-image: none;
+    line-height: 1.2;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-gold {
+    color: #fff;
+    background-color: #DBAD60;
+    border-color: #DBAD60;
+}
+
+.btn-gold:hover {
+    background-color: #d29836;
+    border-color: #d29836;
+}
+
+.btn-white {
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-white:hover {
+    background: transparent;
+    color: #ffffff;
+}
+
+.btn-outline-white {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-white:hover {
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-default {
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #cccccc;
+}
+
+.btn-gray {
+    color: #1a1a1a;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.btn-gray:hover {
+    background-color: #b3b3b3;
+    border-color: #b3b3b3;
+}
+
+/*# sourceMappingURL=Buttons.css.map */

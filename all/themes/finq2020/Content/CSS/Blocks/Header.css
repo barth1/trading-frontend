@@ -1,0 +1,54 @@
+.i18n-ms .navbar .navbar-nav>li>a.btn,
+.i18n-ru .navbar .navbar-nav>li>a.btn,
+.i18n-es .navbar .navbar-nav>li>a.btn,
+.i18n-vi .navbar .navbar-nav>li>a.btn {
+    padding: 15px 20px
+}
+
+.i18n-es .navbar .nav>li>a,
+.i18n-vi .navbar .nav>li>a {
+    font-size: 14px;
+    padding: 17px 7px
+}
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 7px 2px rgba(146, 144, 144, 0.17);
+    background: #fff;
+    position: relative
+}
+
+#header #LangNavbar div.dropdown-menu {
+    background: #fff;
+    right: -70px
+}
+
+@media (max-width:1200px) {
+    #header #LangNavbar {
+        margin-top: 13px
+    }
+    #header #LangNavbar ul>li a.nav-link {
+        color: #1a1a1a
+    }
+    #header #MainNavbar .d-xl-none {
+        display: none !important
+    }
+}
+
+@media (max-width:576px) {
+    #header {
+        background-color: #171717;
+        box-shadow: none
+    }
+    #header #LangNavbar {
+        margin-top: 3px
+    }
+    #header #LangNavbar ul>li a.nav-link span,
+    #header #LangNavbar ul>li a.nav-link i {
+        color: #fff
+    }
+    #header #MainNavbar .d-sm-none {
+        display: none !important
+    }
+}

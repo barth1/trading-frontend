@@ -1,0 +1,27 @@
+.i18n-vi h1,
+.i18n-vi h2,
+.i18n-vi h3,
+.i18n-vi h4,
+.i18n-vi h5,
+.i18n-vi h6,
+.i18n-vi p,
+.i18n-vi span,
+.i18n-vi b,
+.i18n-vi li,
+.i18n-vi th,
+.i18n-vi td {
+    font-family: sans-serif !important
+}
+
+.i18n-ms .navbar .navbar-nav>li>a.btn,
+.i18n-ru .navbar .navbar-nav>li>a.btn,
+.i18n-es .navbar .navbar-nav>li>a.btn,
+.i18n-vi .navbar .navbar-nav>li>a.btn {
+    padding: 15px 20px
+}
+
+.i18n-es .navbar .nav>li>a,
+.i18n-vi .navbar .nav>li>a {
+    font-size: 14px;
+    padding: 17px 7px
+}
