@@ -853,7 +853,7 @@
 
 
     <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Components/Navigation.css?v=6" />
-    <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Common/Pull.css" />
+    <link rel="stylesheet" href="/all/themes/finq2020/Content/CSS/Common/Pull.css" />
     <link rel="stylesheet" href="/sites/all/themes/finq2020/Content/CSS/Common/Buttons.css" />
     <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Container.css' />
     <link rel="stylesheet" href='/sites/all/themes/finq2020/Content/CSS/Common/Grid.css' />
@@ -884,9 +884,9 @@
                                 <div class="container">
                                     <div class="region region-header">
                                         <a href="index.html" id="logo" class="pull-left">
-    <img class="d-sm-none" alt="Trading the global markets" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo.svg" />
+    <img class="d-sm-none logo" alt="Trade out the world currency" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo.svg" />
     <div class="d-none d-sm-block">
-        <img alt="Trading the global markets" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w.svg" />
+        <img class="logo" alt="Trade out the world currency" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w.svg" />
     </div>
 </a>
                                         <button class="navbar-toggler collapsed menu-button" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -969,7 +969,7 @@ Start Trading
 
                                                     </li>
                                                     <li class="nav-item nav-item-btn">
-                                                        <a class="nav-link" href="login.html">
+                                                        <a class="nav-link" href="live-registration.html">
                     LOGIN
                 </a>
                                                     </li>
@@ -1272,7 +1272,7 @@ Start Trading
                                     </div>
                                 </div>
                                 <div class="col-2 col-md-12">
-                                    <img class="pull-right wow slideInLeft" data-wow-delay="2.5s" data-wow-offset="10" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w-p.svg" height="47" width="148" />
+                                    <img class="pull-right foot-logo wow slideInLeft" data-wow-delay="2.5s" data-wow-offset="10" src="/sites/all/themes/finq2020/Content/Images/Common/Logos/logo-w-p.svg" height="47" width="148" />
                                 </div>
                             </div>
                             <div class="risk-note col-12 wow slideInLeft" data-wow-delay="2s" data-wow-offset="10">
@@ -1339,11 +1339,21 @@ Start Trading
                     </script>
                 </div>
                 <!-- /.block -->
+                <script src="https://snippets.freshchat.com/js/fc-pre-chat-form-v1.js"></script>
 
                 <div id="block-block-97" class="full">
+                    <script>
+                        function initFreshChat() {
+                          window.fcWidget.init({
+                            token: "bf67a438-38ea-421f-939d-208582eb269b",
+                            host: "https://wchat.freshchat.com"
+                          });
+                        }
+                        function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+                      </script>
 
 
-                    <script src="https://snippets.freshchat.com/js/fc-pre-chat-form-v1.js"></script>
+                    <!-- <script src="https://snippets.freshchat.com/js/fc-pre-chat-form-v1.js"></script> 
                     <script>
                         console.log("hi");
 
@@ -1366,7 +1376,7 @@ Start Trading
                         window.addEventListener ? window.addEventListener("load", initiateCall, !1) : window.attachEvent("load", initiateCall, !1);
                     </script>
 
-                    <script src="https://wchat.freshchat.com/js/widget.js" async></script>
+                     <script src="https://wchat.freshchat.com/js/widget.js" async></script> -->
                 </div>
                 <!-- /.block -->
 

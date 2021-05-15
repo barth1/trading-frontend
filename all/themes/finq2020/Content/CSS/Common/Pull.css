@@ -1,7 +1,25 @@
 .pull-left {
-    float: left
+     float: left; 
+    /* width: 175px;  */
+     /* height: 100px;  */
 }
 
-.pull-right {
-    float: right
+.foot-logo {
+    float: right;  
+     width: 166px !important; 
+      height: 108px !important; 
+    
+}
+.logo {
+     width: 166px !important; 
+     height: 108px !important; 
+     margin: 0 !important; 
+    padding: 0 !important; 
+    align-items: center !important;
+}
+@media (max-width: 576px) {
+    .logo {
+        width: 166px !important; 
+        height: 108px !important; 
+    }
 }
