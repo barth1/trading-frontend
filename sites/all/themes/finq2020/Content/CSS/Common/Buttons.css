@@ -78,9 +78,9 @@
     border-color: #b3b3b3;
 }
 @media (max-width:576px) {
-    li a .btn.btn-gold{
-        width: 203.8px !important;
-        height: 17px !important;
+     .btn.btn-gold{
+        width: 220.8px !important;
+        height: 50px !important;
     }
 }
 
